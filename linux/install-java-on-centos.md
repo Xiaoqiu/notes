@@ -2,7 +2,7 @@
 ##1. 查找可获得的Java包
 	yum search java | grep -i --color jdk
 运行结果
-![Alt text](./01.png)
+![运行结果](https://raw.githubusercontent.com/keqingrong/study-notes/master/linux/images/01.png)
 java-1.7.0-openjdk.x86_64 : OpenJDK Runtime Environment
 java-1.7.0-openjdk-devel.x86_64 : OpenJDK Development Environment
 
