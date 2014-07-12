@@ -3,7 +3,7 @@
 	yum search java | grep -i --color jdk
 运行结果  
 ![运行结果](https://raw.githubusercontent.com/keqingrong/study-notes/master/linux/images/01.png)  
-java-1.7.0-openjdk.x86_64 : OpenJDK Runtime Environment
+java-1.7.0-openjdk.x86_64 : OpenJDK Runtime Environment  
 java-1.7.0-openjdk-devel.x86_64 : OpenJDK Development Environment
 
 ##2. 安装JRE和JDK
@@ -12,23 +12,23 @@ java-1.7.0-openjdk-devel.x86_64 : OpenJDK Development Environment
 
 **注意：**CentOS上JDK默认安装路径为 `/usr/lib/jvm/`
 
-安装jre后的目录
-java-1.7.0-openjdk-1.7.0.55.x86_64
-jre
-jre-1.7.0
-jre-1.7.0-openjdk.x86_64
-jre-openjdk
+安装jre后的目录  
+java-1.7.0-openjdk-1.7.0.55.x86_64  
+jre  
+jre-1.7.0  
+jre-1.7.0-openjdk.x86_64  
+jre-openjdk  
 
-安装jdk后的目录
-java
-java-1.7.0
-java-1.7.0-openjdk.x86_64
-java-1.7.0-openjdk-1.7.0.55.x86_64
-java-openjdk
-jre
-jre-1.7.0
-jre-1.7.0-openjdk.x86_64
-jre-openjdk
+安装jdk后的目录  
+java  
+java-1.7.0  
+java-1.7.0-openjdk.x86_64  
+java-1.7.0-openjdk-1.7.0.55.x86_64  
+java-openjdk  
+jre  
+jre-1.7.0  
+jre-1.7.0-openjdk.x86_64  
+jre-openjdk  
 
 ##3. 配置Java环境变量
     vi /etc/environment
