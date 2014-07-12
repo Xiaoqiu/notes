@@ -28,16 +28,16 @@
 - `~/.bash_aliases`
 
 ###其他shell
-`/bin/bash`(对应`~/.bashrc`, `~/.bash_profile`)
-`/bin/zsh`(对应`~/.zshrc`, `~/.zprofile` ) 
-`/bin/tcsh`(对应`~/.tcshrc`)
+`/bin/bash`(对应`~/.bashrc`, `~/.bash_profile`)  
+`/bin/zsh`(对应`~/.zshrc`, `~/.zprofile` )   
+`/bin/tcsh`(对应`~/.tcshrc`)  
 
 ##环境变量
 ###系统环境变量
-`/etc/profile` (不推荐对其直接修改)
-`/etc/environment` | `/etc/profile.d/*.sh` (推荐使用)
+`/etc/profile` (不推荐对其直接修改)  
+`/etc/environment` | `/etc/profile.d/*.sh` (推荐使用)  
 
 ##用户环境变量
-`~/.bash_profile`(User specific environment and startup programs, 较推荐使用)
-`~/.profile`(This file is not read by bash, if ~/.bash_profile or ~/.bash_login exists )
-`~/.bashrc`(Source global definitions, 不推荐使用，只对Bash Shell有效)
+`~/.bash_profile`(User specific environment and startup programs, 较推荐使用)  
+`~/.profile`(This file is not read by bash, if ~/.bash_profile or ~/.bash_login exists )  
+`~/.bashrc`(Source global definitions, 不推荐使用，只对Bash Shell有效)  
