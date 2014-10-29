@@ -1,7 +1,220 @@
 #Computer Science Word
+
+##A
+accurate      adj.精确的
+administor
+against       prep.针对   e.g. compile...against...
+alternative   n.替代
+anatomy       n.剖析
+architecture  n.体系结构,架构
+array         n.数组;阵列
+ascending     adj.升序,递增
+asset         n.资产
+assign        vi.赋值,分配
+attribute     n.属性      vt.把…归因于
+
+##B
+boost        n.推动力
+bound        v.绑定
+bundle       v.捆绑    n.束,捆绑包
+
+##C
+canonical      adj.规范的,规范化的
+capability     n.能力,性能
+category       n.类别,分类
+clause         n.子句
+clip           v.裁剪,剪辑
+combination    n.组合,结合
+compact        adj.紧凑的,紧密的
+compatible     adj.兼容的    compatibility  n.兼容性
+compilation    n.编译
+compress       v.压缩     decompress  v.解压
+concurrency    n.并发性
+concurrent     n.并发的
+configuration  n.配置
+constraint     n.约束
+container      n.容器
+credit         n.信用
+criteria       n.标准
+
+##D
+default        n.默认
+dedicated      adj.专用的
+delegate       vt.委托
+demonstrate    v.展示
+denote         vt.表示,指示
+descending     adj.降序,递减
+distribute     vt.分发,分配    distribution n.分布,分发
+drag-and-drop  n.拖放
+
+##E
+elevation     n.海拔,仰角
+embedded      adj.嵌入式的
+emulator      n.仿真器,模拟器
+encapsulation n.封装,封装性  
+enumeration   n.枚举
+ergonomics    n.人机工程学,人类工程学
+evaluation    n.求值,评价,评估
+exclusive     adj.排它的,互斥的
+execution     n.执行
+export        v.导出
+extra         adj.额外的    n.额外的事物
+
+##F
+fault-tolerant   adj.容错的
+fault-tolerance  n.容错性
+fetch            v.获取
+filter           n.过滤器,滤波器
+flexibility      n.灵活性
+forward          v.转发
+fragment         n.碎片,片段,分片
+
+#H
+hierarchy        n.层级,层次,层次结构
+honeycomb        n.蜂巢
+horizontal       adj.水平的
+host             n.主机  v.托管
+
+##I
+icon            n.图标
+initialize      vt.初始化
+immutable       adj.不可变的
+implement       v.实现;实施,执行
+implementation  n.实现
+incompatible    adj.不相容的,互斥的,不兼容的
+inflate         v.膨胀
+instance        n.实例
+instruction     n.指令;用法说明,说明书
+integer         n.整数
+integrate       v.集成,整合
+integrity       n.完整性
+intent          n.意图
+interact        n.交互,互动
+interface       n.接口,界面
+interrupt       n.中断
+invalidate      vt.使无效
+inversion       n.倒置,反向
+item            n.项
+
+##L
+landscape
+layout
+
 ##M
-manifest    n.清单  
-migrate     v.迁移,迁移  
+maintain      vt.维护,维持
+manifest      n.清单  
+manual        n.手册,指南    adj.手工的,手动的
+manufacturer  n.制造商
+map           vt.映射
+mechanism     n.机制
+merge         v.合并,融合
+migrate       v.迁移,迁移  
+mock          v.模拟,模仿
+modifier      n.修饰符
+mute          v.静音
+
+##N
+navigate     v.导航
+noticeable   adj.显而易见的
+notify       v.通知
+notification n.通知
+
+#O
+obsolete     adj.过时的,废弃的
+occurrence   n.出现,发生,事件
+orientation  n.方向
 
 ##P
+padding     n.填充
+pane        n.窗格
+panel       n.面板
+parallel    n.并行
+parameter   n.参数
+particular  adj.特定的,特别的
+pattern     n.模式,图案
+pause       vi.暂停
+perform     v.执行
+permission  n.权限,许可
+persistent  adj.持久的
+perspective n.观点,看法;透视,透视图
+platform    n.平台
+plugin      n.插件
+portrait    n.纵向
+predicate   n.谓词
+preference  n.偏好
+priority    n.优先级,优先权
+privilege   n.权限,特权
+procedural  adj.程序性的
+procedure   n.过程,程序
+profile     n.描述,简介
+profiler    n.分析器,分析工具
+project     n.项目,工程
+prompt      v.提示    n.提示符
+propagation n.传播,传递
+property    n.属性
 prototype   n.原型  
+
+##Q
+queue       n.队列
+
+##R
+reflect         v.反射    reflective  adj.反射的
+resolution      n.分辨率
+responsiveness  n.响应能力
+restriction     n.限制,约束   set restrictions on...
+resume          n.恢复,重新开始
+retrieve        v.检索,读取;取回,恢复
+revision        n.修正,修订  abbr. Rev.
+robustness      n.健壮性  
+rollback        n.回滚  
+
+##S
+scalability    n.可扩展性,可伸缩性
+scenario       n.场景,情境;设想,方案
+schema         n.模式,架构
+scheme         n.方案,计划
+scope          n.范围,作用域
+semantics      n.语义
+separate       v.分开,分离  adj.独立的,单独的;分开的,不同的
+significant    adj.显著的,标志性的
+simulator      n.模拟器
+singleton      n.单实例,单例,单件
+skew           n.倾斜,偏斜
+specific       adj.特定的;确切的,具体的
+specification  n.规范,规格说明    abbr. spec
+split          v.分裂,分割
+strategy       n.策略
+successive     adj.连续的
+suffix         n.后缀
+supplemental   adj.补充的,追加的  同:supplementary
+synchronize    v.同步
+syntactic      adj.语法的, 句法的
+
+##T
+template     n.模板
+thread       n.线程
+toggle       v.切换
+toolbar      n.工具栏
+toolstrip    n.工具条
+trace        v.跟踪
+transaction  n.事务
+transition   n.转换,转变,过渡
+trigger      n.触发器
+truncate     v.截断
+
+##U
+utility     n.效用
+
+##V
+valid         adj.有效的    invalid  adj.无效的
+validation    n.确认;验证,校验
+variable      n.变量
+variant       n.变体
+verification  n.验证,校验
+vertical      adj.垂直的
+volatile      adj.易失的,易变的
+
+##W
+wildcard     n.通配符
+wrap         v.包裹
+wrapper      n.封装器,包装器  
