@@ -41,7 +41,7 @@
 ##News&Radio&Newspaper
 - [CRI 中国国际广播电台](http://english.cri.cn/)  
 - [China Daily 中国日报](http://www.chinadaily.com.cn/)  
- -[CCTV News](http://english.cntv.cn/)
+- [CCTV News](http://english.cntv.cn/)
 - [新华社](http://www.xinhuanet.com/english/)
 - [香港南华早报(非英文)](http://www.nanzao.com/)  
 - [CNN 美国有线电视新闻网](http://www.cnn.com/)  
