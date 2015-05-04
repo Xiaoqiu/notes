@@ -30,7 +30,7 @@ Material Theme在API 21后才开始支持，如果使用Support Library，如：
 #Questions
 1. Question: 从API 21开始推荐使用Toolbar来代替Actionbar，API 22中`android.support.v7.app.ActionBarActivity`已经被deprecated。
 所以以后应该直接使用Activity了吗？  
-`android.support.v7.app.ActionBarActivity`是deprecated，但可以用它的父类`android.support.v7.app.AppCompatActivity`代替。
+`android.support.v7.app.ActionBarActivity`已经deprecated，但可以用`android.support.v7.app.AppCompatActivity`代替。
 
 2. Question: 在已经使用appcompat-v7:21兼容包和ActionBarActivity的同时，在`values-21`文件夹下创建styles.xml，在其中使用`android:Theme.Material`
 会提示：`Caused by: java.lang.IllegalStateException: You need to use a Theme.AppCompat theme (or descendant) with this activity.`
