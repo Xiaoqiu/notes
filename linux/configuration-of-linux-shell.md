@@ -42,7 +42,7 @@
 
 ####注意事项
 - 无论是`~/.bash_profile`还是`~/.bashrc`都只是bash独有的，只在bash shell中生效，而`~/.profile`在其他shell中同样有效。
-- 在Mac OS X中打开Terminal，默认的bash是以login shell的形式运行的，所以应该使用`~/.bash_profile`而不是`~/.bashrc`（这两个文件默认都不存在，需要自己手动创建，默认只有一个`~/.bash_history`文件）。
+- 在Mac OS X中打开Terminal，默认的bash是以login shell的形式运行的，所以应该使用`~/.bash_profile`而不是`~/.bashrc`（这两个文件默认都不存在，需要自己手动创建，默认只有一个`~/.bash_history`文件）。在Terminal中打开bash时，由于是non-login shell，所以只会载入`~/.bashrc`，而不会载入`~/.bash_profile`文件。
 
 ##环境变量
 ###系统环境变量
