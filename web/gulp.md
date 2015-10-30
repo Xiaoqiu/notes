@@ -1,5 +1,6 @@
 #Install
 ``` shell
+npm init
 npm install --save-dev gulp #gulp
 npm install --save-dev gulp-uglify #compress JavaScript
 npm install --save-dev gulp-minify-css #compress CSS
