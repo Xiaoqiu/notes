@@ -16,7 +16,9 @@ function hasClass(element, class) {
 }
 
 function addClass(element, class) {
-  if (!hasClass(element, class)) element.className += " " + class;
+  if (!hasClass(element, class)) {
+    element.className += ' ' + class;
+  }
 }
 
 function removeClass(element, class) {
@@ -26,20 +28,20 @@ function removeClass(element, class) {
   }
 }
 
-function replaceClass(element, oldClass, newClass){
-  if(hasClass(element, oldClass)){
+function replaceClass(element, oldClass, newClass) {
+  if (hasClass(element, oldClass)) {
     removeClass(element, oldClass);
     addClass(element, newClass);
   }
   return;
 }
 
-function toggleClass(element, class1, class2){
-  if(hasClass(element, class1)){
+function toggleClass(element, class1, class2) {
+  if (hasClass(element, class1)) {
     replaceClass(element, class1, class2);
-  }else if(hasClass(element, class2)){
+  } else if (hasClass(element, class2)) {
     replaceClass(element, class2, class1);
-  }else{
+  } else {
     addClass(element, class1);
   }
 }
