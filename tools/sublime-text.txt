@@ -1,0 +1,15 @@
+Delete blank lines in Sublime Text 
+
+1. Use Ctrl+H & Regular Expression
+^\n  -->  [nothing]
+^[\s]*?[\n\r]  -->  [nothing]
+\n^\s*\n  -->  \n
+((\n)\s*\n){1,}  -->  $2
+
+2. Install the plugin "Delete Blank Lines"
+Shortcut Keys on Windows:(only the selected area will be affected)
+- Ctrl+Alt+Shift+Backspace --> Delete Surplus Blank Lines
+- Ctrl+Alt+Backspace --> Delete Blank Lines
+
+P.S. Operation in Notepad2
+\n\r  -->  [nothing]
