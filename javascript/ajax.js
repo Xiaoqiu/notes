@@ -32,11 +32,13 @@ $.ajax({
 
 /* ajax with fetch */
 
-fetch('sought.json').then(function (response) {
-    return response.json();
-}).then(function (data) {
-    console.log(data);
-});
+fetch('sought.json')
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (data) {
+        console.log(data);
+    });
 
 /* NOTICE: fetch() won't reject on HTTP error status and send cookies */
 
@@ -52,11 +54,11 @@ function checkStatus(response) {
 
 fetch('nothing')
     .then(checkStatus)
-    .then(function(response){
+    .then(function (response) {
         return response.json();
     })
-    .then(function(data) {
+    .then(function (data) {
         console.log('request succeeded with JSON response', data);
-    }).catch(function(error) {
+    }).catch(function (error) {
     console.log('request failed', error);
 });
