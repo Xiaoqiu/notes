@@ -1,5 +1,5 @@
-/*
-如果不需要支持IE，可以直接使用classList
+/**
+* 如果不需要支持IE，可以直接使用classList
 */
 
 document.getElementById("MyElement").classList.add('class');
@@ -7,8 +7,8 @@ document.getElementById("MyElement").classList.remove('class');
 if ( document.getElementById("MyElement").classList.contains('class') )
 document.getElementById("MyElement").classList.toggle('class');
 
-/*
-如果需要支持IE
+/**
+* 如果需要支持IE
 */
 
 function hasClass(element, class) {
