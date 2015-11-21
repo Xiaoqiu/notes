@@ -4,7 +4,7 @@
  - [Cygwin](https://www.cygwin.com): host, dig, ls, ssh, whereis
  - [MinGW+MSYS](http://www.mingw.org/): curl, wget, ls, ssh, whereis
  - [MSYS2](http://sourceforge.net/projects/msys2/)
- - [Babun](https://github.com/babun/babun)
+ - [Babun](https://github.com/babun/babun): zsh
 - Unix command line utilities installer for Windows
  - [Gow](https://github.com/bmatzelle/gow): jwhois
 - Terminal  for Windows
