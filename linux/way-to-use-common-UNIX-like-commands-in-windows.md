@@ -10,6 +10,7 @@
 - Terminal  for Windows
  - [Cmder](https://github.com/bliker/cmder)
  - [ConEmu](https://github.com/Maximus5/ConEmu)
+ - [ConsoleZ](https://github.com/cbucher/console)
 - Other tools
  - [BIND](https://www.isc.org/downloads/bind/): host, nslookup, dig
  - [cURL](http://curl.haxx.se/download.html): curl
