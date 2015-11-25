@@ -11,7 +11,7 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.7 (KHTML, like
 由于Chrome的User-Agent包含字符串`Safari`，所以只有`Safari`而没有`Chrome`字样的浏览器才是真Safari。
 ``` javascript
 var ua = navigator.userAgent;
-var isSafari = (ua.indexOf('Safari') !== -1) && ()ua.indexOf('Chrome') === -1);
+var isSafari = (ua.indexOf('Safari') !== -1) && (ua.indexOf('Chrome') === -1);
 ```
 
 ##2. Distinguish other devices
