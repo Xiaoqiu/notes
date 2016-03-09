@@ -11,3 +11,7 @@
 
 ##JavaScript Standard
 - [ECMAScript](http://www.ecma-international.org/)
+
+##CSS
+- [Ctrip UED webkit library](http://ued.ctrip.com/webkitcss/index.html)
+- [CSS参考手册](http://css.doyoe.com/)
