@@ -1,6 +1,8 @@
 Douban CSS Code Guideline 
 ===================
 
+> 原地址：https://docs.google.com/document/pub?id=17dKkWwdaKyNnkwswihHje2cfoMGqbSJLydTIxqFwlQU
+
 1. CSS浏览器支持标准 
 -------------------
 
