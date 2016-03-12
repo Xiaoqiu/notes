@@ -1,22 +1,21 @@
 Douban CSS Code Guideline 
 ===================
 
- 1. CSS浏览器支持标准 
+1. CSS浏览器支持标准 
 -------------------
 
-<table width="50%">
-<tbody><tr><td> </td><td> WinXP </td><td> Win7 </td><td> OS X 
-</td></tr><tr><td> IE9 </td><td> B  </td><td> B </td><td> 
-</td></tr><tr><td> IE8 </td><td> A  </td><td> A </td><td> 
-</td></tr><tr><td> IE7 </td><td> B  </td><td> B </td><td> 
-</td></tr><tr><td> IE6 </td><td> B  </td><td> B </td><td> 
-</td></tr><tr><td> Chrome16 </td><td> A  </td><td> A </td><td> A 
-</td></tr><tr><td> Chrome14 </td><td> A  </td><td> A </td><td> A 
-</td></tr><tr><td> Firefox10 </td><td> A </td><td> A </td><td> A 
-</td></tr><tr><td> Firefox9 </td><td> A  </td><td> A </td><td> A 
-</td></tr><tr><td> Safari </td><td> B  </td><td> B </td><td> B 
-</td></tr><tr><td> Opera </td><td> C  </td><td> C </td><td> C 
-</td></tr></tbody></table>
+|           | WinXP | Win7  | OS X |
+| --------- | ----- | ----- | ---- |
+| IE9       | B     | B     |      |
+| IE8       | A     | A     |      |
+| IE7       | B     | B     |      |
+| IE6       | B     | B     |      |
+| Chrome16  | A     | A     | A    |
+| Chrome14  | A     | A     | A    |
+| Firefox10 | A     | A     | A    |
+| Firefox9  | A     | A     | A    |
+| Safari    | B     | B     | B    |
+| Opera     | C     | C     | C    |
 
 （注：根据2012年4月数据整理）
 
