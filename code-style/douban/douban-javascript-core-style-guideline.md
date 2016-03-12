@@ -1,6 +1,8 @@
 Douban Javascript Core Style Guideline
 ===================
 
+> 原地址：https://docs.google.com/document/pub?id=17ICSeE4Qd04-1U-pphmKCAmfgJGEVjqDellbu4oAiqU
+
 1. Javascript代码应符合Douban-JSLint检验标准
 -------------------
  * 1-1. 语句必须都有分号结尾，除了for, function, if, switch, try, while
