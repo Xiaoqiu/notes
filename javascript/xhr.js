@@ -9,6 +9,10 @@ console.log('UNSENT', request.readyState); // readyState will be 0
 request.open("GET", "filename", true);
 console.log('OPENED', request.readyState); // readyState will be 1
 
+request.onheadersreceived = function () {
+    console.log('HEADERS_RECEIVED', request.readyState); // readyState will be 2
+};
+
 request.onprogress = function () {
     console.log('LOADING', request.readyState); // readyState will be 3
 };
