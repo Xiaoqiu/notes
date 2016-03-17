@@ -1,7 +1,7 @@
 /* ajax with XHR */
 
-var url = 'sought.json';
 var request = new XMLHttpRequest();
+var url = '/api/list';
 request.open('GET', url, true);
 request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
@@ -14,13 +14,12 @@ request.onload = function () {
 request.onerror = function (e) {
     console.error(e);
 };
-request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=UTF-8');
 request.send();
 
 /* ajax with jQuery */
 
 $.ajax({
-    url: 'sought.json',
+    url: '/api/list',
     type: 'GET'
 }).done(function (data) {
     console.log(data);
@@ -32,7 +31,7 @@ $.ajax({
 
 /* ajax with fetch */
 
-fetch('sought.json')
+fetch('/api/list')
     .then(function (response) {
         return response.json();
     })
@@ -52,7 +51,7 @@ function checkStatus(response) {
     }
 }
 
-fetch('nothing')
+fetch('/api/list')
     .then(checkStatus)
     .then(function (response) {
         return response.json();
