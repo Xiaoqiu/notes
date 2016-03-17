@@ -3,6 +3,7 @@
 var request = new XMLHttpRequest();
 var url = '/api/list';
 request.open('GET', url, true);
+request.timeout = 2000;
 request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
         var res = request.response;
@@ -20,7 +21,8 @@ request.send();
 
 $.ajax({
     url: '/api/list',
-    type: 'GET'
+    type: 'GET',
+    timeout: 2000
 }).done(function (data) {
     console.log(data);
 }).error(function (jqXHR) {
