@@ -4,23 +4,25 @@
 
 /* state: unsent, opened, headers received, loading, and done */
 var request = new XMLHttpRequest();
-console.log('UNSENT', request.readyState); // readyState will be 0
-
-request.open("GET", "filename", true);
-console.log('OPENED', request.readyState); // readyState will be 1
-
-request.onheadersreceived = function () {
-    console.log('HEADERS_RECEIVED', request.readyState); // readyState will be 2
+request.onreadystatechange = function () {
+  switch (request.readyState) {
+    case 0 :
+      console.log(XMLHttpRequest.UNSENT);
+      break;
+    case 1 :
+      console.log(XMLHttpRequest.OPENED);
+      break;
+    case 2 :
+      console.log(XMLHttpRequest.HEADERS_RECEIVED);
+      break;
+    case 3 :
+      console.log(XMLHttpRequest.LOADING);
+      break;
+    case 4 :
+      console.log(XMLHttpRequest.DONE);
+      break;
+  }
 };
-
-request.onprogress = function () {
-    console.log('LOADING', request.readyState); // readyState will be 3
-};
-
-request.onload = function () {
-    console.log('DONE', request.readyState); // readyState will be 4
-};
-
 request.send();
 
 /* event: readystatechange, progress, abort, error, load, timeout, and loadend */
