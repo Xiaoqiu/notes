@@ -1,5 +1,6 @@
 /*
 * XMLHttpRequest
+* spec: https://xhr.spec.whatwg.org/
 */
 
 /* state: unsent, opened, headers received, loading, and done */
