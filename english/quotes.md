@@ -2,6 +2,7 @@
 
 > Dr. Wayne Dyer said in 1970.
 
+
 - The only thing we have to fear is fear itself.
  
 > Franklin D. Roosevelt, the 32nd President of the United States said in his first inaugural address in 4 March 1933.
@@ -11,4 +12,5 @@
 > The last line of the American Civil War novel Gone With the Wind.
 
 - If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.
- 
+
+> Duck test.
