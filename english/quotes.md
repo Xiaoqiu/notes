@@ -5,3 +5,7 @@
 - The only thing we have to fear is fear itself.
  
 > Franklin D. Roosevelt, the 32nd President of the United States said in his first inaugural address in 4 March 1933.
+
+- Tomorrow is another day.
+
+> The last line of the American Civil War novel Gone With the Wind.
