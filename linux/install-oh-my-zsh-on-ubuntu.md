@@ -26,7 +26,7 @@ git clone https://github.com/zsh-users/zsh-completions $ZSH_CUSTOM/plugins/zsh-c
 
 ### 3.2 Modify `.zshrc`
 ```shell
-plugins=(git zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
+plugins=([plugins...] zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
 ```
 
 > Note that `zsh-syntax-highlighting` must be the last plugin sourced, so make it the last element of the $plugins array.
