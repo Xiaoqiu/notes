@@ -6,6 +6,7 @@
 
 #Mozilla
 - Fira Sans
+- Fira Sans Condensed
 - Fira Mono
 
 #Google
