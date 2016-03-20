@@ -29,6 +29,9 @@ Arial, Georgia, Times New Roman, Trebuchet MS, Verdana
 - Bookerly, Caecilia, Helvetica, etc. 
 - Paperwhite Fonts: Caecilia, Caecilia Condensed, Baskerville, Palatino; Futura, Helvetica
  
+### for iOS
+- Baskerville, Bookerly, Caecilia, Georgia, Helvetica, OpenDyslexic, Palatino
+ 
 > 2015年Amazon在新版Kindle Paperwhite中使用Bookerly取代Caecilia作为默认字体。
 
 ## NOOK
