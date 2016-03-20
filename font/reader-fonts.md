@@ -26,7 +26,7 @@ Arial, Georgia, Times New Roman, Trebuchet MS, Verdana
 - DK-SERIF (dk-serif-palatino-regular), DK-SERIF-BOLD, DK-SERIF-ITALIC, DK-SERIF-BOLD-ITALIC, DK-CODE, DK-SYMBOL, Lucida Console
 
 ## Kindle
-- Caecilia, Helvetica, etc. 
+- Bookerly, Caecilia, Helvetica, etc. 
 - Paperwhite Fonts: Caecilia, Caecilia Condensed, Baskerville, Palatino; Futura, Helvetica
 
 ## NOOK
