@@ -1,15 +1,15 @@
-#Adobe
+# Adobe
 - Source Sans Pro
 - Source Code Pro
 - Source Serif Pro
 - Source Han Sans
 
-#Mozilla
+# Mozilla
 - Fira Sans
 - Fira Sans Condensed
 - Fira Mono
 
-#Google
+# Google
 - Droid
  - Droid Serif
  - Droid Sans
@@ -26,17 +26,17 @@
   - Noto Sans CJK
 - Product Sans
 
-#Ubuntu
+# Ubuntu
 - Ubuntu
 - Ubuntu Condensed
 - Ubuntu Mono
 
-#Intel
+# Intel
 - Clear Sans (Michael Surtees)
 - Intel Clear (Red Peak & Dalton Maag)
 
-#KDE
+# KDE
 - Oxygen Sans
 
-#Apple
+# Apple
 - San Francisco
