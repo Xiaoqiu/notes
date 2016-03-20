@@ -6,7 +6,7 @@
 
 #Mozilla
 - Fira Sans
-- Fira MOno
+- Fira Mono
 
 #Google
 - Droid Serif
@@ -28,7 +28,8 @@
 - Ubuntu Mono
 
 #Intel
-- Clear Sans (Michael Surtees)与Intel Clear (Red Peak & Dalton Maag)不同
+- Clear Sans (Michael Surtees)
+- Intel Clear (Red Peak & Dalton Maag)
 
 #KDE
 - Oxygen Sans
