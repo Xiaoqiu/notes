@@ -13,3 +13,8 @@
 - Lucida Grande
 - Helvetica, Helvetica Neue
 - San Francisco
+
+## Firefox OS
+- Fira Sans
+- Fira Sans Condensed
+- Fira Mono
