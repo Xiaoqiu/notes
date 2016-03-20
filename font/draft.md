@@ -10,17 +10,20 @@
 - Fira Mono
 
 #Google
-- Droid Serif
-- Droid Sans
-- Droid Sans Mono
+- Droid
+ - Droid Serif
+ - Droid Sans
+ - Droid Sans Mono
 - Open Sans
 - Roboto
-- Roboto Condensed
-- Roboto Mono
-- Roboto Slab
-- Noto Serif
-- Noto Sans
-- Noto Sans CJK
+  - Roboto
+  - Roboto Condensed
+  - Roboto Mono
+  - Roboto Slab
+- Noto
+  - Noto Serif
+  - Noto Sans
+  - Noto Sans CJK
 - Product Sans
 
 #Ubuntu
