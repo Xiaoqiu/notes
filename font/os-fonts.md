@@ -8,3 +8,8 @@
 ## iOS
 - Helvetica, Helvetica Neue
 - San Francisco
+
+## OS X
+- Lucida Grande
+- Helvetica, Helvetica Neue
+- San Francisco
