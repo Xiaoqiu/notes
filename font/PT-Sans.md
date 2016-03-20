@@ -1,7 +1,8 @@
-#PT Sans
-Official Website: [http://www.paratype.com/public/](http://www.paratype.com/public/)  
-Priview:  
+# PT Sans
+- Official Website: [http://www.paratype.com/public/](http://www.paratype.com/public/)  
+- Preview:  
 <img src="https://raw.githubusercontent.com/keqingrong/study-notes/master/font/images/PT-Sans.svg.png" width="198">
+- Introduction
 
 > `PT Sans` was developed for the project "Public Types of Russian Federation." The second family of the project, PT Serif, is also available.
 
