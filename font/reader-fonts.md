@@ -9,7 +9,7 @@
 Arial, Georgia, Times New Roman, Trebuchet MS, Verdana
 
 ## iBooks
-- 旧版: Baskerville, Cochin, Georgia, Platino, Times New Roman, Verdana
+- 2011: Baskerville, Cochin, Georgia, Platino, Times New Roman, Verdana
 - 2015: Athelas, Charter, Georgia, Iowan, Palatino, San Fransisco, Seravek, Times New Roman, 方体, 黑体, 宋体, 楷体, 圆体
 
 ## Duokan
