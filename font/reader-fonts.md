@@ -31,7 +31,7 @@ Arial, Georgia, Times New Roman, Trebuchet MS, Verdana
 
 ## NOOK
 ### NOOK
-- Caecilia, Malabar, Amasis, Gill Sans, Helvetica Neue, Trebuchet;
+- Caecilia, Malabar, Amasis, Gill Sans, Helvetica Neue, Trebuchet
 - Ascender Sans, CharisSIL, CourierStd, Droid Sans, Droid Serif, Malabar, etc.
 
 ### for Android
