@@ -19,6 +19,7 @@
 - `503 Service Unavailable`
 
 ## Details
+```javascript
 100: "continue",
 101: "switching protocols",
 102: "processing",
@@ -75,3 +76,4 @@
 509: "bandwidth limit exceeded",
 510: "not extended",
 511: "network authentication required"
+```
