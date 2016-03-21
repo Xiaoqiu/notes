@@ -7,3 +7,8 @@
 - [ECMA-262 5.1 edition](http://www.ecma-international.org/ecma-262/5.1/index.html)
 - [ECMA-262 6th edition](http://www.ecma-international.org/ecma-262/6.0/index.html)
 - [ECMA-262 Draft](https://tc39.github.io/ecma262/)
+
+# ES6
+- [ECMAScript 6入门](http://es6.ruanyifeng.com/)
+- [深入浅出ES6](http://www.infoq.com/cn/minibooks/ES6-in-Depth)
+- [ECMAScript 6 Learning](https://github.com/ericdouglas/ES6-Learning)
