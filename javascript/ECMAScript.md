@@ -1,0 +1,8 @@
+# ECMAScript standard
+- [ECMA-262 1st edition](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262, 1st edition, June 1997.pdf)
+- [ECMA-262 2nd edition](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262, 2nd edition, August 1998.pdf)
+- [ECMA-262 3rd edition](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262, 3rd edition, December 1999.pdf)
+- ECMA-262 4th edition	NOT EXISTING*
+- [ECMA-262 5th edition](http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262%205th%20edition%20December%202009.pdf)
+- [ECMA-262 5.1 edition](http://www.ecma-international.org/ecma-262/5.1/index.html)
+- [ECMA-262 6th edition](http://www.ecma-international.org/ecma-262/6.0/index.html)
