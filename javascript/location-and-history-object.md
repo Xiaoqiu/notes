@@ -42,6 +42,8 @@ location.href = "https://www.google.com"; // 隐式调用assign()
 - replaceState(data, title [, url ]): 修改当前历史记录(history.length不会+1)和地址栏URL，不会打开URL
 
 > pushState()/replaceState()中传入的URL必须与原页面同源，否则报错`Uncaught SecurityError`
+
 > 历史记录变化会触发`popstate`事件，通过pushState()和replaceState()修改state不会
+
 > hash变化会触发`hashchange`事件
 
