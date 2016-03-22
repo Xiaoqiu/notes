@@ -42,4 +42,5 @@ location.href = "https://www.google.com"; // 隐式调用assign()
 - replaceState(data, title [, url ]): 修改当前历史记录(history.length不会+1)和地址栏URL，不会打开URL
 
 > 可以通过`onpopstate`监听历史记录变化
+> `onhashchange`
 
