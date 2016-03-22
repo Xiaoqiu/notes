@@ -47,3 +47,6 @@ location.href = "https://www.google.com"; // 隐式调用assign()
 - 历史记录变化会触发`popstate`事件，通过pushState()和replaceState()修改state不会
 - hash变化会触发`hashchange`事件
 
+# Standard
+- [The History interface](https://html.spec.whatwg.org/multipage/browsers.html#the-history-interface)
+- [The Location interface](https://html.spec.whatwg.org/multipage/browsers.html#the-location-interface)
