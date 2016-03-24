@@ -8,6 +8,12 @@
 
 > For best results, use `Chrome Canary` (Mac/Windows) or the `Chrome Dev channel release` (Linux) on desktop.
 
+### WebView for Android
+- Before Android 4.4 Kitkat: `Android WebKit WebView`
+- Since Android 4.4 Kitkat: `Chromium WebView` (support HTML5, CSS3, V8, remote debugging)
+- After Android 5.0 Lollipop: the WebView has moved to an APK `Android System WebView`
+
+
 ## Reference
 > https://developer.chrome.com/devtools/docs/remote-debugging
 > https://developers.google.com/web/tools/setup/remote-debugging/remote-debugging
