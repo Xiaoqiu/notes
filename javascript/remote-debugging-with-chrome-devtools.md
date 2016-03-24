@@ -11,7 +11,7 @@
 ### WebView for Android
 - Before Android 4.4 Kitkat: `Android WebKit WebView`
 - Since Android 4.4 Kitkat: `Chromium WebView` (support HTML5, CSS3, V8, remote debugging)
-- After Android 5.0 Lollipop: the WebView has moved to an APK `Android System WebView`
+- Since Android 5.0 Lollipop: the WebView has moved to an APK `Android System WebView`
 
 
 ## Reference
