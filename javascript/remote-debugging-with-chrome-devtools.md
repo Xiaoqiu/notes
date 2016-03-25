@@ -16,6 +16,7 @@
 ### WebView for iOS
 - Before iOS 8: `UIWebView`
 - Since iOS 8: `WKWebView`
+- Since iOS 9: `SFSafariViewController`
 
 ## Reference
 > https://developer.chrome.com/devtools/docs/remote-debugging
