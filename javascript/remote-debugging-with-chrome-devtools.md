@@ -13,6 +13,9 @@
 - Since Android 4.4 Kitkat: `Chromium WebView` (support HTML5, CSS3, V8, remote debugging)
 - Since Android 5.0 Lollipop: the WebView has moved to an APK `Android System WebView`
 
+### WebView for iOS
+- Before iOS 8: `UIWebView`
+- Since iOS 8: `WKWebView`
 
 ## Reference
 > https://developer.chrome.com/devtools/docs/remote-debugging
