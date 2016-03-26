@@ -76,46 +76,44 @@ Debian下的文件目录结构
 ```
 
 详解：
-/  
+`/  `
     根目录。所有的文件和目录皆由此开始，只有root用户对此目录拥有写权限。  
-/bin  
+`/bin`  
     即'binaries'，此目录存放二进制可执行文件。在单用户模式下Linux使用此目录的命令。
     此目录包含所有用户的常用命令，如ls、ping、cp等。  
-/boot  
+`/boot`  
     此目录存放了Linux系统启动时的核心文件，如系统内核、引导程序Grub等。
-/dev  
+`/dev`  
     即'devices'，此目录包含系统所有的外围设备文件，如CD-ROM，磁盘驱动器，声卡，内存等。  
-/etc  
+`/etc`  
     此目录包含系统程序和应用软件的配置文件。  
-/home  
+`/home`  
     此目录包含所有普通用户的主目录。每个用户的主目录均在/home下以自己的用户名命名。  
-/lib  
+`/lib`  
     即'libraries'，此目录里存放着系统最基本的共享链接库和内核模块。库文件通常以“ld”或“ld*.so”的形式命名。
-/lib64  
+`/lib64`  
     64位系统有这个目录，存放64位程序的库文件。  
-/lost+found  
+`/lost+found`  
     这并不是Linux目录结构的组成部分，而是ext3文件系统用于保存丢失文件的地方。
     除了'/'分区上的这个目录外，在每个分区上均有一个lost+found目录。  
-/media  
+`/media`  
     可移动设备的挂载点，当前的操作系统通常会把U盘等设备自动挂载到该文件夹下。  
-/mnt  
+`/mnt`  
     即'mount'，此目录一般情况下为空，用于临时挂载文件系统。  
-/opt  
+`/opt`  
     即'optional'，此目录用于安装系统默认软件以外的第三方软件包。  
-/proc  
+`/proc`  
     即'process'，此目录是存在于内存中的虚拟文件系统。包含内核和进程的状态信息，可以直接查看。  
-/root  
+`/root`  
     root用户的主目录。  
-/sbin  
+`/sbin`  
     即'system binaries'，存放重要的系统执行文件。主要供系统管理员使用，以进行系统维护。  
     如fsck, reboot, shutdown, ifconfig等。  
-/srv  
+`/srv`  
     即'service'，用于存放系统服务器的所有服务数据。
 
-
-
 参考
-Linux文件结构 http://linuxtoy.org/archives/linux-file-structure.html 
-Linux目录架构详解 http://www.csdn.net/article/2012-04-20/2804821 
-拓展
-FHS http://www.pathname.com/fhs/ 
+
+> Linux文件结构 http://linuxtoy.org/archives/linux-file-structure.html  
+> Linux目录架构详解 http://www.csdn.net/article/2012-04-20/2804821  
+> FHS http://www.pathname.com/fhs/ 
