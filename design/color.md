@@ -1,30 +1,28 @@
 # 色彩理论
 
 ## 1 色彩系统
-### 1.1 加色模式
-#### RGB 色彩模型
+### 1.1 RGB 色彩模式 -> 加色模式
 - R: Red 0~255
 - G: Green 0~255
 - B: Blue 0~255
 
-#### HSL
+### 1.2 HSL 色彩模式
 - H: Hue 色相
 - S: Saturation 饱和度
 - L: Lightness 明度
 
-#### HSB/HSV
+### 1.3 HSB/HSV 色彩模式
 - H: Hue 色相: 范围0~360
 - S: Saturation 饱和度: 色彩的纯度, 越高色彩越纯, 低则逐渐变灰, 取0-100%
 - B/V: Brightness/Value 亮度: 物体表面的反光率, 取0-100%, 0为黑
 
-### 1.2 减色模式
-#### CMYK 色彩模型
+### 1.4 CMYK 色彩模式 -> 减色模式
 - C: Cyan 青色, 天蓝色
 - M: Magenta 品红, 洋红
 - Y: Yellow 黄色
 - K: Key(blacK) 定位套版色(黑色)
 
-### 1.3 Lab 色彩模型
+### 1.5 Lab 色彩模式
 
 ## 2 色环
 - 原色(Primary Colors), 等距排列, 分别是红、黄、蓝(三原色)
