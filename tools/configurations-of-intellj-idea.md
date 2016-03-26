@@ -1,15 +1,17 @@
 # IntellJ IDEA 配置修改
 
-1. 修改项目和properties文件的编码、换行符：
+## 通用
+
+### 1. 修改项目和properties文件的编码、换行符：
 
 - Editor -> File Encodings: IDE Encoding: `UTF-8`
 - Editor -> File Encodings: Project Encoding: `UTF-8`
 - Editor -> File Encodings: Default encoding for properties files: `UTF-`8 (勾选`Transparent native-to-ascii conversion`)
 - Editor -> Code Style -> Line separator: `Unix and OS X (\n)`
 
-2. 字体修改  
+### 2. 字体修改  
 
-> on Windows:
+#### on Windows:
 
 - Appearance & Behavior -> Appearance -> 勾选Override default fonts by (not recommended): `Microsoft YaHei UI`
 - Editor -> Colors & Fonts -> Font: `Consolas`, `Microsoft YaHei`
@@ -27,6 +29,9 @@
   </component>
 </application>
 ```
+
+> Mac上的等宽字体选择: `Menlo`
+> Linux上的等宽字体选择: `DejaVu Sans Mono`
 
 ## WebStorm配置修改
 1. Keymap选择`IntelliJ IDEA Classic - Mac OS X 10.5`，Theme和Color Scheme选`Darcula` 
