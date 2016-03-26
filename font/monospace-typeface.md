@@ -1,6 +1,6 @@
 # OS
 - Windows: Consolas|Courier New|Andale Mono, Microsoft YaHei Mono（英文+中文）|新宋体
-- Mac: Menlo|Monaco|Courier New|Andale Mono, 
+- Mac: Menlo|Monaco|Courier New|Andale Mono
 - Linux: Source Code Pro|DejaVu Sans Mono|Liberation Mono|Bitstream Vera Sans Mono|Droid Sans Mono, 文泉驿等宽微米黑
 - Ubuntu: Ubuntu Mono
 - Firefox OS: Fira Mono
