@@ -1,19 +1,20 @@
-#IntellJ IDEA 配置修改
+# IntellJ IDEA 配置修改
 
-1.修改项目和properties文件的编码、换行符：
+1. 修改项目和properties文件的编码、换行符：
 - Editor -> File Encodings: IDE Encoding: `UTF-8`
 - Editor -> File Encodings: Project Encoding: `UTF-8`
 - Editor -> File Encodings: Default encoding for properties files: `UTF-`8 勾选`Transparent native-to-ascii conversion`
 - Editor -> Code Style -> Line separator: `Unix and OS X (\n)`
 
-2.字体修改  
+2. 字体修改  
 > on Windows:
 
 - Appearance & Behavior -> Appearance -> 勾选Override default fonts by (not recommended): `Microsoft YaHei UI`
-- Editor -> Colors & Fonts -> Font: `Consolas`, `Microsoft YaHei Mono`
-- Editor -> Colors & Fonts -> Console Font: `Consolas`, `Microsoft YaHei Mono`
+- Editor -> Colors & Fonts -> Font: `Consolas`, `Microsoft YaHei`
+- Editor -> Colors & Fonts -> Console Font: `Consolas`, `Microsoft YaHei`
 
 > 如果使用了`Noto Sans Hans`字体可能会导致界面文字消失，这时只能手动修改`"C:\Users\<user-name>\.AndroidStudio\config\options\ui.lnf.xml"`文件中的字体名字进行恢复。
+
 ``` xml
 <application>
   <component name="UISettings">
@@ -25,12 +26,15 @@
 </application>
 ```
 
-##WebStorm配置修改
-1. 让移动设备可以访问WebStorm中开发的web项目：Build, Execution, Deployment -> Debugger -> 勾选`Can accept external connections`
+## WebStorm配置修改
+1. Keymap选择`IntelliJ IDEA Classic - Mac OS X 10.5`，Theme和Color Scheme选`Darcula` 
+2. 支持ReactJS的JSX语法: Languages & Frameworks -> JavaScript -> JavaScript language version改为`JSX Harmony`
+3. 让移动设备可以访问WebStorm中开发的web项目：Build, Execution, Deployment -> Debugger -> 勾选`Can accept external connections`
 
-##Android Studio配置修改
+
+## Android Studio配置修改
 1. 修改Android Studio中Logcat的颜色：Editor -> Colors & Fonts -> Android Logcat  
->Darcula Theme:
+> Darcula Theme:
 
  - Verbose: `#BBBBBB`
  - Debug: `#6897BB`
