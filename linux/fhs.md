@@ -1,4 +1,4 @@
-Linux常见文件目录如下：
+# Linux常见文件目录如下：
 
 ```text
 /
@@ -22,7 +22,7 @@ Linux常见文件目录如下：
 └── var
 ```
 
-Debian下的文件目录结构
+# Debian下的文件目录结构
 
 ```text
 /
@@ -75,7 +75,7 @@ Debian下的文件目录结构
 └── vmlinuz        可引导的、压缩的内核,"vm"代表"Virtual Memory"
 ```
 
-详解：
+# 详解
 `/  `
     根目录。所有的文件和目录皆由此开始，只有root用户对此目录拥有写权限。  
 `/bin`  
@@ -112,7 +112,7 @@ Debian下的文件目录结构
 `/srv`  
     即'service'，用于存放系统服务器的所有服务数据。
 
-参考
+# 参考
 
 > Linux文件结构 http://linuxtoy.org/archives/linux-file-structure.html  
 > Linux目录架构详解 http://www.csdn.net/article/2012-04-20/2804821  
