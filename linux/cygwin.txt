@@ -1,0 +1,39 @@
+项目地址： https://code.google.com/p/apt-cyg/ 
+常用命令：
+"apt-cyg install <package names>" to install packages
+"apt-cyg remove <package names>" to remove packages
+"apt-cyg update" to update setup.ini
+"apt-cyg show" to show installed packages
+"apt-cyg find <pattern(s)>" to find packages matching patterns
+"apt-cyg describe <pattern(s)>" to describe packages matching patterns
+"apt-cyg packageof <commands or files>" to locate parent packages
+
+apt-cyg使用方法
+1.安装apt-cyg
+直接在cygwin命令行中，输入如下命令：
+# wget https://apt-cyg.googlecode.com/svn/trunk/apt-cyg -P /bin
+# chmod +x /bin/apt-cyg
+
+2.为apt-cyg指定软件包源
+国内推荐使用163或者sohu的源，命令：
+apt-cyg -m http://mirrors.163.com/cygwin OR apt-cyg -m http://mirror.sohu.com/cygwin
+
+3.管理软件
+更新setuo.ini：apt-cyg update
+显示已安装软件：apt-cyg show
+安装：apt-cyg install 软件包名
+卸载：apt-cyg remove 软件包名
+
+===================================================================
+64位版本出现以后
+安装、使用：
+wget --no-check-certificate https://raw.github.com/rcmdnk/apt-cyg/master/apt-cyg -P /bin
+chmod +x /bin/apt-cyg
+
+修改镜像站
+apt-cyg update -m http://mirror.sohu.com/cygwin/x86_64/
+
+
+
+
+
