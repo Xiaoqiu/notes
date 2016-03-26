@@ -30,7 +30,7 @@
 </application>
 ```
 
-> Mac上的等宽字体选择: `Menlo`
+> Mac上的等宽字体选择: `Menlo`  
 > Linux上的等宽字体选择: `DejaVu Sans Mono`
 
 ## WebStorm配置修改
