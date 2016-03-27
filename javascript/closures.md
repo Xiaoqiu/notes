@@ -7,7 +7,9 @@
 > - Dmitry Soshnikov, [ECMA-262-3 in detail. Chapter 6. Closures.](http://dmitrysoshnikov.com/ecmascript/chapter-6-closures/)
 > - Jim Ley, [Javascript Closures](http://jibbering.com/faq/notes/closures/)
 > - 阮一峰, [学习Javascript闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
-> - 李引证, [http://zhuanlan.zhihu.com/browsnet/20658538](http://zhuanlan.zhihu.com/browsnet/20658538)
+> - 李引证, [闭包里的自由变量](http://zhuanlan.zhihu.com/browsnet/20658538)
+> - [Javascript闭包篇](http://wlog.cn/javascript/javascript-closures.html)
+> - [javascript闭包学习总结](http://cuckoosnest.iteye.com/blog/470121)
 
 ## Questions
 > - [为什么javascript closure(闭包)要叫闭包？](https://www.zhihu.com/question/35177512)
