@@ -36,5 +36,5 @@ Object.prototype.toString.call('hello') === '[object String]' // true
 'hello'.constructor ==== '[object String]' // true
 ```
 
-> https://stackoverflow.com/questions/13266616/primitive-value-vs-reference-value
+> [Primitive value vs Reference value](https://stackoverflow.com/questions/13266616/primitive-value-vs-reference-value)
 
