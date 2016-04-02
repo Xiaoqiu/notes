@@ -1,13 +1,15 @@
-# 变量类型
+# JavaScript 变量类型
+
+## 一、变量类型
 - primitive value (原始类型)
 - reference value (引用类型)
  - primitive wrapper value (基本包装类型)
 
-## 5种原始类型 -> 按值访问
+### 5种原始类型 -> 按值访问
 Undefined, Null, Boolean, Number, String
 
-## 引用类型 -> 按引用访问
-Object, Array, Date, RegExp, Function, 基本包装类型(Boolean, Number, String)
+### 引用类型 -> 按引用访问
+Object, Array, Date, RegExp, Function, Error, Map, Set, 基本包装类型(Boolean, Number, String)
 
 ```javascript
 // 原始类型
@@ -23,7 +25,7 @@ var str = 'hello';
 var len = str.length; //会临时创建一个String对象
 ```
 
-# 类型检测
+## 二、类型检测
 - typeof: 适合检测原始类型和function, null无效(object, 直接使用===判断)
 - instanceof: 适合检测引用类型, 也就是通过构造函数创建的对象
 - Object.prototype.toString.call(): 适用于数组
