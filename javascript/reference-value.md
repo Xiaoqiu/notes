@@ -25,7 +25,7 @@ console.log(newArr); // [1, 2, 3, 4, 5]
 ```
 
 ### 2.2 复制对象
-#### 2.2.1 方法1: for ... in
+#### 方法1: for ... in
 ```javascript
 var obj = {
     name: 'foo',
@@ -46,7 +46,7 @@ console.log(obj); // { name: 'foo', desc: { color: 'green' } }
 ```
 上面的复制操作只能复制最外层属性值, 内部属性的值依然会指向原对象, 即`浅拷贝(shallow copy)`.
 
-#### 2.2.2 方法2: Object.assign()
+#### 方法2: Object.assign()
 在ES6中, 可以使用`Object.assign()`方法复制对象(也是浅拷贝):
 ```javascript
 var obj = {
@@ -59,14 +59,14 @@ var newObj = Object.assign({}, obj); // Object.assign(target, ...sources)
 console.log(newObj); // { name: 'foo', desc: { color: 'red' } }
 ```
 
-#### 2.2.3 方法3: JSON
+#### 方法3: JSON
 如果只需要复制值, 可以借助JSON, 不会复制对象中的方法:
 ```javascript
 var newObj = JSON.parse(JSON.stringify(obj)); // Object.assign(target, ...sources)
 console.log(newObj); // { name: 'foo', desc: { color: 'red' } }
 ```
 
-#### 2.2.4 方法4: JQuery
+#### 方法4: jQuery
 ```javascript
 // shallow copy
 var newObj = $.extend({}, oldObject);
