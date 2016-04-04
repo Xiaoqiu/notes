@@ -1,7 +1,7 @@
 ## Basic
 - `1xx`: Informational - Request received, continuing process
 - `2xx`: Success - The action was successfully received, understood, and accepted
-- `3xx`: Redirection - Further action must be taken in order to complete the request
+- `3xx`: Redirection (重定向) - Further action must be taken in order to complete the request
 - `4xx`: Client Error - The request contains bad syntax or cannot be fulfilled
 - `5xx`: Server Error - The server failed to fulfill an apparently valid request
 
@@ -12,8 +12,9 @@
 - `200 OK`
 - `204 No Content`
 - `301 Moved Permanently`
-- `302 Found`
+- `302 Temporarily Moved`
 - `304 Not Modified`
+- `403 Forbidden`
 - `502 Bad Gateway`
 - `500 Internal Server Error`
 - `503 Service Unavailable`
