@@ -6,6 +6,7 @@
 - `no-cache` / `no-store`
 - `public` / `private`
 - `max-age`
+- `must-revalidate`
 
 一个例子
 ```text
