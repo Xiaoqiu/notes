@@ -46,3 +46,16 @@ export {
   multiplyTwoNum as multiply
 };
 ```
+
+## 2. import
+### 2.1 导入模块
+```javascript
+import {add, multiply} from './math';
+
+var sum = add(1, 2);
+var product = multiply(2, 3);
+
+// 导入时同样可以使用as关键字重命名变量
+import {addTwoNum as add} from './math';
+```
+
