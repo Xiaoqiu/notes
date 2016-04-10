@@ -114,6 +114,7 @@ Node.js 对 ES6 的支持情况: [ES6 in Node.js](https://nodejs.org/en/docs/es6
 node --harmony_modules math-demo.js
 ```
 报｀SyntaxError: Unexpected token import｀错误，原来该特性还在开发中……
+
 `shipping`为默认启用的特性, `staged`为需要使用`--harmony`参数开启的特性, `in progress`表示正在开发中
 ```shell
 ➜  ~ node --v8-options | grep 'harmony'     
