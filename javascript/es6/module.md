@@ -57,5 +57,18 @@ var product = multiply(2, 3);
 
 // 导入时同样可以使用as关键字重命名变量
 import {addTwoNum as add} from './math';
+
+// 加载所有变量/函数
+import * as math from './math';
+var sum = math.add(1, 2);
+var product = math.multiply(2, 3);
 ```
 
+## 3. module
+### 3.1 导入模块
+```javascript
+// 加载所有变量/函数，相当于 import * as math from './math';
+module math from './math';
+var sum = math.add(1, 2);
+var product = math.multiply(2, 3);
+```
