@@ -104,6 +104,6 @@ var product = math.multiply(2, 3);
 ```
 
 ## 浏览器和Node的支持情况
-暂无，需要使用Babel转译。  
+暂时都不支持，需要使用Babel转译。  
 
-Node.js对ES6的支持情况: https://nodejs.org/en/docs/es6/ 
+Node.js 对 ES6 的支持情况: [ES6 in Node.js](https://nodejs.org/en/docs/es6/)
