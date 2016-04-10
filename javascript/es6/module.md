@@ -1,6 +1,6 @@
 # Module
 
-## 1. export
+## 1. export 语句
 ```javascript
 // 语法
 export { name1, name2, …, nameN };
@@ -64,7 +64,7 @@ export {
 };
 ```
 
-## 2. import
+## 2. import 语句
 ```javascript
 // 语法
 import defaultMember from "module-name";
@@ -94,7 +94,7 @@ var sum = math.add(1, 2);
 var product = math.multiply(2, 3);
 ```
 
-## 3. module
+## 3. module 语句
 ### 3.1 导入模块
 ```javascript
 // 加载所有变量/函数，相当于 import * as math from './math';
@@ -102,3 +102,8 @@ module math from './math';
 var sum = math.add(1, 2);
 var product = math.multiply(2, 3);
 ```
+
+## 浏览器和Node的支持情况
+暂无，需要使用Babel转译。  
+
+Node.js对ES6的支持情况: https://nodejs.org/en/docs/es6/ 
