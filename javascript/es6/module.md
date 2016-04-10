@@ -12,6 +12,37 @@ var foo = 'foo';
 var bar = 'bar';
 
 export {foo, bar};
-
 ```
 ### 1.2 导出函数
+```javascript
+// 导出函数
+export function func () {
+  return true;
+};
+
+// 导出一组函数
+function add(x, y) {
+    return x + y;
+}
+
+function multiply(x, y) {
+    return x * y;
+}
+
+export {add, multiply};
+
+// 重命名
+function addTwoNum(x, y) {
+    return x + y;
+}
+
+function multiplyTwoNum(x, y) {
+    return x * y;
+}
+
+export {
+  addTwoNum as add, // 导出时将addTwoNum重命名为add
+  addTwoNum as concat, // 当然，可以重命名多个不同名字
+  multiplyTwoNum as multiply
+};
+```
