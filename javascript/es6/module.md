@@ -62,6 +62,13 @@ export {
   addTwoNum as concat, // 当然，可以重命名多个不同名字
   multiplyTwoNum as multiply
 };
+
+```
+### 1.3 导出默认变量
+```javascript
+var foo = 'foo';
+
+export default foo;
 ```
 
 ## 2. import 语句
@@ -84,6 +91,11 @@ import {add, multiply} from './math';
 
 var sum = add(1, 2);
 var product = multiply(2, 3);
+
+// 导入默认模块
+import add from './math/add';
+
+var sum = add(1, 2);
 
 // 导入时同样可以使用as关键字重命名变量
 import {addTwoNum as add} from './math';
