@@ -48,7 +48,7 @@ function multiply(x, y) {
 
 export {add, multiply};
 
-// 重命名
+// 别名
 function addTwoNum(x, y) {
     return x + y;
 }
@@ -58,8 +58,8 @@ function multiplyTwoNum(x, y) {
 }
 
 export {
-  addTwoNum as add, // 导出时将addTwoNum重命名为add
-  addTwoNum as concat, // 当然，可以重命名多个不同名字
+  addTwoNum as add, // 导出时使用add作为addTwoNum的别名
+  addTwoNum as concat, // 当然，可以有多个别名
   multiplyTwoNum as multiply
 };
 
@@ -97,7 +97,7 @@ import add from './math/add';
 
 var sum = add(1, 2);
 
-// 导入时同样可以使用as关键字重命名变量
+// 导入时同样可以使用as关键字取别名
 import {addTwoNum as add} from './math';
 
 // 加载所有变量/函数
