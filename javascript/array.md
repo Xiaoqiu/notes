@@ -1,8 +1,12 @@
-# ES3
+# Array
 
-# ES5
-- [forEach](#foreach)
-- [map](#map)
+- ES3
+- ES5
+ - [forEach()](#foreach)
+ - [map()](#map)
+- ES6
+ - [Array.from()](#Array.from())
+ - [Array.of()](#Array.of())
 
 ## forEach
 用于遍历数组，没有返回值
