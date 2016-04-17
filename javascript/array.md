@@ -1,9 +1,28 @@
 # ES3
 
 # ES5
-- [map](#map)
 - [forEach](#foreach)
+- [map](#map)
 
+## forEach
+用于遍历数组，没有返回值
+```javascript
+var numbers = [4, 9, 16, 25];
+
+numbers.forEach(function (number) {
+	console.log(number);
+});
+
+numbers.forEach(function (number, index) {
+	console.log(index, number);
+});
+
+var newNumbers = numbers.forEach(function (number) {
+	return number * 2;
+});
+
+console.log(newNumbers); // undefined
+```
 
 ## map
 ```javascript
@@ -29,24 +48,4 @@ numbers.map((number) => number * 2)
 
 var roots = numbers.map(Math.sqrt);
 console.log(roots);
-```
-
-## forEach
-用于遍历数组，没有返回值
-```javascript
-var numbers = [4, 9, 16, 25];
-
-numbers.forEach(function (number) {
-	console.log(number);
-});
-
-numbers.forEach(function (number, index) {
-	console.log(index, number);
-});
-
-var newNumbers = numbers.forEach(function (number) {
-	return number * 2;
-});
-
-console.log(newNumbers);
 ```
