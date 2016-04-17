@@ -1,1 +1,1 @@
-- [Chrome Web Platform Features](https://www.chromestatus.com/features)
+- [Chrome Web Platform Features](https://www.chromestatus.com/features): 不同版本Chrome对最新Web特性的支持情况
