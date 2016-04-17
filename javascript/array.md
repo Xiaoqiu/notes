@@ -2,7 +2,7 @@
 
 # ES5
 - [map](#map)
-- [forEach](#forEach)
+- [forEach](#foreach)
 
 
 ## map
