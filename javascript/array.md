@@ -16,6 +16,13 @@ numbers.map(function (number, index) {
 	console.log(index, number);
 });
 
+numbers.map(function (number) {
+	return number * 2;
+});
+
+// ES6 arrow function
+numbers.map((number) => number * 2)
+
 var roots = numbers.map(Math.sqrt);
 console.log(roots);
 ```
