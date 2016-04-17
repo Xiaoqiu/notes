@@ -25,8 +25,8 @@ console.log(newNumbers); // undefined
 ```
 
 ## map
-```javascript
 数组映射，会返回一个新的数组
+```javascript
 var numbers = [4, 9, 16, 25];
 
 numbers.map(function (number) {
