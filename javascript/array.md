@@ -2,8 +2,12 @@
 
 - ES3
 - ES5
- - [forEach()](#foreach)
- - [map()](#map)
+ - [forEach 遍历](#foreach)
+ - [map 映射](#map)
+ - [reduce ]()
+ - [filter]()
+ - [every]()
+ - [some]()
 - ES6
  - [Array.from()](#Array.from())
  - [Array.of()](#Array.of())
