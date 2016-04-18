@@ -60,3 +60,10 @@ var App = (
   </Form>
 );
 ```
+```jsx
+var MyFormComponent = React.createClass({ ... });
+
+MyFormComponent.Row = React.createClass({ ... });
+MyFormComponent.Label = React.createClass({ ... });
+MyFormComponent.Input = React.createClass({ ... });
+```
