@@ -1,33 +1,7 @@
 # Hello React
 
-## 1. HTML to JSX
-```html
-<!-- Hello world -->
-<div class="awesome" style="border: 1px solid red">
-  <label for="name">Enter your name: </label>
-  <input type="text" id="name" />
-</div>
-<p>Enter your HTML here</p>
-```
-转换为JSX
-```jsx
-var NewComponent = React.createClass({
-  render: function() {
-    return (
-      <div>
-        {/* Hello world */}
-        <div className="awesome" style={{border: '1px solid red'}}>
-          <label htmlFor="name">Enter your name: </label>
-          <input type="text" id="name" />
-        </div>
-        <p>Enter your HTML here</p>
-      </div>
-    );
-  }
-});
-```
-
-## 2. A Simple Component
+## 1. A Simple Component
+`this.props`： 在组件的render方法内，可以通过`this.props`获取外部输入的属性参数。
 ```jsx
 var HelloMessage = React.createClass({
   render: function() {
@@ -37,9 +11,9 @@ var HelloMessage = React.createClass({
 
 React.render(<HelloMessage name="John" />, mountNode);
 ```
-`this.props`： 在组件的render方法内，可以通过`this.props`获取外部输入的属性参数。
 
-## 3. A Stateful Component
+## 2. A Stateful Component
+`this.state`： 组件可以通过`this.state`更新内部状态数据。
 ``` jsx
 var Timer = React.createClass({
   getInitialState: function() {
@@ -65,7 +39,6 @@ var Timer = React.createClass({
 
 ReactDOM.render(<Timer />, mountNode);
 ```
-`this.state`： 组件可以通过`this.state`更新内部状态数据。
 
 ## 4. An Application
 结合`this.props`和`this.state`的Todo应用。
