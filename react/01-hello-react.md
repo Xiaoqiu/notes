@@ -108,7 +108,7 @@ var TodoApp = React.createClass({
 ReactDOM.render(<TodoApp />, mountNode);
 ```
 
-## 4. A Component Using External Plugins
+## 5. A Component Using External Plugins
 `ReactJS`加[marked](https://github.com/chjj/marked)库的例子。
 ```jsx
 var MarkdownEditor = React.createClass({
