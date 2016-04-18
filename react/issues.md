@@ -27,5 +27,5 @@ Warning: Each child in an array or iterator should have a unique "key" prop. Che
 
 `<script type="text/jsx"></script>` and `<script type="text/babel"></script>`
 
-前者配合Facebook开发的 `JSXTransformer.js`，将JSX转换为普通JS。
+前者配合Facebook开发的 `JSXTransformer.js`，将JSX转换为普通JS。  
 后者配合Babel.js的 `babel-core`，引入 `browser.js` 将JSX转换为普通JS。
