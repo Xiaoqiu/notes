@@ -1,6 +1,8 @@
 # Array
 
 - ES3
+ - [slice 浅拷贝原数组中的一部分创建新数组](#slice)
+ - [splice 向数组中删除已有元素或者增加新元素](#splice)
 - ES5
  - [forEach 遍历](#foreach)
  - [map 映射](#map)
