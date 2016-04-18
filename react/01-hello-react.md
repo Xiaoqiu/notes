@@ -40,7 +40,7 @@ var Timer = React.createClass({
 ReactDOM.render(<Timer />, mountNode);
 ```
 
-## 4. An Application
+## 3. An Application
 结合`this.props`和`this.state`的Todo应用。
 ```jsx
 var TodoList = React.createClass({
@@ -81,7 +81,7 @@ var TodoApp = React.createClass({
 ReactDOM.render(<TodoApp />, mountNode);
 ```
 
-## 5. A Component Using External Plugins
+## 4. A Component Using External Plugins
 `ReactJS`加[marked](https://github.com/chjj/marked)库的例子。
 ```jsx
 var MarkdownEditor = React.createClass({
