@@ -5,3 +5,7 @@ echo $SHELL  #显示用户默认的shell，但不一定是当前使用的shell
 cat /etc/shells  ＃查看当前发行版可以使用的shell
 shopt login_shell  # 查看是否是login shell（在zsh中无法使用）
 ```
+
+## 2. Shell介绍
+- [Bash](https://wiki.archlinux.org/index.php/Bash_(简体中文))
+- [Zsh](https://wiki.archlinux.org/index.php/Zsh_(简体中文))
