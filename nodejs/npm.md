@@ -23,3 +23,10 @@ npm set init.license "MIT"
 npm install <package_name> --save
 npm install <package_name> --save-dev
 ```
+## 更新依赖包
+```shell
+npm update # 在 package.json 同目录运行，更新本地依赖
+npm outdated -g --depth=0 # 找出需要更新的依赖包
+npm install -g <package_name> # 更新全局安装的指定依赖包
+npm update -g # 更新所有需要更新的依赖包
+```
