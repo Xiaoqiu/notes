@@ -50,6 +50,7 @@
 
 > IE 9+ 支持`addEventListener`和`removeEventListener`，IE 6/7/8 不支持，但实现了两个类似的方法`attachEvent`和`detachEvent`。
 > 需要注意的是`attachEvent()`第一个参数是EventHandler的名称，不是事件类型。
+
 ```javascript
 btnEl.attachEvent('onclick', function () {
     console.log('click again');
