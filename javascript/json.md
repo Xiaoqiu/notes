@@ -2,6 +2,7 @@
 
 ## 1. 形式
 - null
+- boolean
 - number
 - string
 - array
