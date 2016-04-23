@@ -1,6 +1,6 @@
 # JSON
 
-## 形式
+## 1. 形式
 - null
 - number
 - string
@@ -9,10 +9,11 @@
 
 > 字符串必须使用双引号（""）括起来
 
-## 方法
+## 2. 方法
 - JSON.stringify(value, replacer, space);
 - JSON.parse(jsonString, reviver);
 
+## 3. 例子
 ```javascript
 var book = {
         title: 'Pride and Prejudice',
