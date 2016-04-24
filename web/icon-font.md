@@ -3,4 +3,4 @@
 - [Font Awesome, the iconic font and CSS toolkit](http://fontawesome.io/)
 - [Icon Font & SVG Icon Sets ❍ IcoMoon](https://icomoon.io/)
 - [Iconfont-阿里巴巴矢量图标库](http://www.iconfont.cn/)
-
+- [Material Icons](http://google.github.io/material-design-icons/)
