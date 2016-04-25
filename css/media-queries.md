@@ -1,15 +1,15 @@
 # Media Queries（媒体查询）
 
-## Standard
+## 1. Standard
 - [Media Queries](https://www.w3.org/TR/css3-mediaqueries/)
 - [Media Queries Level 4](https://drafts.csswg.org/mediaqueries-4/)
 
-## Reference
+## 2. Reference
 - [Use CSS media queries for responsiveness
 ](https://developers.google.com/web/fundamentals/design-and-ui/responsive/fundamentals/use-media-queries)
 - [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
-## Syntax
+## 3. Syntax
 ```css
 @media not|only mediatype and (media feature) {
     CSS-Code;
@@ -20,13 +20,26 @@
 <link rel="stylesheet" media="mediatype and|not|only (media feature)" href="style.css">
 ```
 
-### MediaType
+### 3.1 Media type
 - `all`: Used for all media type devices
 - `screen`: Used for computer screens, tablets, smart-phones etc.
 - `print`: Used for printers
 - `speech`: Used for screenreaders that "reads" the page out loud
+ 
+## 3.2 Media feature
+  | width | min-width | max-width
+  | height | min-height | max-height
+  | device-width | min-device-width | max-device-width
+  | device-height | min-device-height | max-device-height
+  | aspect-ratio | min-aspect-ratio | max-aspect-ratio
+  | device-aspect-ratio | min-device-aspect-ratio | max-device-aspect-ratio
+  | color | min-color | max-color
+  | color-index | min-color-index | max-color-index
+  | monochrome | min-monochrome | max-monochrome
+  | resolution | min-resolution | max-resolution
+  | scan | grid
 
-## Examples
+## 4. Examples
 ```css
 /* 移动设备且屏幕宽度400px以内有效 */
 @media screen and (max-device-width: 400px) {
