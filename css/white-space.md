@@ -1,0 +1,3 @@
+- white-space: normal | pre | nowrap | pre-wrap | pre-line 规定如何处理元素中的空白
+- word-wrap: normal | break-word 允许对长的不可分割的单词进行分割并换行到下一行
+- word-break: normal | break-all | keep-all 规定非中日韩文本的换行规则
