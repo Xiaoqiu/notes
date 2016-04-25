@@ -27,17 +27,17 @@
 - `speech`: Used for screenreaders that "reads" the page out loud
  
 ## 3.2 Media feature
-  | width | min-width | max-width
-  | height | min-height | max-height
-  | device-width | min-device-width | max-device-width
-  | device-height | min-device-height | max-device-height
-  | aspect-ratio | min-aspect-ratio | max-aspect-ratio
-  | device-aspect-ratio | min-device-aspect-ratio | max-device-aspect-ratio
-  | color | min-color | max-color
-  | color-index | min-color-index | max-color-index
-  | monochrome | min-monochrome | max-monochrome
-  | resolution | min-resolution | max-resolution
-  | scan | grid
+- width | min-width | max-width
+- height | min-height | max-height
+- device-width | min-device-width | max-device-width
+- device-height | min-device-height | max-device-height
+- aspect-ratio | min-aspect-ratio | max-aspect-ratio
+- device-aspect-ratio | min-device-aspect-ratio | max-device-aspect-ratio
+- color | min-color | max-color
+- color-index | min-color-index | max-color-index
+- monochrome | min-monochrome | max-monochrome
+- resolution | min-resolution | max-resolution
+- scan | grid
 
 ## 4. Examples
 ```css
@@ -46,8 +46,8 @@
 
 }
 
-/* 移动设备且窗口宽度400px以内有效 */
-@media screen and (max-width: 400px) {
+/* 移动设备或者阅读器且窗口宽度400px以内有效 */
+@media screen, print and (max-width: 400px) {
 
 }
 ```
