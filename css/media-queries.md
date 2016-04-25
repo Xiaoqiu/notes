@@ -32,4 +32,9 @@
 @media screen and (max-device-width: 400px) {
 
 }
+
+/* 移动设备且窗口宽度400px以内有效 */
+@media screen and (max-width: 400px) {
+
+}
 ```
