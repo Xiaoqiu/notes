@@ -8,6 +8,7 @@
 - [Use CSS media queries for responsiveness
 ](https://developers.google.com/web/fundamentals/design-and-ui/responsive/fundamentals/use-media-queries)
 - [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+- [@media - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
 
 ## 3. Syntax
 ```css
