@@ -87,6 +87,10 @@
 ## 去哪儿
 - 去哪儿酒店UED移动前端团队
  - [blog](http://ued.qunar.com/mobile/blog/)
+ 
+## 百姓网
+- 百姓网前端团队
+ - [Blog](https://github.com/baixing/FE-Blog/issues)
 
 ## 蘑菇街
 - 蘑菇街技术博客
