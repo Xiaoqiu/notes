@@ -1,3 +1,17 @@
+
+## 问题
+> - `getCurrentPosition()` and `watchPosition()` are deprecated on insecure origins. To use this feature, you should consider switching your application to a secure origin, such as HTTPS. See https://goo.gl/rStTGz for more details.
+> - ERROR(1): Only secure origins are allowed (see: https://goo.gl/Y0ZkNV). 
+ 
+出于安全性考虑，`getCurrentPosition()` 和 `watchPosition()` 必须在安全源（secure origins）中打开，以下几种被 Chrome 看作是安全源：
+- (https, *, *)
+- (wss, *, *)
+- (*, localhost, *)|(*, 127/8, *)|(*, ::1/128, *)
+- (file, *, —)
+- (chrome-extension, *, —) 
+
+
+## 例子
 ```html
 <!DOCTYPE html>
 <html lang="zh-Hans">
