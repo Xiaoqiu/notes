@@ -6,7 +6,7 @@
 出于安全性考虑，`getCurrentPosition()` 和 `watchPosition()` 必须在安全源（secure origins）中打开，以下几种被 Chrome 看作是安全源：
 - (https, *, *)
 - (wss, *, *)
-- (*, localhost, *)|(*, 127/8, *)|(*, ::1/128, *)
+- (*, localhost, *) | (*, 127/8, *) | (*, ::1/128, *)
 - (file, *, —)
 - (chrome-extension, *, —) 
 
@@ -25,6 +25,7 @@
      * 浏览器定位
      */
     function browserLocating() {
+        // 判断地理位置服务是否可用
         if (navigator.geolocation) {
             var options = {
                 maximumAge: 60000,
@@ -32,6 +33,8 @@
                 enableHighAccuracy: true
             };
             navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
+        } else {
+          console.error('您的设备不支持地理位置服务');
         }
     }
 
