@@ -10,6 +10,13 @@
 - (file, *, —)
 - (chrome-extension, *, —) 
 
+除了 `geolocation` 以外，还有一些其他信息也需要在安全源的条件下才可以访问。
+- Device motion / orientation
+- EME
+- Geolocation
+- getUserMedia()
+- AppCache
+
 
 ## 例子
 ```html
