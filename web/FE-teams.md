@@ -66,6 +66,8 @@
  - [Blog](http://tgideas.qq.com/)
 - TID（财付通设计中心）
  - [Blog](http://tid.tenpay.com/)
+- WechatFE
+ - [GitHub](https://github.com/WechatFE)
 
 ## 大搜车
 - 大搜车前端团队
