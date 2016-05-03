@@ -12,8 +12,9 @@
  - [GitHub](https://github.com/amfe/article/issues)
 - 天猫前端团队
  - [GitHub](https://github.com/tmallfe/tmallfe.github.io/issues)
-- 阿里妈妈MUX
+- 阿里妈妈MUX/etao UX Team
  - [Blog](http://mux.alimama.com/)
+ - [GitHub](https://github.com/etaoux)
 - 阿里巴巴中文站UED
  - [Blog](http://www.aliued.cn/)
 - 阿里巴巴国际UED
