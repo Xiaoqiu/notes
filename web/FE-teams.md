@@ -1,3 +1,6 @@
+
+## 前端
+
 ### 饿了么
 - ElemeFE（饿了么前端）
  - [Blog](https://fe.ele.me/)
@@ -70,39 +73,50 @@
 - WechatFE
  - [GitHub](https://github.com/WechatFE)
 
-## 大搜车
+### 大搜车
 - 大搜车前端团队
  - [Blog](http://f2e.souche.com/blog/)
 
-## 美团
+### 美团
 - 美团前端团队
  - [Blog](http://fe.meituan.com/)
 - 美团点评技术团队
  - [Blog](http://tech.meituan.com/)
 
-## 京东
+### 京东
 - JDC（京东设计中心）
  - [Blog](https://jdc.jd.com/)
 - O2（凹凸实验室）
  - [Blog](http://aotu.io/)
  - [GitHub](https://github.com/o2team)
 
-## 去哪儿
+### 去哪儿
 - 去哪儿酒店UED移动前端团队
  - [blog](http://ued.qunar.com/mobile/blog/)
- 
-## 百姓网
+
+### 百姓网
 - 百姓网前端团队
  - [Blog](https://github.com/baixing/FE-Blog/issues)
 
-## 蘑菇街
+### 蘑菇街
 - 蘑菇街技术博客
  - [Blog](http://mogu.io/)
 
-## 新浪
+### 新浪
 - 新浪UED
  - [Blog](http://ued.sina.com.cn/)
 
-## 豆瓣
+### 豆瓣
 - 豆瓣前端
  - [GitHub](https://github.com/douban-f2e)
+
+## 其他
+
+### 魅族
+- 魅族科技开发团队
+ - [Blog](https://segmentfault.com/blog/meizu)
+- 笔戈开发团队
+ - [GitHub](https://github.com/bigertech)
+
+### 稀土
+- [GitHUb](https://github.com/xitu)
