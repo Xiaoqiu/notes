@@ -30,3 +30,20 @@ npm outdated -g --depth=0 # 找出需要更新的依赖包
 npm install -g <package_name> # 更新全局安装的指定依赖包
 npm update -g # 更新所有需要更新的依赖包
 ```
+
+## 运行脚本
+```shell
+npm run-script <command> [-- <args>...]
+```
+package.json 示例
+```json
+"scripts": {
+  "start": "node --harmony ./bin/www",
+  "development-start": "NODE_ENV=development node --harmony ./bin/www",
+  "production-start": "NODE_ENV=production node --harmony ./bin/www"
+}
+```
+运行执行开发环境脚本
+```shell
+npm run-script development-start
+```
