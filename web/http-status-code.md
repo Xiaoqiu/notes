@@ -11,6 +11,7 @@
 ## Example
 - `200 OK`
 - `200 OK (from cache)`
+- `200 OK (from ServiceWorker)`
 - `204 No Content`
 - `301 Moved Permanently`
 - `302 Temporarily Moved`
