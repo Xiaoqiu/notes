@@ -13,6 +13,7 @@ BOM: beginning with the window object, includes the Window and Navigator objects
 - `window.navigator`
  - `navigator.userAgent`
  - `navigator.geolocation`
+ - `navigator.serviceWorker`
 
 ## Methods
 - `window.open()`
