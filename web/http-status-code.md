@@ -11,10 +11,12 @@
 ## Example
 - `200 OK`
 - `200 OK (from cache)`
+- `200 OK (from ServiceWorker)`
 - `204 No Content`
 - `301 Moved Permanently`
 - `302 Temporarily Moved`
 - `304 Not Modified`
+- `401 Unauthorized`
 - `403 Forbidden`
 - `502 Bad Gateway`
 - `500 Internal Server Error`
