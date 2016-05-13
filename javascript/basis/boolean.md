@@ -1,4 +1,5 @@
 JavaScript中假值包括: 
+- `false`
 - `0` / `-0`
 - `NaN`
 - `null` / `undefined`
@@ -28,6 +29,7 @@ console.log(Boolean(NaN)); // false
 console.log(Boolean(-1)); // true
 console.log(Boolean(0)); // false
 console.log(Boolean(1)); // true
+console.log(Boolean([]); // true
 console.log(Boolean({})); // true
 
 var text = '';
