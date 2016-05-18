@@ -21,7 +21,7 @@
 
 ## ES5
 - 类方法
- - [Array.isArray()]()
+ - [Array.isArray]()
 - 位置
  - [indexOf](#indexOf)
  - [lastIndexOf](#lastIndexOf)
@@ -37,17 +37,17 @@
 
 ## ES6
 - 类方法
- - [Array.from()](#Array.from())
- - [Array.of()](#Array.of())
+ - [Array.from](#Array.from)
+ - [Array.of](#Array.of)
 - 原型方法
- - copyWithin()
- - fill()
- - find()
- - findIndex()
- - includes()
- - entries()
- - keys()
- - values()
+ - [copyWithin]()
+ - [fill]()
+ - [find]()
+ - [findIndex]()
+ - [includes]()
+ - [entries]()
+ - [keys]()
+ - [values]()
 
 ## forEach
 用于遍历数组，没有返回值
