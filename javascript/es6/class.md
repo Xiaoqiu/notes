@@ -34,3 +34,6 @@ class Point {
 var point = new Point(2, 3);
 console.log(point.toString());
 ```
+
+## Reference
+> - [3 ways to define a JavaScript class](http://www.phpied.com/3-ways-to-define-a-javascript-class/)

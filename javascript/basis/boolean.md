@@ -1,4 +1,4 @@
-JavaScript中假值包括: 
+JavaScript中假值包括:
 - `false`
 - `0` / `-0`
 - `NaN`
@@ -11,7 +11,7 @@ JavaScript中假值包括:
 /*
 * If value is omitted or is 0, -0, null, false, NaN, undefined, or the
 * empty string (""), the object has an initial value of false. All other
-* values, including any object or the string "false", create an object 
+* values, including any object or the string "false", create an object
 * with an initial value of true.
 */
 
@@ -26,6 +26,7 @@ console.log(Boolean('a')); // true
 console.log(Boolean('false')); // true
 console.log(Boolean(false)); // false
 console.log(Boolean(NaN)); // false
+console.log(Boolean(Infinity)); // true
 console.log(Boolean(-1)); // true
 console.log(Boolean(0)); // false
 console.log(Boolean(1)); // true
@@ -35,7 +36,6 @@ console.log(Boolean({})); // true
 var text = '';
 
 if(text){
-	console.log(true);	
+	console.log(true);
 }
 ```
-
