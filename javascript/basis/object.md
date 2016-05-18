@@ -49,3 +49,9 @@
 - `Class.prototype.method`: 实例方法
 
 ### `__proto__`
+
+## Reference
+> - [从本质认识JavaScript的原型继承和类继承](https://www.h5jun.com/post/inherits)
+> - [理解JavaScript的原型链和继承](https://blog.oyanglul.us/javascript/understand-prototype.html)
+> - [从__proto__和prototype来深入理解JS对象和原型链](https://github.com/creeperyang/blog/issues/9)
+> - [图解Javascript原型链](http://blog.rainy.im/2015/07/20/prototype-chain-in-js/)

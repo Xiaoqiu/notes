@@ -94,3 +94,8 @@ numbers.map((number) => number * 2)
 var roots = numbers.map(Math.sqrt);
 console.log(roots);
 ```
+
+## Reference
+> - [Array - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+> - [Array.of Function - MSDN](https://msdn.microsoft.com/en-us/library/dn858232(v=vs.94).aspx)
+> - [ES5中新增的Array方法详细说明](http://www.zhangxinxu.com/wordpress/2013/04/es5新增数组方法/), 张鑫旭
