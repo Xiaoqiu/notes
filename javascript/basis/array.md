@@ -1,18 +1,53 @@
 # Array
 
-- ES3
- - [slice 浅拷贝原数组中的一部分创建新数组](#slice)
- - [splice 向数组中删除已有元素或者增加新元素](#splice)
-- ES5
- - [forEach 遍历](#foreach)
- - [map 映射](#map)
- - [reduce ]()
+## ES1
+- 转换
+ - [join](#reverse)
+- 排序
+ - [reverse](#reverse)
+ - [sort](#sort)
+
+## ES3
+- 栈操作
+ - [push](#push)
+ - [pop](#pop)
+- 队列操作
+ - [shift](#shift)
+ - [unshift](#unshift)
+- 数组操作
+ - [contat](#contat)
+ - [slice](#slice) 浅拷贝原数组中的一部分创建新数组
+ - [splice](#splice) 向数组中删除已有元素或者增加新元素
+
+## ES5
+- 类方法
+ - [Array.isArray()]()
+- 位置
+ - [indexOf](#indexOf)
+ - [lastIndexOf](#lastIndexOf)
+- 迭代
+ - [forEach](#foreach) 遍历
+ - [map](#map) 映射
  - [filter]()
  - [every]()
  - [some]()
-- ES6
+- 归并
+ - [reduce]()
+ - [reduceRight]()
+
+## ES6
+- 类方法
  - [Array.from()](#Array.from())
  - [Array.of()](#Array.of())
+- 原型方法
+ - copyWithin()
+ - fill()
+ - find()
+ - findIndex()
+ - includes()
+ - entries()
+ - keys()
+ - values()
 
 ## forEach
 用于遍历数组，没有返回值

@@ -14,3 +14,5 @@ SELECT * FROM table1 WHERE id IN (SELECT id FROM table2);
 
 SELECT * FROM table1 WHERE EXISTS (SELECT 1 FROM table2 WHERE table1.id=table2.id);
 ```
+
+## AS

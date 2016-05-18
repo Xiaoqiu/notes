@@ -1,3 +1,9 @@
+## global setup
+```shell
+git config --global user.name "keqingrong"
+git config --global user.email "keqingrong1992@gmail.com"
+```
+
 ## create a new repository
 ```shell
 git init
