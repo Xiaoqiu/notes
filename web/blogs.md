@@ -1,9 +1,13 @@
 ## FE
-- [phpied.com](http://www.phpied.com/), Stoyan Stefanov
-- [NCZOnline](https://www.nczonline.net/), Nicholas C. Zakas
+- [phpied.com](http://www.phpied.com/), Stoyan Stefanov, at Facebook
+- [NCZOnline](https://www.nczonline.net/), Nicholas C. Zakas, at Box
+- [paulirish.com](https://www.paulirish.com), Paul Irish, at Google Chrome
+- [QuirksMode.org](http://www.quirksmode.org/), Peter-Paul Koch
+- [JavaScript is Sexy](http://javascriptissexy.com/), Richard
 
 
 https://github.com/creeperyang/blog
+http://hawx1993.github.io/
 
 http://jayli.github.io/
 http://jayli.github.io/blog/index.html
