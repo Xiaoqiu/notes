@@ -8,6 +8,10 @@
 
 https://github.com/creeperyang/blog
 http://hawx1993.github.io/
+http://wwsun.github.io/
+http://xuyuan923.github.io/
+https://github.com/huangtengfei/blog/issues
+https://github.com/fwon/blog/issues
 
 http://jayli.github.io/
 http://jayli.github.io/blog/index.html
