@@ -4,7 +4,7 @@
 1. 创建一个空对象
 2. 将空对象的 `__proto__` 指向构造函数的 `prototype` 对象
 3. 修改构造函数的 `this` 指向，替换成新建的对象
-4. 返回新建的对象或者构造函数中指定的对象(如果返回值是基本类型，会被舍弃)
+4. 返回新建的对象或者构造函数中指定的返回值（必须是对象，如果返回值是基本类型，会被舍弃）
 
 ## 创建实例的过程的代码解释
 ```javascript
@@ -48,8 +48,8 @@ var app = new App;
 ```
 
 2. 忘记使用new操作符，构造函数中的变量变成全局变量
-- 解决方法1: 在构造函数内部使用严格模式 `"use strict"`。
-- 解决方法2: 在构造函数内部使用 `instanceof` 判断 `this` 是否是函数的实例。
+ - 解决方法1: 在构造函数内部使用严格模式 `"use strict"`。
+ - 解决方法2: 在构造函数内部使用 `instanceof` 判断 `this` 是否是函数的实例。
 
 ## Reference
 > - [new operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
