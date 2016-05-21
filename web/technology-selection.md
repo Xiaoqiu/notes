@@ -7,3 +7,6 @@
 ## 神州专车
 - seajs
 - jQuery
+
+## 饿了么
+- AngularJS

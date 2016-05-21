@@ -9,10 +9,13 @@
 https://github.com/creeperyang/blog
 http://hawx1993.github.io/
 http://wwsun.github.io/
+http://coffeexu.github.io/
 http://xuyuan923.github.io/
 https://github.com/huangtengfei/blog/issues
 https://github.com/fwon/blog/issues
 https://github.com/24wangchen/study/issues
+https://github.com/luics/luics.github.com/issues
+https://github.com/banricho/webLog/issues
 
 http://jayli.github.io/
 http://jayli.github.io/blog/index.html
@@ -23,3 +26,4 @@ http://www.barretlee.com/entry/
 https://imququ.com/
 https://www.h5jun.com/
 http://yujiangshui.com/
+http://furybean.com/

@@ -42,8 +42,10 @@ Microsoft Edge，2015年发布（伴随Windows 10）
 不支持 `@media`
 
 可能需要使用
-- The HTML5 shiv
-- Respond.js
+- [HTML5 Shiv](https://github.com/aFarkas/html5shiv)
+- [es5 shim](https://github.com/es-shims/es5-shim)
+- [Respond.js](https://github.com/scottjehl/Respond)
+- [Placeholders.js](https://github.com/jamesallardice/Placeholders.js)
 - Rem unit polyfill
 
 ## Reference
