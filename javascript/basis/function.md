@@ -1,17 +1,29 @@
 # function
 
+## `Function` 构造函数
+语法：
+```javascript
+new Function ([arg1[, arg2[, ...argN]],] functionBody)
+```
+
+示例：
+```javascript
+var adder = new Function('a', 'b', 'return a + b');
+adder(2, 6);
+```
+
 ## 函数语句
 语法如下：
 
 ```javascript
-function functionName(arg1, arg2, ..., argN) {
+function functionName(arg1, arg2, ...argN) {
   // statements
 }
 ```
 
 有两个注意点：
 1. 声明一个函数时，函数名不可以省略。
-2. 函数的声明会被提升。这意味着可以在声明之前调用。
+2. 函数的声明会被提升。这意味着可以在声明之前调用。同时也意味着不可以在后面直接加()调用。
 
 ```javascript
 hoisted(); // "the function is hoisted"
@@ -58,6 +70,43 @@ void function() {}();
 
 var f = function() {}();
 ```
+
+## `arguments` property
+实参 `arguments` 对象是调用函数时传入的参数，是一个类数组对象。
+
+JavaScript中本身是没有重载的，通过 `arguments` 可以模拟的功能。
+```javascript
+function add() {
+    switch (arguments.length) {
+        case 0:
+            return 0;
+            break;
+        case 1:
+            return arguments[0];
+            break;
+        case 2:
+            return arguments[0] + arguments[1];
+            break;
+        default:
+            return 0;
+    }
+}
+
+console.log(add());
+console.log(add(1));
+console.log(add(1, 2));
+```
+
+## `Function` 的实例方法
+### ES1
+- Function.prototype.call()
+- Function.prototype.toString()
+
+### ES3
+- Function.prototype.apply()
+
+### ES5
+- Function.prototype.bind()
 
 ## Reference
 > - [Immediately-Invoked Function Expression (IIFE)](http://benalman.com/news/2010/11/immediately-invoked-function-expression/), Ben Alman

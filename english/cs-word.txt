@@ -29,6 +29,7 @@ compact        adj.紧凑的,紧密的
 compatible     adj.兼容的    compatibility  n.兼容性
 compilation    n.编译
 compress       v.压缩     decompress  v.解压
+comprise       v.包含; 由...组成
 concurrency    n.并发性
 concurrent     n.并发的
 configuration  n.配置
@@ -43,6 +44,7 @@ dedicated      adj.专用的
 delegate       vt.委托
 demonstrate    v.展示
 denote         vt.表示,指示
+deprecated     adj.被弃用的,不赞成的
 descending     adj.降序,递减
 distribute     vt.分发,分配    distribution n.分布,分发
 drag-and-drop  n.拖放
@@ -51,7 +53,7 @@ drag-and-drop  n.拖放
 elevation     n.海拔,仰角
 embedded      adj.嵌入式的
 emulator      n.仿真器,模拟器
-encapsulation n.封装,封装性  
+encapsulation n.封装,封装性
 enumeration   n.枚举
 ergonomics    n.人机工程学,人类工程学
 evaluation    n.求值,评价,评估
@@ -102,13 +104,13 @@ layout
 
 ##M
 maintain      vt.维护,维持
-manifest      n.清单  
+manifest      n.清单
 manual        n.手册,指南    adj.手工的,手动的
 manufacturer  n.制造商
 map           vt.映射
 mechanism     n.机制
 merge         v.合并,融合
-migrate       v.迁移,迁移  
+migrate       v.迁移,迁移
 mock          v.模拟,模仿
 modifier      n.修饰符
 mute          v.静音
@@ -152,12 +154,13 @@ project     n.项目,工程
 prompt      v.提示    n.提示符
 propagation n.传播,传递
 property    n.属性
-prototype   n.原型  
+prototype   n.原型
 
 ##Q
 queue       n.队列
 
 ##R
+recursive       adj.递归的
 reflect         v.反射    reflective  adj.反射的
 resolution      n.分辨率
 responsiveness  n.响应能力
@@ -165,8 +168,8 @@ restriction     n.限制,约束   set restrictions on...
 resume          n.恢复,重新开始
 retrieve        v.检索,读取;取回,恢复
 revision        n.修正,修订  abbr. Rev.
-robustness      n.健壮性  
-rollback        n.回滚  
+robustness      n.健壮性
+rollback        n.回滚
 
 ##S
 scalability    n.可扩展性,可伸缩性
@@ -217,4 +220,4 @@ volatile      adj.易失的,易变的
 ##W
 wildcard     n.通配符
 wrap         v.包裹
-wrapper      n.封装器,包装器  
+wrapper      n.封装器,包装器

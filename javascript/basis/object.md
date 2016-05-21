@@ -9,7 +9,7 @@
 
 ### ES3
 - 原型方法
- - hasOwnProperty
+ - hasOwnProperty 判断是否是自身的属性，而不是来源于继承
  - isPrototypeOf
  - propertyIsEnumerable
  - toLocaleString
@@ -48,7 +48,22 @@
 - `Class.method`: 静态方法
 - `Class.prototype.method`: 实例方法
 
+### `prototype`
+所有的对象都继承了 `Object.prototype` 的方法和属性。
+
+`Object.prototype.constructor` 指明了创建该对象的函数。
+
 ### `__proto__`
+`Object.prototype.__proto__` 指向实例化该对象的构造函数的 `prototype`。
+本身不属于ECMAScript规范，应该使用 `Object.getPrototypeOf` 方法代替。
+
+```javascript
+function A(name) {
+  this.name = name;
+}
+var a = new A('John');
+console.log(a.__proto__ === A.prototype); // true
+```
 
 ## Reference
 > - [深入理解javascript原型继承](https://github.com/norfish/blog/wiki/深入理解JavaScrip面向对象和原型继承)
