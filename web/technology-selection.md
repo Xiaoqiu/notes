@@ -10,3 +10,7 @@
 
 ## 饿了么
 - AngularJS
+
+## 简聊
+- Backbone
+- React

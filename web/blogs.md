@@ -17,7 +17,11 @@ https://github.com/24wangchen/study/issues
 https://github.com/luics/luics.github.com/issues
 https://github.com/banricho/webLog/issues
 https://github.com/classicemi/blog/issues
-
+https://github.com/livoras/blog/issues
+https://github.com/xufei/blog/issues
+https://github.com/fouber/blog/issues
+https://github.com/Gaubee/blog/issues
+http://island205.github.io/
 http://jayli.github.io/
 http://jayli.github.io/blog/index.html
 https://github.com/jayli/jayli.github.com/issues
@@ -29,3 +33,5 @@ https://www.h5jun.com/
 http://yujiangshui.com/
 http://furybean.com/
 http://www.benben.cc/
+http://www.livoras.com/
+http://www.maxzhang.com/

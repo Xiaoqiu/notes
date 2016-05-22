@@ -117,6 +117,12 @@
 
 ## 其他
 
+### Teambition
+- Teambition开发团队
+ - [Blog](https://www.teambition.com/developer/blog)
+- 简聊
+ - [GitHub](https://github.com/jianliaoim)
+
 ### 魅族
 - 魅族科技开发团队
  - [Blog](https://segmentfault.com/blog/meizu)
