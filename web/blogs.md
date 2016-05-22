@@ -16,6 +16,7 @@ https://github.com/fwon/blog/issues
 https://github.com/24wangchen/study/issues
 https://github.com/luics/luics.github.com/issues
 https://github.com/banricho/webLog/issues
+https://github.com/classicemi/blog/issues
 
 http://jayli.github.io/
 http://jayli.github.io/blog/index.html
@@ -27,3 +28,4 @@ https://imququ.com/
 https://www.h5jun.com/
 http://yujiangshui.com/
 http://furybean.com/
+http://www.benben.cc/

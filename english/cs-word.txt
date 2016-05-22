@@ -172,6 +172,7 @@ robustness      n.健壮性
 rollback        n.回滚
 
 ##S
+scaffold       n.脚手架
 scalability    n.可扩展性,可伸缩性
 scenario       n.场景,情境;设想,方案
 schema         n.模式,架构

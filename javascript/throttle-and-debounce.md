@@ -35,6 +35,7 @@ window.onresize = function () {
 ```
 
 ## Reference
+- [怎样防止重复发送 Ajax 请求？](https://www.zhihu.com/question/19805411)
 - [浅谈 Underscore.js 中 _.throttle 和 _.debounce 的差异](https://blog.coding.net/blog/the-difference-between-throttle-and-debounce-in-underscorejs)
 - [浅谈javascript的函数节流](http://www.alloyteam.com/2012/11/javascript-throttle/)
 - [再谈JAVASCRIPT函数节流](http://www.cnphp6.com/archives/120105)

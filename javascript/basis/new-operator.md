@@ -47,9 +47,9 @@ var app = new App();
 var app = new App;
 ```
 
-2. 忘记使用 `new` 操作符，构造函数中的变量变成全局变量
- - 解决方法1: 在构造函数内部使用严格模式 `"use strict"`。
- - 解决方法2: 在构造函数内部使用 `instanceof` 判断 `this` 是否是函数的实例。
+2. 忘记使用 `new` 操作符，构造函数中的变量变成全局变量  
+  解决方法1: 在构造函数内部使用严格模式 `"use strict"`。  
+  解决方法2: 在构造函数内部使用 `instanceof` 判断 `this` 是否是函数的实例。
 
 ## Reference
 > - [new operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
