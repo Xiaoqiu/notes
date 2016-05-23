@@ -18,6 +18,7 @@
 - 阿里妈妈MUX/etao UX Team
  - [Blog](http://mux.alimama.com/)
  - [GitHub](https://github.com/etaoux)
+ - [THX](https://github.com/thx)
 - 阿里巴巴中文站UED
  - [Blog](http://www.aliued.cn/)
 - 阿里巴巴国际UED
