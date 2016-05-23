@@ -1,7 +1,8 @@
 # Closures
 
-闭包是引用了自由变量的函数。
-闭包由两部分构成：函数，以及创建该函数的环境。环境由闭包创建时在作用域中的任何局部变量组成。
+闭包是引用了自由变量的函数。它由两部分构成：函数，以及创建该函数的环境。环境由闭包创建时在作用域中的任何局部变量组成。
+
+创建闭包时，常常会使用到匿名函数和立即调用函数，它们是完全不同的三个概念。
 
 使用闭包的缺点：空间浪费，内存泄漏，性能消耗
 
@@ -93,6 +94,7 @@ for (var i = 0; i < 5; i++) {
 > - [Javascript Closures](http://jibbering.com/faq/notes/closures/), Jim Ley
 > - [学习Javascript闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html), 阮一峰
 > - [闭包里的自由变量](http://zhuanlan.zhihu.com/browsnet/20658538), 李引证
+> - [深入理解javascript原型和闭包（14）——从【自由变量】到【作用域链】](http://www.cnblogs.com/wangfupeng1988/p/3992795.html)
 > - [Javascript闭包篇](http://wlog.cn/javascript/javascript-closures.html)
 > - [javascript闭包学习总结](http://cuckoosnest.iteye.com/blog/470121)
 > - [理解Javascript的闭包](http://coolshell.cn/articles/6731.html), CoolShell

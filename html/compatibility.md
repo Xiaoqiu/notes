@@ -1,4 +1,4 @@
-## 浏览器兼容性问题
+# 浏览器兼容性问题
 - HTML5支持
 - CSS3支持
 - ES5支持
@@ -54,3 +54,4 @@ Microsoft Edge，2015年发布（伴随Windows 10）
 > - [Can I use](http://caniuse.com/)
 > - [IE compatibility changes by version](https://msdn.microsoft.com/en-us/library/dn467846(v=vs.85).aspx)
 > - [浏览器市场份额 - 百度统计流量研究院](http://tongji.baidu.com/data/browser)
+> - [怪异模式（Quirks Mode）对 HTML 页面的影响](https://www.ibm.com/developerworks/cn/web/1310_shatao_quirks/)

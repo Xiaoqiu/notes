@@ -1,5 +1,8 @@
 # Backbone
 
+## Framework
+- Marionette.js
+
 ## 书
 - [ ] [Developing Backbone.js Applications 2012-7-22](https://addyosmani.com/backbone-fundamentals/), Addy Osmani
 
