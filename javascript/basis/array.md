@@ -95,6 +95,16 @@ var roots = numbers.map(Math.sqrt);
 console.log(roots);
 ```
 
+## splice
+```javascript
+var numbers = [4, 9, 16, 25];
+var startIndex = 0;
+var deleteCount = 1;
+var removed = numbers.splice(startIndex, deleteCount, 1, 2, 3, 4);
+console.log(removed); // [4]
+console.log(numbers); // [1, 2, 3, 4, 9, 16, 25]
+```
+
 ## Reference
 > - [Array - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 > - [Array.of Function - MSDN](https://msdn.microsoft.com/en-us/library/dn858232(v=vs.94).aspx)

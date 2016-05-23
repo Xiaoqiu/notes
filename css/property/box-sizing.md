@@ -1,4 +1,5 @@
 # box-sizing
+IE8+的浏览器都支持`box-sizing`属性。
 
 默认值，width和height属性不受padding和border影响。  
 实际页面中元素的实际宽度是4者相加的结果。
