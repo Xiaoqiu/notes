@@ -5,6 +5,8 @@
 - [QuirksMode.org](http://www.quirksmode.org/), Peter-Paul Koch
 - [JavaScript is Sexy](http://javascriptissexy.com/), Richard
 
+- [Mozilla Hacks](https://hacks.mozilla.org/)
+- [CSS-Tricks](https://css-tricks.com/)
 
 https://github.com/creeperyang/blog
 http://hawx1993.github.io/

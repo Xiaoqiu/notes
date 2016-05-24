@@ -109,3 +109,4 @@ session 的存放可以选择
 - [express中session设置secret后整体流程是什么？](https://cnodejs.org/topic/55c37de8b98f51142b367aba)
 - [详说 Cookie, LocalStorage 与 SessionStorage](http://jerryzou.com/posts/cookie-and-web-storage/)
 - [跨终端跨域的存储方案](https://github.com/luics/storage/wiki/Storage)
+- [Cookies](http://www.quirksmode.org/js/cookies.html)

@@ -33,6 +33,22 @@ console.log(person.name);
 ## 修改this的指向
 call/apply方法可以修改this指向，bind方法可以绑定this的指向。
 
+## 测试
+```javascript
+var foo = 1;
+function main() {
+	console.log(foo);
+	var foo = 2;
+	console.log(this.foo);
+	this.foo = 3;
+}
+
+main(); // undefined 1
+new main(); // undefined undefined
+```
+知识点：声明提升，this，普通函数和构造函数
+
+
 ## Reference
 > - [快速理解JavaScript中this的用法与陷阱](https://segmentfault.com/a/1190000004580525)
 > - [Javascript的this用法](http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html)

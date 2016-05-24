@@ -64,3 +64,28 @@ function A(name) {
 var a = new A('John');
 console.log(a.__proto__ === A.prototype); // true
 ```
+
+```javascript
+function A(params) {
+	params = params || {};
+
+	for(var key in params){
+		Object.defineProperty(this, key, {
+			get: function () {
+				return params[key];
+			},
+			enumerable: false
+		});
+	}
+}
+
+var a = new A({
+	'x': 'X',
+	'y': 'Y',
+	'z': 'Z'
+});
+
+console.log(a.x); // Z
+console.log(a.y); // Z
+console.log(a.z); // Z
+```

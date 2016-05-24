@@ -49,6 +49,13 @@
  - [keys]()
  - [values]()
 
+## join
+```javascript
+// 多维数组
+var arr = [1, [2, [3, [4]], 5]];
+console.log(arr.join()); // "1,2,3,4,5"
+```
+
 ## forEach
 用于遍历数组，没有返回值
 ```javascript
@@ -87,6 +94,12 @@ var newNumbers = numbers.map(function (number) {
 });
 
 console.log(newNumbers); // [8, 19, 32, 50]
+
+var stringArray = ['1', '2', '3', '4'];
+var numArray = stringArray.map(el){
+  return parseInt(el);
+};
+// stringArray.map(parseInt); // [1, NaN, NaN]
 
 // ES6 arrow function
 numbers.map((number) => number * 2)

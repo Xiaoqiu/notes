@@ -19,12 +19,12 @@
 <button id="btn">Click</button>
 <script>
     var btnEl = document.getElementById('btn');
-    
+
     // 元素的 event handler 只有一个会生效
     btnEl.onclick = function () {
         console.log('click (from event handler)');
     };
-    
+
     // 删除元素的evet handler
     // btnEl.onclick = null;
 
@@ -37,7 +37,7 @@
         console.log('click (from another event listener)');
     }, false);
 
-    // removeEventListener 要生效, 必须传入与 addEventListener 相同的参数, 
+    // removeEventListener 要生效, 必须传入与 addEventListener 相同的参数,
     // 包括 handler 必须是同一个函数（意味着匿名函数不能移除）
     btnEl.removeEventListener('click', function () {
         console.log('click (from another event listener)');
@@ -61,4 +61,6 @@ btnEl.attachEvent('onclick', function () {
 });
 ```
 
-
+##
+- preventDefault() 阻止默认事件
+- stopPropagation() 阻止事件冒泡
