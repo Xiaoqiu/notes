@@ -16,7 +16,13 @@ var obj = {
     console.log(this.name);
   }
 };
-obj.say();
+obj.say(); // 'John'
+
+var func = obj.say;
+func(); // undefined，此时this指向全局
+
+var func2 = obj.say.bind(obj);
+func2(); // 'John'
 ```
 
 ### 在构造函数中，this指向实例对象

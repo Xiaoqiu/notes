@@ -19,25 +19,10 @@ false。
 
 ## 8. 若某浏览器的数组对象不支持sort排序方法，手动实现一个sort方法。
 要求：sort([5, 100, 6, 3, -12]) 返回 [-12, 3, 5, 6, 100]
-```javascript
-function sort(arr) {
-  var len = arr.length;
-  if (len <= 1) {
-      return arr;
-  }
-  var pivotIndex = Math.floor(len / 2);
-  var pivot = arr[pivotIndex];
-  var left  = [];
-  var right = [];
-  for (var i = 0; i < len; i++) {
-      if (i !== pivotIndex) {
-          if (arr[i] < pivot) {
-              left.push(arr[i]);
-          } else {
-              right.push(arr[i]);
-          }
-      }
-  }
-  return (quickSort(left)).concat(pivot, quickSort(right));
-}
-```
+
+## 9. 写一段代码，限制用户向textarea元素输入的字符数量不超过140个。
+
+
+## 10. 如何实现事件委托？
+
+## 11. promise的实现

@@ -98,6 +98,11 @@ console.log(add(1));
 console.log(add(1, 2));
 ```
 
+将 `arguments` 转换成真正的数组
+```javascript
+var args = Array.prototype.slice.call(arguments);
+```
+
 ## `Function` 的实例方法
 - ES1
  - Function.prototype.call()
@@ -106,6 +111,8 @@ console.log(add(1, 2));
  - Function.prototype.apply()
 - ES5
  - Function.prototype.bind()
+
+
 
 ## Reference
 > - [Immediately-Invoked Function Expression (IIFE)](http://benalman.com/news/2010/11/immediately-invoked-function-expression/), Ben Alman
