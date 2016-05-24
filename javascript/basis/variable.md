@@ -6,7 +6,7 @@
  - primitive wrapper value (基本包装类型)
 
 ### 5种原始类型 -> 按值访问
-Undefined, Null, Boolean, Number, String; Symbol (ES6)
+Undefined, Null, Boolean, Number, String, Symbol (ES6)
 
 ### 引用类型 -> 按引用访问
 Object, Array, Date, RegExp, Function, Error; 基本包装类型 (Boolean, Number, String); Map, Set (ES6)
@@ -39,5 +39,5 @@ Object.prototype.toString.call('hello') === '[object String]' // true
 'hello'.constructor ==== '[object String]' // true
 ```
 
-> [Primitive value vs Reference value](https://stackoverflow.com/questions/13266616/primitive-value-vs-reference-value)
-
+> - [Primitive value vs Reference value](https://stackoverflow.com/questions/13266616/primitive-value-vs-reference-value)
+> - [JavaScript中“基本类型”之争](http://www.cnblogs.com/snandy/archive/2013/01/02/2841899.html)

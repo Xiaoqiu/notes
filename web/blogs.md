@@ -37,3 +37,5 @@ http://furybean.com/
 http://www.benben.cc/
 http://www.livoras.com/
 http://www.maxzhang.com/
+
+http://www.cnblogs.com/snandy/
