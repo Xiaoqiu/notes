@@ -7,6 +7,7 @@
 
 - [Mozilla Hacks](https://hacks.mozilla.org/)
 - [CSS-Tricks](https://css-tricks.com/)
+- [HTML5 Rocks](http://www.html5rocks.com/)
 
 https://github.com/creeperyang/blog
 http://hawx1993.github.io/
@@ -27,6 +28,7 @@ http://island205.github.io/
 http://jayli.github.io/
 http://jayli.github.io/blog/index.html
 https://github.com/jayli/jayli.github.com/issues
+https://github.com/kuitos/kuitos.github.io/issues
 
 https://blog.oyanglul.us/index.html
 http://www.barretlee.com/entry/
@@ -37,5 +39,9 @@ http://furybean.com/
 http://www.benben.cc/
 http://www.livoras.com/
 http://www.maxzhang.com/
+http://heeroluo.net/
 
 http://www.cnblogs.com/snandy/
+http://www.cnblogs.com/wangmeijian/
+
+https://blog.coding.net/technology/blogs

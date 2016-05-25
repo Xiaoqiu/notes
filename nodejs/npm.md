@@ -31,6 +31,12 @@ npm install -g <package_name> # 更新全局安装的指定依赖包
 npm update -g # 更新所有需要更新的依赖包
 ```
 
+## 列出安装的所有依赖包
+```shell
+npm list --depth=0 # 列出项目中安装的所有依赖包
+npm list -g --depth=0 # 列出全局安装的所有依赖包
+```
+
 ## 运行脚本
 ```shell
 npm run-script <command> [-- <args>...]

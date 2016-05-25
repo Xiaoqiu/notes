@@ -1,2 +1,2 @@
 - http://zhaopin.meituan.com/
-- 
+- http://jobs.baixing.com/

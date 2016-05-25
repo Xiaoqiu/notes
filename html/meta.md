@@ -8,6 +8,11 @@ IE兼容模式
 <meta name="renderer" content="webkit">
 ```
 
+禁止百度转码
+```html
+<meta http-equiv="Cache-Control" content="no-transform">
+```
+
 取消浏览器对页面中电话号码和email的自动识别
 ```html
 <meta name="format-detection" content="telephone=no, email=no">
@@ -20,5 +25,16 @@ Chrome地址栏颜色
 
 Viewport缩放
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+```
+
+SEO
+```html
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+```
+Robots协议
+```html
+<meta name="robots" content="all">
 ```

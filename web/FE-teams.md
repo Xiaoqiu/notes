@@ -135,3 +135,6 @@
 
 ### Medium
 - [GitHub](https://github.com/Medium/)
+
+### Coding
+- [Blog](https://blog.coding.net/technology/blogs)
