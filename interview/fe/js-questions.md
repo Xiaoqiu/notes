@@ -41,4 +41,14 @@ str.replace(/\d{1,3}(?=(\d{3})+$)/g, function(s){
 
 ## 15. isNaN()的作用
 
-## 16. setTimeout和setInterval 
+## 16. setTimeout和setInterval
+
+## 17. 数组去重
+
+## 18. AMD CMD 模块化JS
+
+## 19. 重绘与回流及相关性能
+
+## 20. dom的操作，删除，移动，复制，插入，前插后插，指定插一类
+
+## 21. 简述JavaScript延迟加载的方式

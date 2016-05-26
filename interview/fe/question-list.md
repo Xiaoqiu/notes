@@ -33,4 +33,4 @@
 [也来说说touch事件与点击穿透问题](https://segmentfault.com/a/1190000003848737)
 [fastclick与zepto的 tap事件关于在手机上click事件的300ms延迟的区别](http://www.cnblogs.com/lilyimage/p/3740668.html)
 
-##
+## 谈谈你在过去的项目中遇到的最大的挑战。可以从以下方面进行描述：用到了哪些新技术？挑战点在哪里？过程中和结果的收获是什么？

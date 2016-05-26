@@ -34,14 +34,16 @@
  - [Blog](http://alinode.aliyun.com/blog)
 
 ### 百度
-- Baidu EFE （前ECOM前端团队）
+- Baidu EFE（前ECOM前端团队）
  - [Blog](http://efe.baidu.com/)
  - [GitHub](https://github.com/ecomfe)
 - Baidu FEX（百度前端研发部）
  - [Blog](http://fex.baidu.com/)
  - [GitHub](https://github.com/fex-team/)
+- Baidu MUX（百度移动用户体验部）
+ - [Blog](http://mux.baidu.com/)
 - Baidu EUX（百度企业产品用户体验中心）
-  - [Blog](http://eux.baidu.com/)
+ - [Blog](http://eux.baidu.com/)
 - Baidu SEX（百度搜索用户体验中心）
  - [Blog](http://sux.baidu.com/)
 

@@ -1,6 +1,11 @@
-## 查看远程分支
+## 查看当前的远程库
 ```shell
 git remote -v
+```
+
+## 查看远程仓库信息
+```shell
+git remote show origin
 ```
 
 ## 为新的本地项目增加远程仓库地址

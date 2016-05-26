@@ -11,4 +11,5 @@
 - 使用 `@import` 语法引入的CSS文件，会在页面所有资源加载完毕后下载
 - CSS优先级与下载顺序无关
 
-## 6. 简述JavaScript延迟加载的方式
+## 6. css的position属性有哪些取值，它们的行为是什么？
+position属性常用的取值static、relative以及absolute和它们的基本行为是每个前端都应该掌握的。这包括relative和absolute的定位原点

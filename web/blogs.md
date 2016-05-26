@@ -8,6 +8,7 @@
 - [Mozilla Hacks](https://hacks.mozilla.org/)
 - [CSS-Tricks](https://css-tricks.com/)
 - [HTML5 Rocks](http://www.html5rocks.com/)
+- [IBM developerWorks](https://www.ibm.com/developerworks/cn/)
 
 https://github.com/creeperyang/blog
 http://hawx1993.github.io/
@@ -40,6 +41,7 @@ http://www.benben.cc/
 http://www.livoras.com/
 http://www.maxzhang.com/
 http://heeroluo.net/
+http://iconmoon.com/blog2/
 
 http://www.cnblogs.com/snandy/
 http://www.cnblogs.com/wangmeijian/
