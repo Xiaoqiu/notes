@@ -4,6 +4,10 @@
 - ES5支持
 - Web API支持（addEventListener）
 
+## 策略
+- 渐进增强(progressive enhancement): 一开始只构建站点的最少特性，然后不断针对各浏览器追加功能
+- 优雅降级(graceful degradation)：一开始就构建站点的完整功能，然后针对浏览器测试和修复
+
 ## 兼容性视图
 IE8+支持
 

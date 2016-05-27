@@ -1,4 +1,5 @@
 # Media Queries（媒体查询）
+媒体类型 + 查询条件
 
 ## 1. Standard
 - [Media Queries](https://www.w3.org/TR/css3-mediaqueries/)
@@ -16,8 +17,10 @@
     CSS-Code;
 }
 ```
+
 或者
 ```html
+/* 不符合规则的CSS文件依然会下载，只是不生效 */
 <link rel="stylesheet" media="mediatype and|not|only (media feature)" href="style.css">
 ```
 
@@ -26,7 +29,7 @@
 - `screen`: Used for computer screens, tablets, smart-phones etc.
 - `print`: Used for printers
 - `speech`: Used for screenreaders that "reads" the page out loud
- 
+
 ## 3.2 Media feature
 - width | min-width | max-width
 - height | min-height | max-height

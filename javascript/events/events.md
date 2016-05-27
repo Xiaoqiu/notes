@@ -67,4 +67,4 @@ btnEl.attachEvent('onclick', function () {
 
 ## 4. Event methods
 - preventDefault() 阻止默认事件
-- stopPropagation() 阻止事件冒泡
+- stopPropagation() 阻止事件传递
