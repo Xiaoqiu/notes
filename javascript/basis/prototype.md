@@ -20,3 +20,4 @@
 > - [JavaScript实现继承的几种方式](http://www.raychase.net/149)
 > - [JavaScript 中继承实现方式归纳](https://github.com/classicemi/blog/issues/10)
 > - [javascript oo实现](http://purplebamboo.github.io/2014/07/13/javascript-oo-class/)
+> - [谈谈javascript中的prototype与继承](http://www.cnblogs.com/lwzz/archive/2013/03/03/2941743.html)

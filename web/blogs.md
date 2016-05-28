@@ -41,6 +41,9 @@ http://www.benben.cc/
 http://www.livoras.com/
 http://www.maxzhang.com/
 http://heeroluo.net/
+http://www.welefen.com/
+http://www.myj.name/
+http://zjy.name/
 http://iconmoon.com/blog2/
 
 http://www.cnblogs.com/snandy/

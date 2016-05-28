@@ -89,3 +89,16 @@ console.log(a.x); // Z
 console.log(a.y); // Z
 console.log(a.z); // Z
 ```
+
+```javascript
+var F = function(){};
+Object.prototype.a = function(){
+  console.log('a');
+};
+Function.prototype.b = function(){
+  console.log('b');
+};
+var f = new F();
+var a = f.a;
+var b = f.constructor.b;
+```

@@ -42,6 +42,8 @@
  - [GitHub](https://github.com/fex-team/)
 - Baidu MUX（百度移动用户体验部）
  - [Blog](http://mux.baidu.com/)
+- Search UX（百度搜索用户体验中心）
+ - [](http://ued.baidu.com/)
 - Baidu EUX（百度企业产品用户体验中心）
  - [Blog](http://eux.baidu.com/)
 - Baidu SEX（百度搜索用户体验中心）

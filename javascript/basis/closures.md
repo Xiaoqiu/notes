@@ -100,6 +100,7 @@ for (var i = 0; i < 5; i++) {
 > - [理解Javascript的闭包](http://coolshell.cn/articles/6731.html), CoolShell
 > - [详解js闭包](https://segmentfault.com/a/1190000000652891)
 > - [闭包的概念、形式与应用](https://www.ibm.com/developerworks/cn/linux/l-cn-closure/)
+> - [详解JavaScript中的函数与闭包](http://www.cnblogs.com/lwzz/archive/2013/04/14/2953117.html)
 
 ## Questions
 > - [为什么javascript closure(闭包)要叫闭包？](https://www.zhihu.com/question/35177512)
