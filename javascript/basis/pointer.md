@@ -16,7 +16,7 @@ console.log(b.x); // {n: 2}
 执行 `a.x = a = {n: 2};` 时，`a` 和 `a.x` 指向 `{n: 2}`，
 而再次执行 `a.x` 时，对 `a` 对象重新取值，`{n: 2}.x=undefined`。
 
-![js-pointer.png]
+![](js-pointer.png)
 
 ## Reference
 > - [javascript 连等赋值问题](https://segmentfault.com/q/1010000002637728)
