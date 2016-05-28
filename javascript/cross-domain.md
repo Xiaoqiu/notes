@@ -1,3 +1,6 @@
+- CORS
+- JSONP
+
 ## Reference
 > - [iframe跨域通信的通用解决方案-第二弹!（终极解决方案）](http://www.alloyteam.com/2013/11/the-second-version-universal-solution-iframe-cross-domain-communication/)
 > - [iframe跨域通信的通用解决方案](http://www.alloyteam.com/2012/08/lightweight-solution-for-an-iframe-cross-domain-communication/)

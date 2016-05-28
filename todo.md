@@ -18,3 +18,5 @@ http://www.kanzhihu.com/api-document
 
 4. 按拼音分组，选人/城市组件
  - 数据源 -> 拼音
+
+5. 时间/城市选择器

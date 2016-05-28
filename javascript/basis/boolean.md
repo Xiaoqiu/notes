@@ -38,4 +38,19 @@ var text = '';
 if(text){
 	console.log(true);
 }
+
+/*
+ *  new Boolean(false) 是 Boolean 对象，判断为 true
+ *  Boolean(false) 是 Boolean 类型的值，为 false
+ */
+var x = new Boolean(false);
+var y = Boolean(false);
+
+if (x) {
+	console.log(true);
+}
+if (y) {
+	console.log(true);
+}
+
 ```

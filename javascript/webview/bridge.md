@@ -1,3 +1,10 @@
+Native 主动与 Web 通信
+JS调用WebView的window对象上的方法
+Native获取window对象，调用JS方法
+
+Web 主动与 Native 通信
+修改URL
+
 ## for iOS
 ### JavaScript -> Native
 1. 自定义URL

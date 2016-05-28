@@ -45,8 +45,10 @@ http://www.welefen.com/
 http://www.myj.name/
 http://zjy.name/
 http://iconmoon.com/blog2/
+http://jixianqianduan.com/
 
 http://www.cnblogs.com/snandy/
 http://www.cnblogs.com/wangmeijian/
+http://www.cnblogs.com/yexiaochai/
 
 https://blog.coding.net/technology/blogs
