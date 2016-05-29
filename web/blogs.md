@@ -26,7 +26,9 @@ https://github.com/xufei/blog/issues
 https://github.com/fouber/blog/issues
 https://github.com/Gaubee/blog/issues
 http://island205.github.io/
+http://annatarhe.github.io
 http://jayli.github.io/
+https://github.com/swfbarhr/blog
 http://jayli.github.io/blog/index.html
 https://github.com/jayli/jayli.github.com/issues
 https://github.com/kuitos/kuitos.github.io/issues
@@ -44,8 +46,11 @@ http://heeroluo.net/
 http://www.welefen.com/
 http://www.myj.name/
 http://zjy.name/
+http://jiongks.name/
 http://iconmoon.com/blog2/
 http://jixianqianduan.com/
+https://undefinedblog.com/
+http://www.zhangxinxu.com/wordpress/
 
 http://www.cnblogs.com/snandy/
 http://www.cnblogs.com/wangmeijian/

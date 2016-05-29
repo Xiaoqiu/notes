@@ -15,6 +15,8 @@
 3. 知乎日报
 https://gist.github.com/sxyx2008/f3f320a512030292362d
 http://www.kanzhihu.com/api-document
+https://github.com/troywith77/react-zhihudaily
+https://github.com/troywith77/react-weather
 
 4. 按拼音分组，选人/城市组件
  - 数据源 -> 拼音
