@@ -20,5 +20,7 @@ https://github.com/troywith77/react-weather
 
 4. 按拼音分组，选人/城市组件
  - 数据源 -> 拼音
+https://github.com/Katherina-Miao/alphabet-sidenav
+https://github.com/sunnylqm/react-native-alphabetlistview
 
 5. 时间/城市选择器
