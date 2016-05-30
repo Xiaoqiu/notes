@@ -34,7 +34,7 @@
 > Linux上的等宽字体选择: `DejaVu Sans Mono`
 
 ## WebStorm配置修改
-1. Keymap选择`IntelliJ IDEA Classic - Mac OS X 10.5`，Theme和Color Scheme选`Darcula` 
+1. Keymap选择`IntelliJ IDEA Classic - Mac OS X 10.5`，Theme和Color Scheme选`Darcula`
 2. 支持ReactJS的JSX语法: Languages & Frameworks -> JavaScript -> JavaScript language version改为`JSX Harmony`
 3. 让移动设备可以访问WebStorm中开发的web项目：Build, Execution, Deployment -> Debugger -> 勾选`Can accept external connections`
 
@@ -49,4 +49,3 @@
  - Warn: `#BBB529`
  - Error: `#FF6B68`
  - Assert: `#9876AA`
-

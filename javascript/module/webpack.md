@@ -44,3 +44,6 @@ module.exports = {
 ```shell
 npm install webpack-dev-server -g
 ```
+
+## Reference
+> - [Webpack 中文指南](https://zhaoda.gitbooks.io/webpack/content/)

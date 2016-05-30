@@ -71,11 +71,30 @@ void function() {}();
 var f = function() {}();
 ```
 
+## 参数使用值传递
+函数中所有的参数按值传递，参数会被赋值给函数内的局部变量
+```javascript
+function changeStuff(a, b, c) {
+	a = a * 10;
+	b.item = "changed"; // 由于值传递，obj1和b是对同一个对象的引用
+	c = {item: "changed"};
+}
+
+var num = 10;
+var obj1 = {item: "unchanged"};
+var obj2 = {item: "unchanged"};
+
+changeStuff(num, obj1, obj2);
+
+console.log(num); // 10
+console.log(obj1.item); // "changed"
+console.log(obj2.item); // "unchanged"
+```
+
 ## `arguments` property
 实参 `arguments` 对象是调用函数时传入的参数，是一个类数组对象。
-`arguments` 对象的 `callee` 属性指向函数本身，严格模式下禁止使用。
 
-JavaScript中本身是没有重载的，通过 `arguments` 可以模拟的功能。
+1. JavaScript中本身是没有重载的，通过 `arguments` 可以模拟的功能。
 ```javascript
 function add() {
     switch (arguments.length) {
@@ -98,10 +117,24 @@ console.log(add(1));
 console.log(add(1, 2));
 ```
 
-将 `arguments` 转换成真正的数组
+2. 将 `arguments` 转换成真正的数组
 ```javascript
 var args = Array.prototype.slice.call(arguments);
 ```
+
+3. `arguments` 对象的 `callee` 属性指向拥有该 `arguments` 对象的函数，严格模式下禁止使用。
+`callee` 常被用于递归函数。
+
+```javascript
+function factorial(num) {
+  if (num<=1) {
+    return 1;
+  } else {
+    return num * arguments.callee(num-1);
+  }
+}
+```
+
 
 ## `Function` 的实例方法
 - ES1

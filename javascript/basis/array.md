@@ -2,7 +2,7 @@
 
 ## ES1
 - 转换
- - [join](#reverse)
+ - [join](#join)
 - 排序
  - [reverse](#reverse)
  - [sort](#sort)
@@ -45,7 +45,7 @@
  - [find]()
  - [findIndex]()
  - [includes]()
- - [entries]()
+ - [entries](#entries)
  - [keys]()
  - [values]()
 
@@ -54,6 +54,13 @@
 // 多维数组
 var arr = [1, [2, [3, [4]], 5]];
 console.log(arr.join()); // "1,2,3,4,5"
+```
+
+## reverse
+```javascript
+var arr = ['one', 'two', 'three'];
+arr.reverse();
+console.log(arr); // ['three', 'two', 'one']
 ```
 
 ## forEach
@@ -108,6 +115,15 @@ var roots = numbers.map(Math.sqrt);
 console.log(roots);
 ```
 
+## contat
+```javascript
+var num1 = [1, 2, 3];
+var num2 = 4;
+var num3 = [5, 6, 7];
+var nums = num1.concat(num2, num3);
+console.log(nums); // [1, 2, 3, 4, 5, 6, 7]
+```
+
 ## splice
 ```javascript
 var numbers = [4, 9, 16, 25];
@@ -116,6 +132,16 @@ var deleteCount = 1;
 var removed = numbers.splice(startIndex, deleteCount, 1, 2, 3, 4);
 console.log(removed); // [4]
 console.log(numbers); // [1, 2, 3, 4, 9, 16, 25]
+```
+
+## entries
+```javascript
+var arr = ['a', 'b', 'c'];
+var eArr = arr.entries();
+
+console.log(eArr.next().value); // [0, 'a']
+console.log(eArr.next().value); // [1, 'b']
+console.log(eArr.next().value); // [2, 'c']
 ```
 
 ## Reference
