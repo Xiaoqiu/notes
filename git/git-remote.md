@@ -17,3 +17,7 @@ git remote add origin <remote_repo>
 ```shell
 git remote set-url origin <remote_repo>
 ```
+
+```shell
+git remote prune
+```

@@ -1,8 +1,8 @@
 React
-Flux
-Redux
+Flux/Redux
 React Router
-
+Immutable.js
+Relay/Falcor
 
 - [React 注意事项](https://annatarhe.github.io/2015/11/07/react-hell.html)
 - [Tutorial: Setting Up a Simple Isomorphic React app](http://jmfurlott.com/tutorial-setting-up-a-simple-isomorphic-react-app/)

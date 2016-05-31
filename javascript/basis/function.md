@@ -94,7 +94,7 @@ console.log(obj2.item); // "unchanged"
 ## `arguments` property
 实参 `arguments` 对象是调用函数时传入的参数，是一个类数组对象。
 
-1. JavaScript中本身是没有重载的，通过 `arguments` 可以模拟的功能。
+1. JavaScript中函数本身是没有重载的，通过 `arguments` 可以模拟的功能。
 ```javascript
 function add() {
     switch (arguments.length) {

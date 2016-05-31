@@ -31,3 +31,48 @@
 - str.startsWith(searchString[, position]): 查明字符串str是否以指定字符串作为开始
 - str.endsWith(searchString[, position]): 查明字符串str是否以指定字符串作为结束
 - str.repeat(count):
+
+```javascript
+var englishString = 'Brave new world';
+var chineseString = '天地玄幻，宇宙洪荒。';
+var emojiString = '😂'; // U+1F602
+
+console.log(englishString.charAt(0)); // "B"
+console.log(chineseString.charAt(0)); // "天"
+console.log(emojiString.charAt(0)); // "天"
+
+console.log(englishString.charCodeAt(0)); // 66
+console.log(chineseString.charCodeAt(0)); // 22825
+console.log(emojiString.charCodeAt(0)); // 55357
+
+console.log(englishString.codePointAt(0)); // 66
+console.log(chineseString.codePointAt(0)); // 22825
+console.log(emojiString.codePointAt(0)); // 128514
+
+console.log(englishString.concat(', another world', ', etc.')); // "Brave new world, another world, etc."
+
+var str = 'To be, or not to be, that is the question.';
+console.log(str.endsWith('question.')); // true
+console.log(str.endsWith('the')); // false
+console.log(str.endsWith('the', 32)); // true
+
+'Blue Whale'.indexOf('Whale'); // returns  5
+'Blue Whale'.indexOf('White'); // returns  -1
+'Blue Whale'.indexOf('Whale', 0); // returns  5
+'Blue Whale'.indexOf('Whale', 5); // returns  5
+
+'Jingle bells, Jingle bells, Jingle all the way'.lastIndexOf('Jingle'); // returns 28
+'Jingle bells, Jingle bells, Jingle all the way'.lastIndexOf('White'); // returns  -1
+'Jingle bells, Jingle bells, Jingle all the way'.lastIndexOf('Jingle', 0); // returns  0
+'Jingle bells, Jingle bells, Jingle all the way'.lastIndexOf('Jingle', 16); // returns  14
+
+var hint = 'For more information, see Chapter 3.4.5.1';
+var re = /see (chapter \d+(\.\d)*)/i;
+var found = hint.match(re);
+console.log(found); // [ 'see Chapter 3.4.5.1', 'Chapter 3.4.5.1', '.1', index: 22, input: 'For more information, see Chapter 3.4.5.1' ]
+console.log(''.match(re)); // null
+
+var sentence = 'Twas the night before Xmas...';
+var newSentence = sentence.replace(/xmas/i, 'Christmas');
+console.log(newSentence);  // Twas the night before Christmas...
+```
