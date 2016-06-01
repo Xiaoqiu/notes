@@ -1,4 +1,7 @@
-ES5
+
+## 类
+
+### ES5
 ```javascript
 // 构造函数
 function Point(x, y) {
@@ -15,7 +18,7 @@ var point = new Point(2, 3);
 console.log(point.toString());
 ```
 
-ES6
+### ES6
 ```javascript
 // 类
 class Point {
@@ -33,6 +36,36 @@ class Point {
 
 var point = new Point(2, 3);
 console.log(point.toString());
+```
+
+## 继承
+
+### ES5
+```javascript
+function PointColor(x, y, color) {
+  Point.apply(this, x, arguments);
+  this.color = color;
+}
+
+PointColor.prototype = Object.create(Point.prototype);
+PointColor.prototype.constructor = PointColor;
+PointColor.prototype.toString = function () {
+  return this.color + ' ' + Point.prototype.toString.call(this);
+}
+```
+
+### ES6
+```javascript
+class PointColor extends Point {
+    constructor(x, y, color) {
+        super(x, y);
+        this.color = color;
+    }
+
+    toString() {
+        return this.color + ' ' + super.toString();
+    }
+}
 ```
 
 ## Reference

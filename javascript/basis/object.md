@@ -111,27 +111,13 @@ var a = f.a;
 var b = f.constructor.b;
 ```
 
-### `Object.create()` Polyfill
+### `Object.create()` Polyfill 简单实现
 ```javascript
-if (typeof Object.create != 'function') {
-  Object.create = (function () {
-    var Temp = function () {
-    };
-    return function (prototype) {
-      if (arguments.length > 1) {
-        throw Error('Second argument not supported');
-      }
-      if (prototype !== Object(prototype) && prototype !== null) {
-        throw TypeError('Argument must be an object or null');
-      }
-      if (prototype === null) {
-        throw Error('null [[Prototype]] not supported');
-      }
-      Temp.prototype = prototype;
-      var result     = new Temp();
-      Temp.prototype = null;
-      return result;
-    };
-  })();
+if (typeof Object.create !== 'function') {
+  Object.create = function (proto) {
+    var F = function () {};
+    F.prototype = proto;
+    return new F();
+  };
 }
 ```

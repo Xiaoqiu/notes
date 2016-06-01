@@ -145,6 +145,7 @@ perspective n.观点,看法;透视,透视图
 platform    n.平台
 plugin      n.插件
 portrait    n.纵向
+polymorphism n.多态
 predicate   n.谓词
 preference  n.偏好
 priority    n.优先级,优先权

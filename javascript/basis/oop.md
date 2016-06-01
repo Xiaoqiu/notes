@@ -7,7 +7,18 @@
 JavaScript是如何实现OOP的？
 基于原型
 
-## 继承
+## 类的实现
+```javascript
+// 通过构造函数模拟类
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+var person = new Person('John', 23); //通过new来新建实例
+```
+
+## 继承的实现
 ```javascript
 function Person(name) {
   this.name = name;
@@ -39,7 +50,8 @@ jay.sayHi();
 jay.sayBye();
 ```
 
-## 实现类
+原型模式，借助构造函数模式，混合模式，寄生模式，寄生混合模式
+
 原型链
 构造函数
 组合方式
