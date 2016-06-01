@@ -142,3 +142,7 @@
 
 ### Coding
 - [Blog](https://blog.coding.net/technology/blogs)
+
+## 补充
+- [百度前端技术学院](http://ife.baidu.com/task/all)
+- [阿里技术沙龙](http://club.alibabatech.org/index.htm)

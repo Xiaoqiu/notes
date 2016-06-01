@@ -53,6 +53,7 @@ http://iconmoon.com/blog2/
 http://jixianqianduan.com/
 https://undefinedblog.com/
 http://www.zhangxinxu.com/wordpress/
+http://justjavac.com/
 
 http://www.cnblogs.com/snandy/
 http://www.cnblogs.com/wangmeijian/

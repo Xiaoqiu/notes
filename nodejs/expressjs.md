@@ -1,3 +1,7 @@
+
+http://expressjs.com/en/api.html
+http://javascript.ruanyifeng.com/nodejs/express.html
+
 ## 路由
 - [Routing - Express Guide](http://expressjs.com/en/guide/routing.html)
 - [Router - API Reference](http://expressjs.com/en/4x/api.html#router)
@@ -14,7 +18,7 @@
 Express应用结构
 > - [近期nodejs-web开发的一些收获小结](https://xuyuan923.github.io/2015/01/20/近期nodejs-web开发的一些收获小结/)
 > - [Best practices for Express app structure](https://www.terlici.com/2014/08/25/best-practices-express-structure.html)
-> - [[译]Express应用结构的最佳实践](https://github.com/DavidCai1993/my-blog/issues/17)
+> - [（译）Express应用结构的最佳实践](https://github.com/DavidCai1993/my-blog/issues/17)
 > - [base-express](https://github.com/terlici/base-express)
 > - [express-starter](https://github.com/i5ting/express-starter)
 

@@ -11,3 +11,10 @@ Webpage not available
 The webpage at tel:12345678900 could not be loaded because:
 net::ERR_UNKNOWN_URL_SCHEME
 ```
+
+## App Store
+```html
+<a href="itmss://itunes.apple.com/cn/app/id1044488983">Download</a>     <!-- 前往 App Store 下载 -->
+<a href="itms-apps://itunes.apple.com/cn/app/id1044488983">Download</a>  <!-- 前往 App Store 下载 -->
+```
+Chrome和Safari默认支持跳转到商店，WebView中需要自己实现。

@@ -5,7 +5,7 @@
 - jQuery 2
 
 ## 神州专车
-- seajs
+- SeaJS
 - jQuery
 
 ## 饿了么
@@ -14,3 +14,24 @@
 ## 简聊
 - Backbone
 - React
+
+## 淘宝
+- SeaJS
+
+## Qzone
+- SeaJS
+
+## 途牛
+- SeaJS
+
+## 携程
+- RequireJS
+
+## 京东
+- ZeptoJS
+
+## 苏宁易购
+- ZeptoJS
+
+## 豆瓣
+- jQuery 1

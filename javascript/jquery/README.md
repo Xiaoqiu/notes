@@ -5,6 +5,10 @@
  - jQuery 3.x: support IE 9+
  - jQuery Compat 3.x: IE 8+
 
+## Plugins
+- DataTables
+- jquery-pagewalkthrough
+
 ## Reference
 - [jQuery设计思想](http://www.ruanyifeng.com/blog/2011/07/jquery_fundamentals.html), 阮一峰
 - [jQuery最佳实践](http://www.ruanyifeng.com/blog/2011/08/jquery_best_practices), 阮一峰

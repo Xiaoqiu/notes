@@ -18,7 +18,7 @@
 - 类方法
  - Object.assign
  - Object.create
- - Object.keys
+ - [Object.keys](#keys)
  - Object.freeze
  - Object.seal
  - Object.defineProperties
@@ -41,6 +41,14 @@
 - 类方法
  - Object.entries
  - Object.values
+
+## Usage
+
+### keys
+```javascript
+var obj = {};
+Object.keys(obj).length === 0
+```
 
 ## Other
 
