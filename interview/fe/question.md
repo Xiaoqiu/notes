@@ -5,6 +5,7 @@
 - [Front-end-Developer-Questions](https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions)
 - [FE-interview](https://github.com/qiu-deqing/FE-interview)
 - [奇虎360Web前端开发工程师面试题](http://yanhaijing.com/work/2015/06/26/find-job-of-360/)
+- [面试回忆360](http://memory.lulutia.com/2015/10/15/memory1/)
 - [阿里巴巴、百度前端工程师 2015 暑期实习生面试经历](http://zhangwenli.com/blog/2015/04/01/2015-front-end-engineer-interview/)
 - [2016十家公司前端面试小记](http://www.cnblogs.com/xxcanghai/p/5205998.html)
 - [2015年最新前端开发面试题回答参考](https://github.com/jsonxu/F2E-Blog/blob/master/2015面试题参考答案.md)
@@ -18,3 +19,5 @@
 - [前端问题集锦](http://creeperyang.github.io/2015/04/frontend-questions-and-answers/)
 - [【面试初体验】今日头条前端实习生](https://segmentfault.com/a/1190000003508121)
 - [【面试次体验】堆糖前端开发实习生](https://segmentfault.com/a/1190000003701750)
+- [【豆瓣校招-面试官发声】近期面试感受](https://site.douban.com/Jobs/widget/notes/277664/note/180697114/)
+- [年后跳槽那点事：乐视+金山+360面试之行](http://www.cnblogs.com/lvdabao/p/3660707.html)

@@ -148,3 +148,5 @@ console.log(eArr.next().value); // [2, 'c']
 > - [Array - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 > - [Array.of Function - MSDN](https://msdn.microsoft.com/en-us/library/dn858232(v=vs.94).aspx)
 > - [ES5中新增的Array方法详细说明](http://www.zhangxinxu.com/wordpress/2013/04/es5新增数组方法/), 张鑫旭
+> - [JavaScript学习笔记：ES6数组方法](http://www.w3cplus.com/javascript/es6-array-methods.html)
+> - [如何形象地解释 JavaScript 中 map、foreach、reduce 间的区别？](https://www.zhihu.com/question/24927450)

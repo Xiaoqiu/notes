@@ -1,0 +1,25 @@
+Libraries Instagram use
+- AFNetworking
+- Apache Thrift
+- Appirater
+- Apple Reachability
+- Boost
+- CocoaLumberjack
+- cocoawithlove-Base64
+- curl
+- Flickr-OAuth-iOS
+- Google Breakpad
+- google-glog
+- ios5-cookbook
+- JSONKit
+- LXReorderableCollectionViewFlowLayout
+- MBProgressHUD
+- MyOpenALSupport
+- NSNotifications and Background Threads
+- NSString+XMLEntitites
+- oauthconsumer
+- ohhttpstubs
+- protobuf
+- QSUtilities
+- scifihifi-iphone
+- SocketRocket

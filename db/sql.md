@@ -16,3 +16,9 @@ SELECT * FROM table1 WHERE EXISTS (SELECT 1 FROM table2 WHERE table1.id=table2.i
 ```
 
 ## AS
+
+## SUM
+```
+SELECT `companyId`, SUM(`balance`) FROM `bf_user_card` GROUP BY `companyId`
+```
+SUM() 的结果可能是NULL

@@ -36,3 +36,8 @@ http://www.typingstudy.com/zh/lesson/1/part/2
 
 等到英文能每分钟输入300个字符以上
 练习半年，每分钟输入的字数大约能达到120以上
+
+8. JSON 插件
+JSON Formatter
+JSON Viewer
+JSONView
