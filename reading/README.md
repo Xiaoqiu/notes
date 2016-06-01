@@ -25,7 +25,12 @@
 - JavaScript 权威指南 第6版（JavaScript: The Definitive Guide, David Flanagan）淘宝前端团队 2012-04
 
 ### 其他
-- JavaScript 语言精粹（JavaScript: The Good Parts, Douglas Crockford）赵泽欣, 鄢学鹍 2012-09
-- 高性能 JavaScript（High Performance JavaScript, Nicholas C.Zakas）丁琛, 赵泽欣 2010-11
-- 精通 JavaScript（Pro JavaScript Techniques, John Resig）陈贤安, 江疆 2008-04
 - 你不知道的 JavaScript 上卷（You Don't Know JS: Scope & Closures, Kyle Simpson）赵望野, 梁杰 2015-04
+- JavaScript 语言精粹（JavaScript: The Good Parts, Douglas Crockford）赵泽欣, 鄢学鹍 2012-09
+- JavaScript DOM 编程艺术 第2版（Dom Scripting: Web Design with JavaScript and the Document Object Model, Jeremy Keith & Jeffrey Sambells）杨涛, 杨晓云, 魏忠 2011
+- 高性能 JavaScript（High Performance JavaScript, Nicholas C.Zakas）丁琛, 赵泽欣 2010-11
+- JavaScript DOM 高级程序设计（AdvancED DOM Scripting Dynamic Web Design Techniques, Jeffrey Sambells & Aaron Gustafson）李松峰, 李雅雯 2008-07
+- 精通 JavaScript（Pro JavaScript Techniques, John Resig）陈贤安, 江疆 2008-04
+- 深入浅出 JavaScript（Beginning JavaScript with DOM Scripting and Ajax, Christian Heilmann）, 牛海彬 2008-04
+- Head First JavaScript, Michael Morrison 2008-01
+- Head Frist JavaScript Programming, Eric Freeman & Elisabeth Robson 2014-06
