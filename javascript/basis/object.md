@@ -62,7 +62,7 @@ Object.keys(obj).length === 0
 `Object.prototype.constructor` 指明了创建该对象的函数。
 
 ### `__proto__`
-`Object.prototype.__proto__` 指向实例化该对象的构造函数的 `prototype`。
+`Object.prototype.__proto__` 指向实例化该对象的构造函数的 `prototype` 属性。
 本身不属于ECMAScript规范，应该使用 `Object.getPrototypeOf` 方法代替。
 
 ```javascript
@@ -109,4 +109,29 @@ Function.prototype.b = function(){
 var f = new F();
 var a = f.a;
 var b = f.constructor.b;
+```
+
+### `Object.create()` Polyfill
+```javascript
+if (typeof Object.create != 'function') {
+  Object.create = (function () {
+    var Temp = function () {
+    };
+    return function (prototype) {
+      if (arguments.length > 1) {
+        throw Error('Second argument not supported');
+      }
+      if (prototype !== Object(prototype) && prototype !== null) {
+        throw TypeError('Argument must be an object or null');
+      }
+      if (prototype === null) {
+        throw Error('null [[Prototype]] not supported');
+      }
+      Temp.prototype = prototype;
+      var result     = new Temp();
+      Temp.prototype = null;
+      return result;
+    };
+  })();
+}
 ```

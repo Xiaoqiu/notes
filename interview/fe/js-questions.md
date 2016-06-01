@@ -59,3 +59,18 @@ str.replace(/\d{1,3}(?=(\d{3})+$)/g, function(s){
 
 ## 24. 事件如何派发也就是事件广播（dispatchEvent）？
 `dispatchEvent`方法
+
+
+## 25. 数组拍平
+```javascript
+function flatten(arr) {
+	var result = arr.join().split(',');
+	result = result.map(function (element) {
+		return parseInt(element ,10);
+	});
+	return result;
+}
+
+var arr = [1, [2, [3, [4]], 5]];
+console.log(flatten(arr)); // [1, 2, 3, 4, 5]
+```

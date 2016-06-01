@@ -70,6 +70,7 @@ filter           n.过滤器,滤波器
 flexibility      n.灵活性
 forward          v.转发
 fragment         n.碎片,片段,分片
+functionality    n.功能
 
 #H
 hierarchy        n.层级,层次,层次结构
@@ -101,6 +102,7 @@ item            n.项
 ##L
 landscape
 layout
+literal        n.字面量
 
 ##M
 maintain      vt.维护,维持
@@ -167,6 +169,7 @@ resolution      n.分辨率
 responsiveness  n.响应能力
 restriction     n.限制,约束   set restrictions on...
 resume          n.恢复,重新开始
+retrieval       n.检索
 retrieve        v.检索,读取;取回,恢复
 revision        n.修正,修订  abbr. Rev.
 robustness      n.健壮性
@@ -197,6 +200,7 @@ syntactic      adj.语法的, 句法的
 
 ##T
 template     n.模板
+terminology  n.术语
 thread       n.线程
 toggle       v.切换
 toolbar      n.工具栏

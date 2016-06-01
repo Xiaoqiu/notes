@@ -1,4 +1,44 @@
 
+## OOP特点
+- 封装
+- 继承
+- 多态
+
+JavaScript是如何实现OOP的？
+基于原型
+
+## 继承
+```javascript
+function Person(name) {
+  this.name = name;
+}
+
+Person.prototype.sayHi = function() {
+  console.log("Hi, I'm " + this.name);
+}
+
+function Student(name, className) {
+  Person.call(this, name); // 调用父类的构造函数
+  this.className = className;
+}
+
+Student.prototype = Object.create(Person.prototype); // 继承父类的原型
+Student.prototype.constructor = Student; // 将构造函数属性指向自身
+
+// 重写原来的sayHi方法
+Student.prototype.sayHi = function() {
+	console.log("Hi, I'm " + this.name + " from " + this.className);
+}
+
+Student.prototype.sayBye = function() {
+	console.log("Bye bye");
+}
+
+var jay = new Student('Jay', 'Class 2, Grade 3');
+jay.sayHi();
+jay.sayBye();
+```
+
 ## 实现类
 原型链
 构造函数

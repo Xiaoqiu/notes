@@ -16,6 +16,7 @@
 
 ## 3. 例子
 ```javascript
+// 对象字面量的属性名，如果是合法标识符，可以不加引号
 var book = {
         title: 'Pride and Prejudice',
         author: ['Jane Austen'],
@@ -37,7 +38,7 @@ var book = {
 
     // replacer可以是array
     console.log(JSON.stringify(book, ["title"], 4));
-    
+
     // 也可以是function
     console.log(JSON.stringify(book, function (key, value) {
         if(key==='series'){

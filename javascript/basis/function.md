@@ -135,6 +135,7 @@ function factorial(num) {
 }
 ```
 
+## `function` 的 prototype 属性
 
 ## `Function` 的实例方法
 - ES1

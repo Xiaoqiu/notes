@@ -1,0 +1,27 @@
+* {
+    font-family: "Noto Sans", "Noto Sans CJK SC Regular", "Noto Sans CJK SC", "Apple Color Emoji", "Noto Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei", sans-serif;
+}
+
+/* Noto */
+.noto {
+    font-family: "Noto Sans", "Noto Sans CJK SC", "Noto Color Emoji", "Noto Emoji", sans-serif;
+}
+
+/* OS X */
+.mac {
+    font-family: "Helvetica Neue", "PingFang SC", sans-serif;
+}
+
+/* Windows */
+.windows {
+    font-family: "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei", sans-serif;
+}
+
+/* Frutiger */
+.frutiger {
+    font-family: Myriad, Frutiger, "Segoe UI", "Lucida Grande", sans-serif;
+}
+
+code, kbd, pre, samp {
+    font-family: Menlo, "Roboto Mono", "Source Code Pro", Consolas, Monaco, "Courier New", monospace;
+}

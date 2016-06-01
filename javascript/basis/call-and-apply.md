@@ -37,11 +37,18 @@ var min = Math.min.apply(null, array); // -7
 ```
 
 ### Example 4
+字符串逆序
+```javascript
+var str = 'abcdefg';
+var reverse = Array.prototype.reverse.call(str.split('')).join(''); // "gfedcba"
+```
+
+### Example 5
 ```javascript
 // var Hachi =
 var Dog = {};
 Dog.prototype.bark = function(){
-	
+
 }
 
 var Akita = {};
