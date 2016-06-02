@@ -1,5 +1,5 @@
 # 翻译
-## 黑名单
+## Bad
 ### 徐涛（[汤姆大叔](http://www.cnblogs.com/TomXu/)）
 - JavaScript 编程精解（Eloquent JavaScript, Marijn Haverbeke）2012-10
 - JavaScript 设计模式（Learning JavaScript Design Patterns, Addy Osmani）2013-06
@@ -14,7 +14,7 @@
 ### 其他
 - AngularJS 权威教程（The Complete Book on AngularJS Machines, Ari Lerner）赵望野, 徐飞, 何鹏飞  2014-08
 
-## 白名单
+## Good
 ### 李松峰
 - JavaScript 高级程序设计 第3版（Professional JavaScript for Web Developers, Nicholas C.Zakas）李松峰, [曹力](https://github.com/ShiningRay) 2012-03
 
@@ -34,3 +34,4 @@
 - 深入浅出 JavaScript（Beginning JavaScript with DOM Scripting and Ajax, Christian Heilmann）, 牛海彬 2008-04
 - Head First JavaScript, Michael Morrison 2008-01
 - Head Frist JavaScript Programming, Eric Freeman & Elisabeth Robson 2014-06
+- React导学（Introduction to React）

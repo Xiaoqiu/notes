@@ -107,6 +107,7 @@ var numArray = stringArray.map(el){
   return parseInt(el);
 };
 // stringArray.map(parseInt); // [1, NaN, NaN]
+// stringArray.map((s)=>(parseInt(el)); // [1, 2, 3, 4]
 
 // ES6 arrow function
 numbers.map((number) => number * 2)

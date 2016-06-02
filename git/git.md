@@ -2,6 +2,9 @@
 ```shell
 git config --global user.name "keqingrong"
 git config --global user.email "keqingrong1992@gmail.com"
+
+# check
+cat ~/.gitconfig
 ```
 
 ## create a new repository

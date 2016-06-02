@@ -6,8 +6,10 @@ administor
 against       prep.针对   e.g. compile...against...
 alternative   n.替代
 anatomy       n.剖析
+appendix      n.附录
 architecture  n.体系结构,架构
 array         n.数组;阵列
+artifact      n.工件,人工制品
 ascending     adj.升序,递增
 asset         n.资产
 assign        vi.赋值,分配
@@ -45,12 +47,14 @@ delegate       vt.委托
 demonstrate    v.展示
 denote         vt.表示,指示
 deprecated     adj.被弃用的,不赞成的
+descend        v.遗传
 descending     adj.降序,递减
 distribute     vt.分发,分配    distribution n.分布,分发
 drag-and-drop  n.拖放
 
 ##E
 elevation     n.海拔,仰角
+eliminate     vt.消除,排除
 embedded      adj.嵌入式的
 emulator      n.仿真器,模拟器
 encapsulation n.封装,封装性
@@ -115,6 +119,7 @@ merge         v.合并,融合
 migrate       v.迁移,迁移
 mock          v.模拟,模仿
 modifier      n.修饰符
+modular       adj.模块化的
 mute          v.静音
 
 ##N
@@ -133,6 +138,7 @@ orientation  n.方向
 padding     n.填充
 pane        n.窗格
 panel       n.面板
+paradigm    n.范式
 parallel    n.并行
 parameter   n.参数
 particular  adj.特定的,特别的
@@ -189,10 +195,12 @@ significant    adj.显著的,标志性的
 simulator      n.模拟器
 singleton      n.单实例,单例,单件
 skew           n.倾斜,偏斜
+sophisticated  adj.复杂的
 specific       adj.特定的;确切的,具体的
 specification  n.规范,规格说明    abbr. spec
 split          v.分裂,分割
 strategy       n.策略
+substantive    adj.实质性的
 successive     adj.连续的
 suffix         n.后缀
 supplemental   adj.补充的,追加的  同:supplementary

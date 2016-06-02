@@ -34,6 +34,7 @@ https://github.com/jayli/jayli.github.com/issues
 https://github.com/kuitos/kuitos.github.io/issues
 
 https://csspod.com/
+http://www.cssmagic.net/
 https://www.qianduan.net/
 https://blog.oyanglul.us/index.html
 http://www.barretlee.com/entry/
