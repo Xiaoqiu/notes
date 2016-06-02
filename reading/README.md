@@ -19,7 +19,7 @@
 - JavaScript 高级程序设计 第3版（Professional JavaScript for Web Developers, Nicholas C.Zakas）李松峰, [曹力](https://github.com/ShiningRay) 2012-03
 
 ### 李晶（[拔赤](http://jayli.github.io/)）
-- 基于MVC的 JavaScript Web 富应用开发（Developing JavaScript Web Applications, Alex MacCaw）李晶, 张散集 2012-05
+- 基于MVC的 JavaScript Web 富应用开发（JavaScript Web Applications, Alex MacCaw）李晶, 张散集 2012-05
 - 编写可维护的 JavaScript（Maintainable JavaScript, Nicholas C. Zakas）李晶, 郭凯, 张散集 2013-04
 - JavaScript 模式 网络版（JavaScript Patterns, Stoyan Stefanov）李晶, 赵静（[goddyZhao](https://github.com/goddyzhao)）, [TooBug](https://github.com/TooBug)
 - JavaScript 权威指南 第6版（JavaScript: The Definitive Guide, David Flanagan）淘宝前端团队 2012-04
