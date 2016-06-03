@@ -8,7 +8,9 @@
 - [Node.js实战](https://sfantasy.gitbooks.io/node-in-action/)
 - [Node入门](http://www.nodebeginner.org/index-zh-cn.html)
 
-
 ## Reference
 - [全栈工程师之路-Node.js](https://i5ting.github.io/nodejs-fullstack/)
 - [Node.js中文资料导航](https://github.com/youyudehexie/node123)
+
+## 论坛
+> [CNode](http://cnodejs.org/)

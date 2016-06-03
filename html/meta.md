@@ -13,6 +13,11 @@ IE兼容模式
 <meta http-equiv="Cache-Control" content="no-transform">
 ```
 
+禁止Google翻译
+```html
+<meta name="google" value="notranslate">
+```
+
 取消浏览器对页面中电话号码和email的自动识别
 ```html
 <meta name="format-detection" content="telephone=no, email=no">
@@ -37,4 +42,11 @@ SEO
 Robots协议
 ```html
 <meta name="robots" content="all">
+```
+
+网页缓存
+```html
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="0">
 ```

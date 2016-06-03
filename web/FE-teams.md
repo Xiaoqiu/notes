@@ -124,29 +124,6 @@
 - 拉勾网前端
  - [GitHub](https://github.com/Lagou-Frontend)
 
-## 其他
-
-### Teambition
-- Teambition开发团队
- - [Blog](https://www.teambition.com/developer/blog)
-- 简聊
- - [GitHub](https://github.com/jianliaoim)
-
-### 魅族
-- 魅族科技开发团队
- - [Blog](https://segmentfault.com/blog/meizu)
-- 笔戈开发团队
- - [GitHub](https://github.com/bigertech)
-
-### 稀土
-- [GitHUb](https://github.com/xitu)
-
-### Medium
-- [GitHub](https://github.com/Medium/)
-
-### Coding
-- [Blog](https://blog.coding.net/technology/blogs)
-
-## 补充
-- [百度前端技术学院](http://ife.baidu.com/task/all)
-- [阿里技术沙龙](http://club.alibabatech.org/index.htm)
+### 苏宁
+- 苏宁前端
+ - [GitHub](https://github.com/snfed)

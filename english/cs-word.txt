@@ -67,6 +67,7 @@ export        v.导出
 extra         adj.额外的    n.额外的事物
 
 ##F
+facilitate       vt.促进
 fault-tolerant   adj.容错的
 fault-tolerance  n.容错性
 fetch            v.获取
@@ -203,6 +204,7 @@ strategy       n.策略
 substantive    adj.实质性的
 successive     adj.连续的
 suffix         n.后缀
+supersede      v.取代
 supplemental   adj.补充的,追加的  同:supplementary
 synchronize    v.同步
 syntactic      adj.语法的, 句法的

@@ -21,6 +21,3 @@ Express应用结构
 > - [（译）Express应用结构的最佳实践](https://github.com/DavidCai1993/my-blog/issues/17)
 > - [base-express](https://github.com/terlici/base-express)
 > - [express-starter](https://github.com/i5ting/express-starter)
-
-## 论坛
-> [CNode](http://cnodejs.org/)

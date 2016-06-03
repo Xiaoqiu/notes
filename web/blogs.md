@@ -32,6 +32,8 @@ https://github.com/swfbarhr/blog
 http://jayli.github.io/blog/index.html
 https://github.com/jayli/jayli.github.com/issues
 https://github.com/kuitos/kuitos.github.io/issues
+https://github.com/classicemi/blog/issues
+https://github.com/cssmagic/blog/issues
 
 https://csspod.com/
 http://www.cssmagic.net/

@@ -12,7 +12,8 @@
 - JavaScript 模式（JavaScript Patterns, Stoyan Stefanov ）陈新 2012-07 中国电力出版社
 
 ### 其他
-- AngularJS 权威教程（The Complete Book on AngularJS Machines, Ari Lerner）赵望野, 徐飞, 何鹏飞  2014-08
+- 用AngularJS开发下一代Web应用（AngularJS, Brad Green & Shyam Seshadri）章小飞(大漠穷秋) 2013-11
+- AngularJS 权威教程（The Complete Book on AngularJS Machines, Ari Lerner）赵望野, 徐飞, 何鹏飞 2014-08
 
 ## Good
 ### 李松峰
