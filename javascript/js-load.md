@@ -1,9 +1,18 @@
-# JavaScript延迟加载的方式
+# JavaScript 延迟加载的方式
 
 1. 将script放在body最后
 2. 使用script的defer属性
 3. 在window的load事件触发后，动态增加script节点
 4. 使用Ajax加载脚本，动态增加script节点（会有下载两次的问题）
+
+```Javascript
+function loadJS(url){
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = url;
+  document.getElementsByTagName('head')[0].appendChild(script);
+}
+```
 
 ## Reference
 > - [Javascript 装载和执行](http://coolshell.cn/articles/9749.html)
