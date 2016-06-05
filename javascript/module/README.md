@@ -16,3 +16,5 @@
 - [ ] [Javascript模块化编程（二）：AMD规范](http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html)
 - [ ] [Javascript模块化编程（三）：require.js的用法](http://www.ruanyifeng.com/blog/2012/11/require_js.html)
 - [ ] [RequireJS和AMD规范](http://javascript.ruanyifeng.com/tool/requirejs.html)
+- [ ] [AMD](https://github.com/amdjs/amdjs-api/wiki/AMD)
+- [ ] [CommonJS](http://wiki.commonjs.org/wiki/CommonJS)

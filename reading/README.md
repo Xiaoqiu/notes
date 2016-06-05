@@ -27,6 +27,7 @@
 
 ### 其他
 - 你不知道的 JavaScript 上卷（You Don't Know JS: Scope & Closures, Kyle Simpson）赵望野, 梁杰 2015-04
+- 单页Web应用: JavaScript 从前端到后端（Single Page Web Applications: JavaScript End-To-End, Michael Mikowski & Josh Powell）包勇明 2014-09
 - JavaScript 语言精粹（JavaScript: The Good Parts, Douglas Crockford）赵泽欣, 鄢学鹍 2012-09
 - JavaScript DOM 编程艺术 第2版（Dom Scripting: Web Design with JavaScript and the Document Object Model, Jeremy Keith & Jeffrey Sambells）杨涛, 杨晓云, 魏忠 2011
 - 高性能 JavaScript（High Performance JavaScript, Nicholas C.Zakas）丁琛, 赵泽欣 2010-11

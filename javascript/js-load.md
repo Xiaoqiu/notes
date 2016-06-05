@@ -6,10 +6,13 @@
 4. 使用Ajax加载脚本，动态增加script节点（会有下载两次的问题）
 
 ```Javascript
-function loadJS(url){
+function loadScript(url, callback){
   var script = document.createElement('script');
   script.type = 'text/javascript';
   script.src = url;
+  script.onload = function(){
+    callback();
+  };
   document.getElementsByTagName('head')[0].appendChild(script);
 }
 ```
