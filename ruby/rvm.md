@@ -1,5 +1,4 @@
 ## Reference
-
 - [Upgrading RVM](https://rvm.io/rvm/upgrading)
 - [Ruby](https://www.ruby-lang.org/en/)
 - [RubyGems 镜像](https://ruby.taobao.org/)

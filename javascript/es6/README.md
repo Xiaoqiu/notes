@@ -1,4 +1,5 @@
 # ES6
+- [CMAScript 6 — New Features: Overview & Comparison](http://es6-features.org/)
 
 ## Tutorials & Books
 - [ ] [List of resources to learn ECMAScript 6](https://github.com/ericdouglas/ES6-Learning)
