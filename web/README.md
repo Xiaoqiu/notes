@@ -5,6 +5,7 @@
 - [Web Platform Docs](http://docs.webplatform.org/wiki/Main_Page)
 - [MSDN Library - Web Development](https://msdn.microsoft.com/en-us/library/hh772374(v=vs.85).aspx)
 - [Web Fundamentals - Google Developers](https://developers.google.com/web/fundamentals/)
+- [Safari HTML Reference](https://developer.apple.com/library/iad/documentation/AppleApplications/Reference/SafariHTMLRef/Introduction.html)
 
 ## Web Standards
 - [W3C - The World Wide Web Consortium](https://www.w3.org/)

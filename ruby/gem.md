@@ -10,4 +10,5 @@ https://ruby.taobao.org
 $ gem install rails
 ```
 
+https://gems.ruby-china.org/
 gem sources --add https://rubygems.org/ --remove https://ruby.taobao.org/

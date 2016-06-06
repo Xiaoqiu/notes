@@ -142,6 +142,7 @@ panel       n.面板
 paradigm    n.范式
 parallel    n.并行
 parameter   n.参数
+partial     adj.部分的
 particular  adj.特定的,特别的
 pattern     n.模式,图案
 pause       vi.暂停

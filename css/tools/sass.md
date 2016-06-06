@@ -1,5 +1,6 @@
 ## Install
 ```shell
+gem update --system
 gem install sass
 sass -v
 ```
@@ -32,7 +33,6 @@ nav {
 ```
 
 ### 3. 导入
-
 ```scss
 // _reset.scss
 
@@ -54,6 +54,60 @@ body {
 }
 ```
 
+### 4. 混入(Mixins)
+```scss
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box {
+  @include border-radius(10px);
+}
+```
+
+### 5. 继承
+```scss
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @extend .message;
+  border-color: red;
+}
+
+.warning {
+  @extend .message;
+  border-color: yellow;
+}
+```
+
+### 6. 运算符
+```scss
+.container {
+  width: 100%;
+}
+
+article[role="main"] {
+  float: left;
+  width: 600px / 960px * 100%;
+}
+
+aside[role="complementary"] {
+  float: right;
+  width: 300px / 960px * 100%;
+}
+```
 
 ## Issues
 ```
