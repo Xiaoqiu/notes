@@ -1,4 +1,40 @@
 
+```javascript
+function A(name) {
+    this.name = name;
+}
+
+console.dir(A); // 只有函数才有prototype属性
+var a = new A('John');  // 所有的对象都有__proto__属性
+console.dir(a);
+
+// __proto__ 是原型
+// prototype 是函数默认的一个属性,它指向一个对象,这个对象的constructor属性指向函数本身
+
+var o = new Object(); // 对象有__proto__属性
+console.dir(o);
+
+var f = function () {}; // 函数有prototype属性
+console.dir(f);
+
+console.dir(A);
+console.dir(A.prototype); // Object
+console.log(A.prototype.__proto__); // Object
+
+console.dir(A.__proto__); // function
+console.dir(A.__proto__.__proto__); // Object
+console.dir(A.__proto__.__proto__.__proto__); // null
+
+console.log(A.prototype.__proto__ === A.__proto__.__proto__); // true
+console.log(Object.prototype.__proto__ === null); // true, Object原型的值为null
+console.log(Object.getPrototypeOf(A)); // 等同于A.__proto__
+
+console.dir(a.__proto__); // Object
+console.dir(a.__proto__.__proto__); //  Object
+console.log(a.__proto__ === A.prototype); // true
+console.log(a.__proto__.__proto__ === A.__proto__.__proto__); // true
+```
+
 
 ## Reference
 > - [继承与原型链](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)

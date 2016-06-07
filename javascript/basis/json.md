@@ -14,6 +14,17 @@
 - JSON.stringify(value, replacer, space);
 - JSON.parse(jsonString, reviver);
 
+### JSON.parse()
+```javascript
+console.log(JSON.parse('{}'));              // {}
+console.log(JSON.parse('true'));            // true
+console.log(JSON.parse('"foo"'));           // "foo"
+console.log(JSON.parse('[1, 5, "false"]')); // [1, 5, "false"]
+console.log(JSON.parse('null'));            // null
+console.log(JSON.parse('[]'));              // []
+console.log(JSON.parse('[1, 2, 3, 4,]'));   // SyntaxError
+```
+
 ## 3. 例子
 ```javascript
 // 对象字面量的属性名，如果是合法标识符，可以不加引号

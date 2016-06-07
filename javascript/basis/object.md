@@ -74,6 +74,7 @@ function Rectangle() {
 
 // subclass extends superclass
 Rectangle.prototype = Object.create(Shape.prototype);
+var obj = Object.create(null); // obj 没有 __proto__ 属性
 ```
 
 ### keys

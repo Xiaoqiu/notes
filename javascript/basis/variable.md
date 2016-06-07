@@ -35,6 +35,7 @@ var len = str.length; //会临时创建一个String对象
 typeof 'hello' === 'string' // true
 typeof NaN === 'number' // true
 new Object() instanceof Object // true
+'hello' instanceof String; // false, 原型链上找不到String
 Object.prototype.toString.call('hello') === '[object String]' // true
 'hello'.constructor ==== '[object String]' // true
 ```
