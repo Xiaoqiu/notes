@@ -1,4 +1,4 @@
-# 字符串的两种拼接效率比较
+# 字符串的两种拼接方法效率比较
 
 ```javascript
 var i;
@@ -20,19 +20,20 @@ result2 = array.join('');
 console.timeEnd('array push');
 ```
 测试结果
-Node 中 array push 快  
+
+*Node 中 array push 快*  
 +=: 3.445ms  
 array push: 1.827ms  
 
-Chrome 中 += 快  
+*Chrome 中 += 快*  
 +=: 0.911ms  
 array push: 2.785ms  
 
-Safari 中 array push 快  
+*Safari 中 array push 快*  
 +=: 11.605ms  
 array push: 9.388ms  
 
-Firefox 中 += 快  
+*Firefox 中 += 快*  
 +=: 12.14ms  
 array push: 13.89ms  
 
@@ -47,3 +48,6 @@ var replaces    = isNewEngine
   ? ["$out='';", "$out+=", ";", "$out"]
   : ["$out=[];", "$out.push(", ");", "$out.join('')"];
 ```
+
+## Reference
+- [高性能JavaScript模板引擎原理解析](http://cdc.tencent.com/2012/06/15/高性能javascript模板引擎原理解析/)
