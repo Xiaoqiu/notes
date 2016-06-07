@@ -20,6 +20,35 @@
 - localStorage: 缓存数据，如保存购物车信息
 - sessionStorage: 缓存临时数据，如保存内容较多的表单内容
 
+## Example
+```javascript
+function storageAvailable(type) {
+    try {
+        var storage = window[type],
+            x       = '__storage_test__';
+        storage.setItem(x, x);
+        storage.removeItem(x);
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+
+if (storageAvailable('localStorage')) {
+    console.info('localStorage is supported');
+
+    localStorage.colorSetting = '#a4509b';
+    localStorage['colorSetting'] = '#a4509b';
+    localStorage.setItem('colorSetting', '#a4509b');
+
+    localStorage.getItem('colorSetting');
+    localStorage.removeItem('colorSetting');
+    localStorage.clear();
+} else {
+    console.warn('localStorage is not supported');
+}
+```
+
 ## Issues
 1. Uncaught SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.
 问题出现的原因是浏览器设置了“Block sites from setting any data(阻止第三方cookie和网站数据)”

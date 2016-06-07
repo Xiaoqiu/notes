@@ -102,6 +102,7 @@ interface       n.接口,界面
 interrupt       n.中断
 invalidate      vt.使无效
 inversion       n.倒置,反向
+isomorphic      adj.同构的
 item            n.项
 
 ##L

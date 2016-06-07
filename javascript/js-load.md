@@ -13,7 +13,7 @@ function loadScript(url, callback){
   script.onload = function(){
     callback();
   };
-  document.getElementsByTagName('head')[0].appendChild(script);
+  document.head.appendChild(script);
 }
 ```
 

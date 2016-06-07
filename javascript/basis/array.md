@@ -63,6 +63,26 @@ arr.reverse();
 console.log(arr); // ['three', 'two', 'one']
 ```
 
+## sort
+```javascript
+var items = [{date: '2015-12-16T04:00:09.000Z'},
+              {date: '2016-01-01T04:00:09.000Z'},
+              {date: '2015-11-13T04:00:09.000Z'},
+              {date: '2014-11-16T04:00:09.000Z'},
+              {date: '2015-11-29T04:00:09.000Z'},
+              {date: '2015-11-30T04:00:09.000Z'}];
+items.sort(function (a, b) {
+  if (a.date > b.date) {
+    return 1;
+  }
+  if (a.date < b.date) {
+    return -1;
+  }
+  return 0;
+});
+console.log(items);
+```
+
 ## forEach
 用于遍历数组，没有返回值
 ```javascript

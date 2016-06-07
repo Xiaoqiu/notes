@@ -42,3 +42,9 @@ Object的property并没有保留原来的顺序，数值型property被进行了�
 
  V8(Chrome, Node.js)以及 Opera, Safari, Firefox 等浏览器在遍历对象的property时, 对于数值型的property, 都会重新排序。
 
+ 解决办法是可以直接转成二维数组再操作。
+
+## Reference
+- https://stackoverflow.com/questions/1069666/sorting-javascript-object-by-property-value
+- https://bugs.chromium.org/p/v8/issues/detail?id=164
+- https://esdiscuss.org/topic/iteration-order-for-object

@@ -13,6 +13,9 @@
 - [ ] [react-router-tutorial](https://github.com/ruanyf/react-router-tutorial)
 - [ ] [learning-react](https://github.com/yiminghe/learning-react)
 
+## Boilerplate
+- [React Starter Kit](https://github.com/kriasoft/react-starter-kit)
+
 ## Forum
 - [React Discuss](https://discuss.reactjs.org/)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/reactjs)

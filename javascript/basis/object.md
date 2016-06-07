@@ -45,7 +45,7 @@
 ## Usage
 
 ### assign
-从源对象复制可枚举变量和自身属性给目标变量。
+从源对象复制可枚举变量和自身属性给目标变量（只是一级属性复制，比浅拷贝多深拷贝了一层）。
 ```javascript
 var obj = { a: 1 };
 var copy = Object.assign({}, obj);

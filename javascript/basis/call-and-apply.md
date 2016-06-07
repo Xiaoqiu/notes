@@ -56,7 +56,6 @@ Akita.__prpto__ =
 ```
 
 事件绑定
-怎么利用call、apply来求一个数组中最大或者最小值
 如何利用call、apply来做继承
 apply、call、bind的区别和主要应用场景
 
