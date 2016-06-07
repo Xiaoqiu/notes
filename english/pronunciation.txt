@@ -1,0 +1,12 @@
+Gecko   ['gɛko]  壁虎
+Safari  [sə'fɑri]  游猎
+Azure   ['æʒɚ]  天蓝色
+Sizzle  ['sɪzl] 咝咝声
+Ajax    [ˈeɪdʒæks]   Asynchronous JavaScript And XML 缩写
+jQuery  [dʒe 'kwɪri]
+
+
+chrome    [krom]  铬合金
+chromium  ['kromɪəm]  铬
+
+div     division

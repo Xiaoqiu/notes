@@ -1,5 +1,12 @@
-常用的行内元素有：span、a、b、img、strong、em、input、label、select、textarea等。
-常用的块级元素有：div、h1-h6、hr、p、ul、ol、li、table、form等
+# block-level vs. inline
+## [块级(block-level)元素](https://developer.mozilla.org/en/docs/Web/HTML/Block-level_elements)
+- 一个块级元素会新开始一行并且尽可能撑满容器。
+- 常用的块级元素: div, h1-h6, p, form, ul, li, table 和 HTML5中的header, footer, section等
+
+## [行内(inline)元素](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente)
+- 一个行内元素可以在段落中包裹一些文字而不会打乱段落的布局。
+- 常用的行内元素: span, a, img, input, label, select, textarea等
+
 
 行内元素设置mrgin-top/margin-bottom和width/height无效。
 行内元素设置 padding-top 和 padding-bottom 不会影响元素的行高位置(不会下移)

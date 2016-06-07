@@ -48,3 +48,8 @@ git push --set-upstream origin master
 ```shell
 git push -u origin master
 ```
+
+##
+```shell
+git push origin HEAD:<name-of-remote-branch>
+```

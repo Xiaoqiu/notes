@@ -110,3 +110,11 @@ session 的存放可以选择
 - [详说 Cookie, LocalStorage 与 SessionStorage](http://jerryzou.com/posts/cookie-and-web-storage/)
 - [跨终端跨域的存储方案](https://github.com/luics/storage/wiki/Storage)
 - [Cookies](http://www.quirksmode.org/js/cookies.html)
+
+## Utils
+https://github.com/js-cookie/js-cookie  
+https://github.com/florian/cookie.js  
+https://github.com/Alex1990/tiny-cookie  
+https://github.com/carhartl/jquery-cookie  
+https://github.com/dcompute/Zepto-Cookie  
+https://github.com/popotang/zepto-cookies  

@@ -14,6 +14,11 @@
 ## JavaScript Standard
 - [ECMAScript](http://www.ecma-international.org/)
 
+## Tutorials
+- [W3Schools Online Web Tutorials](http://www.w3schools.com/)
+- [HTML Dog](http://htmldog.com/guides/css/intermediate/specificity/)
+- [Dive into html5](http://diveintohtml5.info/)
+
 ## CSS
 - [CSS Indexes - W3C](https://drafts.csswg.org/indexes/)
 - [Ctrip UED webkit library](http://ued.ctrip.com/webkitcss/index.html)

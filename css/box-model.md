@@ -1,4 +1,9 @@
+# 盒模型(box model)
+
 ## W3C盒模型
+
+![](w3c-box-model.gif)
+
 ```css
 /*盒子需要占据的位置为*/
 width  = margin + border + padding + content.width;
@@ -9,6 +14,9 @@ hright = border + padding + content.height;
 ```
 
 ## IE6之前的浏览器或者 quirks mode（混杂模式）下的盒模型
+
+![](IE-box-model.gif)
+
 ```css
 /*盒子需要占据的位置为*/
 width  = margin + content.width;

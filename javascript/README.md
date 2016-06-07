@@ -1,2 +1,3 @@
-
+- [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/zh/)
 - [JavaScript The Right Way](http://jstherightway.org/)
+- [JS Tips](http://www.jstips.co/)

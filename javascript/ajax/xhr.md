@@ -1,9 +1,10 @@
-/*
-* XMLHttpRequest
-* spec: https://xhr.spec.whatwg.org/
-*/
+# XMLHttpRequest
+spec: https://xhr.spec.whatwg.org/
 
-/* state: unsent, opened, headers received, loading, and done */
+## State
+unsent, opened, headers received, loading, and done
+
+```javascript
 var request = new XMLHttpRequest();
 request.onreadystatechange = function () {
   switch (request.readyState) {
@@ -25,9 +26,12 @@ request.onreadystatechange = function () {
   }
 };
 request.send();
+```
 
-/* event: readystatechange, progress, abort, error, load, timeout, and loadend */
-/* event handlers */
+## Event & Event handlers
+readystatechange, progress, abort, error, load, timeout, and loadend
+
+```javascript
 var request = new XMLHttpRequest();
 request.onreadystatechange = function() {};
 request.open("GET", "filename", true);
@@ -38,6 +42,4 @@ request.onload = function () {};
 request.ontimeout = function () {};
 request.onloadend = function () {};
 request.send();
-
-
-
+```
