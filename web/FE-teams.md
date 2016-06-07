@@ -58,6 +58,8 @@
 ### 携程
 - CtripUED（携程设计委员会）
  - [Blog](http://ued.ctrip.com/blog/)
+- Ctrip Wireless
+ - [GitHub](https://github.com/ctripwireless)
 
 ### 腾讯
 - Alloy Team（腾讯Web前端团队）
@@ -111,6 +113,10 @@
 ### 蘑菇街
 - 蘑菇街技术博客
  - [Blog](http://mogu.io/)
+
+### 亚信
+- 亚信 CMC UED
+ - [前端技术沙龙](http://www.f-day.cn/)
 
 ### 新浪
 - 新浪UED

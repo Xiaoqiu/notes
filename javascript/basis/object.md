@@ -16,8 +16,8 @@
 
 ### ES5
 - 类方法
- - Object.assign
- - Object.create
+ - [Object.assign](#assign)
+ - [Object.create](#create)
  - [Object.keys](#keys)
  - Object.freeze
  - Object.seal
@@ -43,6 +43,38 @@
  - Object.values
 
 ## Usage
+
+### assign
+从源对象复制可枚举变量和自身属性给目标变量。
+```javascript
+var obj = { a: 1 };
+var copy = Object.assign({}, obj);
+console.log(copy); // { a: 1 }
+```
+
+### create
+继承指定的prototype对象，创建新对象
+```javascript
+function Shape() {
+  this.x = 0;
+  this.y = 0;
+}
+
+// superclass method
+Shape.prototype.move = function(x, y) {
+  this.x += x;
+  this.y += y;
+  console.info('Shape moved.');
+};
+
+// Rectangle - subclass
+function Rectangle() {
+  Shape.call(this); // call super constructor.
+}
+
+// subclass extends superclass
+Rectangle.prototype = Object.create(Shape.prototype);
+```
 
 ### keys
 ```javascript

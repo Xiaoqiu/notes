@@ -29,6 +29,7 @@
 ## Teambition
 - Teambition开发团队
  - [Blog](https://www.teambition.com/developer/blog)
+ - [GitHub](https://github.com/teambition)
 - 简聊
  - [GitHub](https://github.com/jianliaoim)
 
@@ -52,6 +53,9 @@
 
 ## Coding
 - [Blog](https://blog.coding.net/technology/blogs)
+
+## SegmentFault
+- [GitHub](https://github.com/SegmentFault)
 
 ## 补充
 - [百度前端技术学院](http://ife.baidu.com/task/all)

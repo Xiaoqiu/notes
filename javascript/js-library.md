@@ -2,6 +2,7 @@
 
 ## UI
 - [Bootstrap](https://getbootstrap.com/)
+ - [Flat UI](https://github.com/designmodo/Flat-UI)
 - [Semantic UI](http://semantic-ui.com/)
 
 ### For mobile

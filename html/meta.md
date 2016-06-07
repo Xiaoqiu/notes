@@ -1,6 +1,6 @@
 IE兼容模式
 ```html
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 ```
 
 360等双核浏览器，优先使用webkit内核渲染
@@ -21,6 +21,18 @@ IE兼容模式
 取消浏览器对页面中电话号码和email的自动识别
 ```html
 <meta name="format-detection" content="telephone=no, email=no">
+```
+
+AppStore Smart bar
+```html
+<meta name="apple-itunes-app" content="app-id=1044488983">
+```
+
+iOS WebApp
+```html
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Title">
 ```
 
 Chrome地址栏颜色
