@@ -75,3 +75,15 @@ fetch('/api/list')
 Ajax请求出错后的 `errorType` 包括
 - `timeout`
 - `abort`
+
+## 3. `Content-type`
+
+default:
+```
+Accept: text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01
+```
+
+dataType: 'json'
+```
+Accept: application/json, text/javascript, */*; q=0.01
+```

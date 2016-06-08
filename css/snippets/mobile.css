@@ -20,8 +20,15 @@ a {
     -webkit-tap-highlight-color: transparent;
 }
 
+/**
+* 防止旋转屏幕时，字体放大
+*/
 html {
     font-family: "Roboto", "Helvetica Neue", Helvetica, "Noto Sans CJK SC", "Hiragino Sans GB", sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+}
+
+img {
+  -webkit-touch-callout: none;
 }

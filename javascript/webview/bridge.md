@@ -25,3 +25,7 @@ window.webkit.messageHandlers.<name>.postMessage();
 4. 搭建本地HTTP服务器
 
 ### Native -> JavaScript
+
+## Library
+- https://github.com/lzyzsd/JsBridge
+- https://github.com/marcuswestin/WebViewJavascriptBridge
