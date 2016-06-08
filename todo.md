@@ -41,3 +41,12 @@ http://www.typingstudy.com/zh/lesson/1/part/2
 JSON Formatter
 JSON Viewer
 JSONView
+
+9. 考研词汇统计
+获取每一年考研英语真题文本
+获取考研英语词汇表
+
+统计
+每一年的超纲词汇、释义
+前一年考了，第二年依然考的词汇
+历年完形填空出现的生词

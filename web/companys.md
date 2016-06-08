@@ -58,5 +58,6 @@
 - [GitHub](https://github.com/SegmentFault)
 
 ## 补充
+- [前端圈](http://www.fequan.com/)
 - [百度前端技术学院](http://ife.baidu.com/task/all)
 - [阿里技术沙龙](http://club.alibabatech.org/index.htm)

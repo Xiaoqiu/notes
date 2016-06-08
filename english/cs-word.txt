@@ -1,4 +1,16 @@
 #Computer Science Word
+increase
+decrease
+crease 折痕
+
+ascending
+descending
+
+facet
+unprecedented
+defer
+controversial
+malicious
 
 ##A
 accurate      adj.精确的

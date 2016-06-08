@@ -44,5 +44,5 @@
 - [ ] [react native 中es6语法解析](http://www.cnblogs.com/rubylouvre/p/5025646.html)
 - [ ] [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-的es5-es6写法对照表)
 - [ ] [React v0.13.0 Beta 1](https://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html)
-
+- [React 介绍及实践教程](https://www.ibm.com/developerworks/cn/web/1509_dongyue_react/index.html)
 编写思路，ES6/ES7语法

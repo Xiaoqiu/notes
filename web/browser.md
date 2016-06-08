@@ -1,4 +1,9 @@
 
+## 浏览器
+- [Chromium Blog](https://blog.chromium.org/)
+- [Dev.Opera — Blog](https://dev.opera.com/blog/)
+- [X5 - TBS(腾讯浏览服务)](http://x5.tencent.com/)
+- [UC浏览器开发者中心](http://www.uc.cn/business/developer/)
 
 ## 浏览器特性支持情况
 - [Chrome Web Platform Features](https://www.chromestatus.com/features): 不同版本Chrome对最新Web特性的支持情况

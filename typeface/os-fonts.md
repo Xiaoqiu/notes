@@ -9,6 +9,10 @@
 - Helvetica, Helvetica Neue
 - San Francisco
 
+## WinPhone
+- Segoe WP
+- 方正中等线
+
 ## OS X
 - Lucida Grande
 - Helvetica, Helvetica Neue

@@ -34,6 +34,7 @@ https://github.com/jayli/jayli.github.com/issues
 https://github.com/kuitos/kuitos.github.io/issues
 https://github.com/classicemi/blog/issues
 https://github.com/cssmagic/blog/issues
+http://zxc0328.github.io/
 
 https://csspod.com/
 http://www.cssmagic.net/
@@ -59,6 +60,7 @@ http://www.zhangxinxu.com/wordpress/
 http://justjavac.com/
 https://www.zouyesheng.com/
 http://blog.xcatliu.com/
+http://www.2gua.info/
 
 http://www.cnblogs.com/snandy/
 http://www.cnblogs.com/wangmeijian/
