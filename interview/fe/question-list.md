@@ -26,6 +26,27 @@
 ## 6. px, em, rem区别
 
 ## 7. JSONP的原理、实现、安全性(使用token)
+jsonp 具体实现代码?
+JS脚本的加载不存在跨域问题，因此可以创建这样一个标签
+```html
+<script src="http://www.another-domain.com/callback?id=42"></script>
+```
+当前的代码里，会有一个callback函数
+```javascript
+function callback(res){
+
+}
+```
+
+www.another-domain.com对应的服务器会处理http://www.another-domain.com/callback?id=42请求，
+并返回类似如下内容的JS脚本，执行callback函数，并传入参数
+```javascript
+callback({
+
+  })
+```
+
+
 
 ## 8. tap事件的实现
 [指尖上的事件－touch事件的封装](http://stylechen.com/touch.html)
@@ -39,7 +60,10 @@
 - 页面性能(调整文件的加载顺序, 减少标签的个数, 调整选择器的长度)
 - 增强代码可读性与可维护性
 
+## 10. 前端路由
+
 ## 谈谈你在过去的项目中遇到的最大的挑战。可以从以下方面进行描述：用到了哪些新技术？挑战点在哪里？过程中和结果的收获是什么？
+
 
 你对前端职业发展有何看法？
 前端和后端程序员应该如何合作？

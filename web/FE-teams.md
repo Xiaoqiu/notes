@@ -60,6 +60,8 @@
  - [Blog](http://ued.ctrip.com/blog/)
 - Ctrip Wireless
  - [GitHub](https://github.com/ctripwireless)
+- 携程无线前端框架组
+ - [GitHub](https://github.com/ctrip-wireless-front-end-framwork)
 
 ### 腾讯
 - Alloy Team（腾讯Web前端团队）

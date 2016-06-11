@@ -35,6 +35,7 @@ https://github.com/kuitos/kuitos.github.io/issues
 https://github.com/classicemi/blog/issues
 https://github.com/cssmagic/blog/issues
 http://zxc0328.github.io/
+http://vczero.github.io/
 
 https://csspod.com/
 http://www.cssmagic.net/
