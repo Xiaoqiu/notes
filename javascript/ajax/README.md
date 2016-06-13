@@ -87,3 +87,6 @@ dataType: 'json'
 ```
 Accept: application/json, text/javascript, */*; q=0.01
 ```
+
+## 4. 请求方式
+GET请求会被缓存

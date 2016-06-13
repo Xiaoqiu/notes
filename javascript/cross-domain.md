@@ -1,5 +1,9 @@
-- CORS
+- CORS (Cross-Origin Resource Sharing)
 - JSONP
+- iframe
+
+Cross origin requests are only supported for protocol schemes:
+http, data, chrome, chrome-extension, https, chrome-extension-resource.
 
 ## Reference
 > - [iframe跨域通信的通用解决方案-第二弹!（终极解决方案）](http://www.alloyteam.com/2013/11/the-second-version-universal-solution-iframe-cross-domain-communication/)

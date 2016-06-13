@@ -35,6 +35,7 @@ readystatechange, progress, abort, error, load, timeout, and loadend
 var request = new XMLHttpRequest();
 request.onreadystatechange = function() {};
 request.open("GET", "filename", true);
+request.onloadstart = function () {};
 request.onprogress = function () {};
 request.onabort = function () {};
 request.onerror = function () {};
@@ -43,3 +44,5 @@ request.ontimeout = function () {};
 request.onloadend = function () {};
 request.send();
 ```
+
+loadstart -> progress -> error -> loadend
