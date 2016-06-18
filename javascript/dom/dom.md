@@ -14,11 +14,11 @@
 ## document
 ### 文档节点
 - `document`: 文档根节点
-- `document.documentElement`: <html>的引用
-- `document.doctype`: <!DOCTYPE html>的引用
-- `document.head`: <head>的引用
-- `document.body`: <body>的引用
-- `document.title`: <title>的引用
+- `document.documentElement`: `<html>` 的引用
+- `document.doctype`: `<!DOCTYPE html>` 的引用
+- `document.head`: `<head>` 的引用
+- `document.body`: `<body>` 的引用
+- `document.title`: `<title>` 的引用
 
 ### 文档信息
 - `document.URL`: URL
