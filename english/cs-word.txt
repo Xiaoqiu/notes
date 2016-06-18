@@ -3,6 +3,8 @@ increase
 decrease
 crease 折痕
 
+decent
+
 ascending
 descending
 

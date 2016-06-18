@@ -1,25 +1,71 @@
+# DOM
 
-- [Selectors Level 3](https://www.w3.org/TR/css3-selectors/)
-- [Selectors Level 4](https://www.w3.org/TR/selectors4/)
+## Node节点
+- parentNode
+- childNodes
+- firstNode
+- previousSibling
+- nextSibling
 
-1）创建新节点
-createDocumentFragment() //创建一个DOM片段
-createElement() //创建一个具体的元素
-createTextNode() //创建一个文本节点
-2）添加、移除、替换、插入
-appendChild() //添加
-removeChild() //移除
-replaceChild() //替换
-insertBefore() //插入
-3）查找
-getElementsByTagName() //通过标签名称
-getElementsByName() //通过元素的Name属性的值
-getElementById() //通过元素Id，唯一性
+方法
+- cloneNode()
+- normalize()
 
-document.getElementById(id);
+## document
+### 文档节点
+- `document`: 文档根节点
+- `document.documentElement`: <html>的引用
+- `document.doctype`: <!DOCTYPE html>的引用
+- `document.head`: <head>的引用
+- `document.body`: <body>的引用
+- `document.title`: <title>的引用
 
-Element.querySelector(selectors)
-Element.querySelectorAll(selectors)
+### 文档信息
+- `document.URL`: URL
+- `document.domain`: 域名
+- `document.referrer`: 来源页面的URL，包含在请求的HTTP Header里
 
+### 文档方法
+#### 1）创建新节点
+- `createElement()`: 创建元素
+- `createTextNode()`: 创建文本节点
+- `createComment()`: 创建注释
+- `createDocumentFragment()`: 创建文档片段
 
-document.write()
+#### 2）操作节点
+- `appendChild()`: 添加
+- `replaceChild()`: 替换
+- `removeChild()`: 移除
+- `insertBefore()`: 插入
+
+#### 3）文档写入
+- `document.write()`: 向文档写入内容
+- `document.writeln()`: 向文档写入内容
+- `document.open()`: 打开文档输出流
+- `document.close()`: 关闭文档输出流
+
+#### 4）查找
+- `document.getElementById()`: 通过元素Id
+- `document.getElementsByTagName()`: 通过标签名称
+- `document.getElementsByName()`: 通过元素的Name属性的值
+- `document.getElementByClassName()`: 通过类名
+
+#### 5）焦点
+- `document.activeElement`
+- `document.hasFocus()`
+
+## element
+### attributes
+- `element.getAttribute()`
+- `element.setAttribute()`
+- `element.removeAttribute()`
+
+### selector
+- `element.querySelector()`
+- `element.querySelectorAll()`
+
+### classList
+- `classList.add()`
+- `classList.contains()`
+- `classList.remove()`
+- `classList.toggle()`

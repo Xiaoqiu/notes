@@ -13,6 +13,12 @@
 - [Alice UI](https://github.com/aliceui)
 - [ant-design](https://github.com/ant-design)
 
+## Baidu
+- [Baidu](https://github.com/baidu)
+
+## 163
+- [NetEase](https://github.com/NetEase)
+
 ## eleme
 ### Official GitHub
 - [eleme](https://github.com/eleme)
