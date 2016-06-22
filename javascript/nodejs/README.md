@@ -7,6 +7,7 @@
 - [七天学会NodeJS](https://nqdeng.github.io/7-days-nodejs/)
 - [Node.js实战](https://sfantasy.gitbooks.io/node-in-action/)
 - [Node入门](http://www.nodebeginner.org/index-zh-cn.html)
+- [深入理解Node.js：核心思想与源码分析](https://github.com/yjhjstz/deep-into-node)
 
 ## Books
 - Web Development with Node and Express, Ethan Brown, 2014-07

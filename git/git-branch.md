@@ -8,7 +8,7 @@ git branch
 git branch <branch>
 ```
 
-##
+## 设置上游分支
 ```shell
 git branch --set-upstream-to=origin/<branch> master
 ```

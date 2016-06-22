@@ -5,16 +5,16 @@ npm install webpack --save-dev
 ```
 
 ## loaders
-css-loader # css打包
-style-loader  # 样式输出
-url-loader # 解析url，小图片会被解析为data-url
-babel-loader
-sass-loader
+- css-loader # css打包
+- style-loader  # 样式输出
+- url-loader # 解析url，小图片会被解析为data-url
+- babel-loader
+- sass-loader
 
 ## plugins
-CommonsChunkPlugin
-UglifyJsPlugin
-LimitChunkCountPlugin
+- CommonsChunkPlugin
+- UglifyJsPlugin
+- LimitChunkCountPlugin
 
 # use
 ```shell
