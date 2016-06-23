@@ -1,5 +1,5 @@
-#Something about User-Agent
-##1. Distinguish between Safari and Chrome
+# Something about User-Agent
+## 1. Distinguish between Safari and Chrome
 - Chrome's User-Agent
 ```
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2549.0 Safari/537.36
@@ -15,9 +15,7 @@ var isSafari = (ua.indexOf('Safari') > -1) && (ua.indexOf('Chrome') === -1);
 var isChrome = (ua.indexOf('Chrome') > -1) && (navigator.vendor.indexOf('Google') > -1);
 ```
 
-
-
-##2. Distinguish other devices
+## 2. Distinguish other devices
 ``` javascript
 var ua = navigator.userAgent;
 var isMobile = ua.indexOf('Mobile') !== -1;
@@ -26,7 +24,7 @@ var isiPhone = ua.indexOf('iPhone') !== -1;
 var isAndroid = ua.indexOf('Android') !== -1;
 ```
 
-##P.S.
+## P.S.
 也可以使用正则表达式判断设备种类，不过字符串操作要比正则表达式效率更高。
 ``` javascript
 /(iP(hone|ad))/i.test(navigator.userAgent)
@@ -47,3 +45,6 @@ setTimeout(function() {
   }
 }, 2000);
 ```
+
+## 微信
+Mozilla/5.0(iphone;CPU iphone OS 5_1_1 like Mac OS X)AppleWebKit/534.46(KHTML,like Geocko) Mobile/9B206MicroMessenger/5.0

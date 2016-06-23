@@ -8,7 +8,7 @@ Object、Function、Array、String、Boolean、Number、Date、RegExp、Error、
 ## 2. 内置对象
 由 ECMAScript 实现提供的、独立于宿主环境的所有对象，在 ECMAScript 程序开始执行时出现
 
-Global 和 Math
+Global 和 Math, JSON
 
 ## 3. 宿主对象
 由 ECMAScript 实现的宿主环境提供的对象

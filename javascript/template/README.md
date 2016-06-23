@@ -1,0 +1,3 @@
+- [JavaScript模板引擎原理，几行代码的事儿](http://www.cnblogs.com/hustskyking/p/principle-of-javascript-template.html)
+- [换个标签写前端模板](http://barretlee.com/blog/2014/04/13/cb-javascript-template-tag/)
+- [高性能JavaScript模板引擎原理解析](http://cdc.tencent.com/2012/06/15/高性能javascript模板引擎原理解析/)
