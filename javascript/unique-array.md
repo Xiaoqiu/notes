@@ -1,0 +1,2 @@
+- [JS中数组去重问题](http://php.js.cn/blog/array-unique-in-javascript/)
+- [从 JavaScript 数组去重谈性能优化](https://github.com/lifesinger/blog/issues/113)
