@@ -1,0 +1,1 @@
+- [HTTP API design guide](https://github.com/interagent/http-api-design)
