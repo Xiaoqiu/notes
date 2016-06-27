@@ -37,6 +37,7 @@ https://github.com/cssmagic/blog/issues
 http://zxc0328.github.io/
 http://vczero.github.io/
 
+https://www.byvoid.com/
 http://blog.evanyou.me/
 https://luolei.org/
 http://www.w3ctrain.com/

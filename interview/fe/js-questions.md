@@ -36,6 +36,23 @@ str.replace(/\d{1,3}(?=(\d{3})+$)/g, function(s){
 });
 
 ## 13. 如何实现类和继承？
+```javascript
+// 通过构造函数来模拟类
+function Person(name) {
+  this.name = name;
+}
+
+// 子类
+function Man(name) {
+  // 调用父类构造函数
+  Person.call(this, name);
+}
+
+// 继承父类原型
+Man.prototype = Object.create(Person);
+// 构造函数指向自身
+Man.prototype.constructor = Man;
+```
 
 ## 14. Null和Undefined的区别？
 
@@ -74,3 +91,9 @@ function flatten(arr) {
 var arr = [1, [2, [3, [4]], 5]];
 console.log(flatten(arr)); // [1, 2, 3, 4, 5]
 ```
+
+## 26. 实现 clone() 方法，实现对象（包含数组）深拷贝
+
+## 27. 实现数组去重
+
+## 28. JS如何实现多态

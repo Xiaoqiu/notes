@@ -5,6 +5,7 @@
 ## Tutorial
 - [Python2.7 Tutorial](http://docs.python.org/2/tutorial/)
 - [Learn Python The Hard Way](http://learnpythonthehardway.org/)
+- [Python最佳实践指南](https://pythonguidecn.readthedocs.io/zh/latest/)
 
 ## Package
 - [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/)
