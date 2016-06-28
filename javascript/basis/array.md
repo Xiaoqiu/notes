@@ -1,13 +1,15 @@
 # Array
 
-## ES1
+## 方法
+
+### ES1
 - 转换
  - [join](#join)
 - 排序
  - [reverse](#reverse)
  - [sort](#sort)
 
-## ES3
+### ES3
 - 栈操作
  - [push](#push)
  - [pop](#pop)
@@ -19,7 +21,7 @@
  - [slice](#slice) 浅拷贝原数组中的一部分创建新数组
  - [splice](#splice) 向数组中删除已有元素或者增加新元素
 
-## ES5
+### ES5
 - 类方法
  - [Array.isArray]()
 - 位置
@@ -35,7 +37,7 @@
  - [reduce]()
  - [reduceRight]()
 
-## ES6
+### ES6
 - 类方法
  - [Array.from](#Array.from)
  - [Array.of](#Array.of)
@@ -49,21 +51,21 @@
  - [keys]()
  - [values]()
 
-## join
+#### join
 ```javascript
 // 多维数组
 var arr = [1, [2, [3, [4]], 5]];
 console.log(arr.join()); // "1,2,3,4,5"
 ```
 
-## reverse
+#### reverse
 ```javascript
 var arr = ['one', 'two', 'three'];
 arr.reverse();
 console.log(arr); // ['three', 'two', 'one']
 ```
 
-## sort
+#### sort
 ```javascript
 var items = [{date: '2015-12-16T04:00:09.000Z'},
               {date: '2016-01-01T04:00:09.000Z'},
@@ -83,7 +85,7 @@ items.sort(function (a, b) {
 console.log(items);
 ```
 
-## forEach
+#### forEach
 用于遍历数组，没有返回值
 ```javascript
 var numbers = [4, 9, 16, 25];
@@ -103,7 +105,7 @@ var newNumbers = numbers.forEach(function (number) {
 console.log(newNumbers); // undefined
 ```
 
-## map
+#### map
 数组映射，会返回一个新的数组
 ```javascript
 var numbers = [4, 9, 16, 25];
@@ -136,7 +138,7 @@ var roots = numbers.map(Math.sqrt);
 console.log(roots);
 ```
 
-## contat
+#### contat
 ```javascript
 var num1 = [1, 2, 3];
 var num2 = 4;
@@ -145,7 +147,7 @@ var nums = num1.concat(num2, num3);
 console.log(nums); // [1, 2, 3, 4, 5, 6, 7]
 ```
 
-## splice
+#### splice
 ```javascript
 var numbers = [4, 9, 16, 25];
 var startIndex = 0;
@@ -155,7 +157,7 @@ console.log(removed); // [4]
 console.log(numbers); // [1, 2, 3, 4, 9, 16, 25]
 ```
 
-## entries
+#### entries
 ```javascript
 var arr = ['a', 'b', 'c'];
 var eArr = arr.entries();
@@ -163,6 +165,28 @@ var eArr = arr.entries();
 console.log(eArr.next().value); // [0, 'a']
 console.log(eArr.next().value); // [1, 'b']
 console.log(eArr.next().value); // [2, 'c']
+```
+
+## 判断数组类型
+
+### 1.
+```javascript
+variable.constructor === Array
+```
+
+### 2.
+```javascript
+variable instanceof Array
+```
+
+### 3.
+```javascript
+Array.isArray(variable)
+```
+
+### 4.
+```javascript
+Object.prototype.toString.call(variable) === '[object Array]'
 ```
 
 ## Reference

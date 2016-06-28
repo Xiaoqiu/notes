@@ -1,4 +1,5 @@
 # JSON
+JSON标准见[ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)
 
 ## 1. 形式
 - null
@@ -8,7 +9,8 @@
 - array
 - object
 
-> 字符串必须使用双引号（""）括起来
+> - 字符串必须使用双引号（""）括起来
+> - `undefined` 不是合法的 JSON 值
 
 ## 2. 方法
 - JSON.stringify(value, replacer, space);

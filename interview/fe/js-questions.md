@@ -62,7 +62,19 @@ Man.prototype.constructor = Man;
 
 ## 17. 实现数组去重
 ```javascript
-
+function unique(arr) {
+  var hash = {};
+  var res  = [];
+  for (var i = 0; i < arr.length; i++) {
+    var item = arr[i];
+    var key  = typeof(item) + item;
+    if (!hash[key]) {
+      hash[key] = true;
+      res.push(item);
+    }
+  }
+  return res;
+}
 ```
 
 ## 18. AMD CMD 模块化JS
@@ -96,6 +108,26 @@ console.log(flatten(arr)); // [1, 2, 3, 4, 5]
 ```
 
 ## 26. 实现 clone() 方法，实现对象（包含数组）深拷贝
+```javascript
+function clone(obj) {
+  var isArray     = Object.prototype.toString.call(obj) === "[object Array]";
+  var isPrimitive = obj === null || typeof obj !== 'object';
+  var copy;
+  if (isPrimitive) {
+    return obj;
+  }
+  if (isArray) {
+    return obj.slice(0);
+  }
+  copy = {};
+  for (var prop in obj) {
+    if (obj.hasOwnProperty(prop)) {
+        copy[prop] = clone(obj[prop]);
+    }
+  }
+  return copy;
+}
+```
 
 ## 28. JS如何实现多态
 
@@ -104,4 +136,13 @@ console.log(flatten(arr)); // [1, 2, 3, 4, 5]
 
 ## 30. 阅读过哪些JS库源代码
 
-## 31. 使用 RequireJS 循环依赖 
+## 31. 使用 RequireJS 循环引用
+
+## 32. 实现 trim() 方法，清除字符串前后的空格
+```javascript
+function trim(str) {
+	return str.replace(/^\s+/, "").replace(/\s+$/, "");
+}
+var str = trim("   test string   ");
+console.log(str);
+```

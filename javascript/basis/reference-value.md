@@ -44,7 +44,7 @@ newObj['desc'].color = 'green';
 console.log(newObj); // { name: 'foo', desc: { color: 'green' } }, 修改第二层属性的值, 同时也会修改原对象
 console.log(obj); // { name: 'foo', desc: { color: 'green' } }
 ```
-上面的复制操作只能复制最外层属性值, 内部属性的值依然会指向原对象, 即`浅拷贝(shallow copy)`.
+上面的复制操作只能复制最外层属性值, 内部属性的值依然会指向原对象, 即``浅拷贝(shallow copy)``.
 
 #### 方法2: Object.assign()
 在ES6中, 可以使用`Object.assign()`方法复制对象(也是浅拷贝):
@@ -62,7 +62,7 @@ console.log(newObj); // { name: 'foo', desc: { color: 'red' } }
 #### 方法3: JSON
 如果只需要复制值, 可以借助JSON, 不会复制对象中的方法:
 ```javascript
-var newObj = JSON.parse(JSON.stringify(obj)); // Object.assign(target, ...sources)
+var newObj = JSON.parse(JSON.stringify(obj));
 console.log(newObj); // { name: 'foo', desc: { color: 'red' } }
 ```
 
@@ -74,6 +74,3 @@ var newObj = $.extend({}, oldObject);
 // deep copy
 var newObj = $.extend(true, {}, oldObject);
 ```
-
-
-

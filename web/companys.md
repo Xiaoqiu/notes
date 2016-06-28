@@ -12,6 +12,7 @@
 - [Arale](https://github.com/aralejs)
 - [Alice UI](https://github.com/aliceui)
 - [ant-design](https://github.com/ant-design)
+- [weexteam](https://github.com/weexteam)
 
 ## Baidu
 - [Baidu](https://github.com/baidu)

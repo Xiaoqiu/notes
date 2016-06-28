@@ -1,6 +1,7 @@
 - CORS (Cross-Origin Resource Sharing)
 - JSONP
 - iframe
+- window.name, window.postMessage
 
 Cross origin requests are only supported for protocol schemes:
 http, data, chrome, chrome-extension, https, chrome-extension-resource.

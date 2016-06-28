@@ -23,3 +23,7 @@
 - [CSS Indexes - W3C](https://drafts.csswg.org/indexes/)
 - [Ctrip UED webkit library](http://ued.ctrip.com/webkitcss/index.html)
 - [CSS参考手册](http://css.doyoe.com/)
+
+## 社区
+- [前端乱炖](http://www.html-js.com/)
+- [DIV.IO](http://div.io/)
