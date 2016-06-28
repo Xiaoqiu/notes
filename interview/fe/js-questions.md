@@ -1,5 +1,5 @@
 ## 1. `1 + 2 + "3" + 4 + 5` 的结果？
-"3345"。两个考点：表达式的执行顺序和`+`操作符。答案为。
+"3345"。两个考点：表达式的执行顺序和`+`操作符。
 
 ## 2. JavaScript的基本类型
 Undefined, Null, Boolean, Number, Symbol, String
@@ -60,7 +60,10 @@ Man.prototype.constructor = Man;
 
 ## 16. setTimeout和setInterval
 
-## 17. 数组去重
+## 17. 实现数组去重
+```javascript
+
+```
 
 ## 18. AMD CMD 模块化JS
 
@@ -94,6 +97,11 @@ console.log(flatten(arr)); // [1, 2, 3, 4, 5]
 
 ## 26. 实现 clone() 方法，实现对象（包含数组）深拷贝
 
-## 27. 实现数组去重
-
 ## 28. JS如何实现多态
+
+## 29. top、offsetTop、clientTop、scrollTop的区别
+- [几个比较难记/易混的DOM接口](https://github.com/renaesop/blog/issues/3)
+
+## 30. 阅读过哪些JS库源代码
+
+## 31. 使用 RequireJS 循环依赖 
