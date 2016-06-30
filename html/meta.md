@@ -62,3 +62,5 @@ Robots协议
 <meta http-equiv="pragma" content="no-cache" />
 <meta http-equiv="expires" content="0">
 ```
+
+- [HTML head 头标签](http://fex.baidu.com/blog/2014/10/html-head-tags/)

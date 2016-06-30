@@ -70,7 +70,7 @@
 - IMWEB (腾讯前端IMWEB团队)
  - [GitHub](http://imweb.github.io/)
  - [Blog](http://imweb.io/)
-- MXD（腾讯移动互联网设计团队）
+- MXD/WSD（腾讯移动互联网设计团队）
  - [Blog](http://mxd.tencent.com/)
 - ISUX（腾讯社交用户体验设计）
  - [Blog](https://isux.tencent.com/)
@@ -102,7 +102,10 @@
 
 ### 去哪儿
 - 去哪儿酒店UED移动前端团队
- - [blog](http://ued.qunar.com/mobile/blog/)
+ - [Blog](http://ued.qunar.com/mobile/blog/)
+
+### 繁星直播
+- [Blog](http://ued.fanxing.com/)
 
 ### 百姓网
 - 百姓网前端团队

@@ -36,9 +36,13 @@ https://github.com/classicemi/blog/issues
 https://github.com/cssmagic/blog/issues
 http://zxc0328.github.io/
 http://vczero.github.io/
+http://cookfront.github.io/
 
+http://pinggod.com/
+http://numbbbbb.com/
 https://www.byvoid.com/
 http://blog.evanyou.me/
+http://blog.doyoe.com/
 https://luolei.org/
 http://www.w3ctrain.com/
 https://csspod.com/
@@ -67,7 +71,10 @@ https://www.zouyesheng.com/
 http://blog.xcatliu.com/
 http://www.2gua.info/
 http://www.zhuowenli.com/
+https://fucku.singles
+http://jser.me/
 
+http://www.cnblogs.com/vajoy/
 http://www.cnblogs.com/lvdabao/
 http://www.cnblogs.com/snandy/
 http://www.cnblogs.com/wangmeijian/

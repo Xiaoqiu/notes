@@ -13,13 +13,13 @@
 
 ### 其他
 - 用AngularJS开发下一代Web应用（AngularJS, Brad Green & Shyam Seshadri）章小飞(大漠穷秋) 2013-11
-- AngularJS 权威教程（The Complete Book on AngularJS Machines, Ari Lerner）赵望野, 徐飞, 何鹏飞 2014-08
+- AngularJS 权威教程（The Complete Book on AngularJS Machines, Ari Lerner）赵望野, [徐飞](https://github.com/xufei), [何鹏飞](https://github.com/basecss) 2014-08
 
 ## Good
 ### 李松峰
 - JavaScript 高级程序设计 第3版（Professional JavaScript for Web Developers, Nicholas C.Zakas）李松峰, [曹力](https://github.com/ShiningRay) 2012-03
 
-### 李晶（[拔赤](http://jayli.github.io/)）
+### 李晶（[拔赤](http://github.com/jayli)）
 - 基于MVC的 JavaScript Web 富应用开发（JavaScript Web Applications, Alex MacCaw）李晶, 张散集 2012-05
 - 编写可维护的 JavaScript（Maintainable JavaScript, Nicholas C. Zakas）李晶, 郭凯, 张散集 2013-04
 - JavaScript 模式 网络版（JavaScript Patterns, Stoyan Stefanov）李晶, 赵静（[goddyZhao](https://github.com/goddyzhao)）, [TooBug](https://github.com/TooBug)
