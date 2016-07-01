@@ -24,7 +24,7 @@
 - [ ] [React-WeUI](https://github.com/weui/react-weui)
 - [ ] [Material-UI](https://github.com/callemall/material-ui)
 - [ ] [React Toolbox](https://github.com/react-toolbox/react-toolbox)
-- [ ] [Reactc Bootstrap3](https://github.com/react-bootstrap/react-bootstrap)
+- [ ] [React Bootstrap3](https://github.com/react-bootstrap/react-bootstrap)
 - [ ] [React component](https://github.com/cd-fe/react-component)
 
 ## React.js facilities
@@ -33,6 +33,7 @@
 
 ## etc
 - [ ] [JSX Specification](https://facebook.github.io/jsx/)
+- [ ] [Component Specs and Lifecycle](https://facebook.github.io/react/docs/component-specs.html)
 - [ ] [JSX in Depth](http://facebook.github.io/react/docs/jsx-in-depth.html)
 
 ##

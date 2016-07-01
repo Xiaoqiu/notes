@@ -14,6 +14,7 @@
 
 ## HTML & CSS
 - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
+- [Qunar FED HTML/CSS开发规范指南](https://github.com/doyoe/html-css-guide)
 
 ## CSS
 - [CSS-Guidelines](http://cssguidelin.es/)
