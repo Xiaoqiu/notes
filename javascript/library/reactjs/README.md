@@ -17,6 +17,7 @@
 - [React Starter Kit](https://github.com/kriasoft/react-starter-kit)
 
 ## Forum
+- [React China](http://react-china.org/)
 - [React Discuss](https://discuss.reactjs.org/)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/reactjs)
 

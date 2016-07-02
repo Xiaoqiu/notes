@@ -20,3 +20,6 @@ babel src --watch --out-dir build
 
 ## Issues
 1. 对于Nodejs中暂不支持的部分ES6特性，使用Babel转译完成，运行时可能需要 `babel-polyfill`。
+
+## Reference
+- [Babel 用户手册](https://github.com/thejameskyle/babel-handbook/blob/master/translations/zh-Hans/user-handbook.md)

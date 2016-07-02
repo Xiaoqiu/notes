@@ -2,6 +2,8 @@
 increase
 decrease
 crease 折痕
+telemetry n.遥感勘测
+sanitize v.清洁,美化
 
 decent
 
@@ -14,9 +16,9 @@ defer
 controversial
 malicious
 
-##A
+## A
+accessory     n.附件
 accurate      adj.精确的
-administor
 against       prep.针对   e.g. compile...against...
 alternative   n.替代
 anatomy       n.剖析
@@ -29,12 +31,12 @@ asset         n.资产
 assign        vi.赋值,分配
 attribute     n.属性      vt.把…归因于
 
-##B
+## B
 boost        n.推动力
 bound        v.绑定
 bundle       v.捆绑    n.束,捆绑包
 
-##C
+## C
 canonical      adj.规范的,规范化的
 capability     n.能力,性能
 category       n.类别,分类
@@ -54,7 +56,7 @@ container      n.容器
 credit         n.信用
 criteria       n.标准
 
-##D
+## D
 default        n.默认
 dedicated      adj.专用的
 delegate       vt.委托
@@ -66,7 +68,7 @@ descending     adj.降序,递减
 distribute     vt.分发,分配    distribution n.分布,分发
 drag-and-drop  n.拖放
 
-##E
+## E
 elevation     n.海拔,仰角
 eliminate     vt.消除,排除
 embedded      adj.嵌入式的
@@ -80,7 +82,7 @@ execution     n.执行
 export        v.导出
 extra         adj.额外的    n.额外的事物
 
-##F
+## F
 facilitate       vt.促进
 fault-tolerant   adj.容错的
 fault-tolerance  n.容错性
@@ -97,7 +99,7 @@ honeycomb        n.蜂巢
 horizontal       adj.水平的
 host             n.主机  v.托管
 
-##I
+## I
 icon            n.图标
 initialize      vt.初始化
 immutable       adj.不可变的
@@ -119,12 +121,12 @@ inversion       n.倒置,反向
 isomorphic      adj.同构的
 item            n.项
 
-##L
+## L
 landscape
 layout
 literal        n.字面量
 
-##M
+## M
 maintain      vt.维护,维持
 manifest      n.清单
 manual        n.手册,指南    adj.手工的,手动的
@@ -138,7 +140,7 @@ modifier      n.修饰符
 modular       adj.模块化的
 mute          v.静音
 
-##N
+## N
 navigate     v.导航
 nested       adj.嵌套的
 noticeable   adj.显而易见的
@@ -150,7 +152,7 @@ obsolete     adj.过时的,废弃的
 occurrence   n.出现,发生,事件
 orientation  n.方向
 
-##P
+## P
 padding     n.填充
 pane        n.窗格
 panel       n.面板
@@ -183,10 +185,10 @@ propagation n.传播,传递
 property    n.属性
 prototype   n.原型
 
-##Q
+## Q
 queue       n.队列
 
-##R
+## R
 recursive       adj.递归的
 reflect         v.反射    reflective  adj.反射的
 resolution      n.分辨率
@@ -199,7 +201,7 @@ revision        n.修正,修订  abbr. Rev.
 robustness      n.健壮性
 rollback        n.回滚
 
-##S
+## S
 scaffold       n.脚手架
 scalability    n.可扩展性,可伸缩性
 scenario       n.场景,情境;设想,方案
@@ -225,7 +227,7 @@ supplemental   adj.补充的,追加的  同:supplementary
 synchronize    v.同步
 syntactic      adj.语法的, 句法的
 
-##T
+## T
 template     n.模板
 terminology  n.术语
 thread       n.线程
@@ -238,10 +240,10 @@ transition   n.转换,转变,过渡
 trigger      n.触发器
 truncate     v.截断
 
-##U
+## U
 utility     n.效用
 
-##V
+## V
 valid         adj.有效的    invalid  adj.无效的
 validation    n.确认;验证,校验
 variable      n.变量
@@ -250,7 +252,7 @@ verification  n.验证,校验
 vertical      adj.垂直的
 volatile      adj.易失的,易变的
 
-##W
+## W
 wildcard     n.通配符
 wrap         v.包裹
 wrapper      n.封装器,包装器

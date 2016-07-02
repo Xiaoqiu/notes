@@ -3,7 +3,7 @@
 - 熟悉一门web后端语言如Java/PHP/Python/Ruby等，能够编写简单的后端代码；
 - 熟悉linux开发环境，熟悉基本的指令；
 
-# 2-3Y 具有框架开发经验 10-15k
+# 2-3Y 具有框架开发经验 10-15/20k
 - 熟悉html5,css3,扎实的javascript基础；
 - ES6
 - 掌握基本的AMD、CMD等前端模块化规范，使用过RequireJS或SeaJs等模块化加载框架
@@ -14,7 +14,7 @@
 - 熟练使用jQuery，Reactjs， Angularjs，Node.js等常用JS框架
 - 熟悉React Native，Ionic，HBuilder，PhoneGAP框架者中的一种，熟悉Cordova
 
-# 3-5Y 15-20k
+# 3-5Y 15-20/25k
 - 精通Web前端技术, 包括HTML/CSS/Javascript等
 - 精通js，熟悉MVC、MVVM等设计模式
 - 至少熟练使用Backbone，Angular，React，Vue或其他同类框架中的一种，并了解其关键原理
