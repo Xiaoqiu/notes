@@ -110,9 +110,10 @@ aside[role="complementary"] {
 ```
 
 ## Issues
-```
-ERROR:  Could not find a valid gem 'sass' (>= 0), here is why:
-          Unable to download data from https://ruby.taobao.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://ruby.taobao.org/specs.4.8.gz)
+1. 安装 gulp-sass 时，卡在 `node-sass@3.8.0 node scripts/install.js`。  
+一般是因为 `win32-x64-46_binding.node` 无法下载，可以使用淘宝的 `cnpm` 代替 `npm` 安装
+```shell
+cnpm i node-sass
 ```
 
 ## Reference
