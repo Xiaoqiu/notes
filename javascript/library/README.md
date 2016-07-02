@@ -12,6 +12,7 @@
 - [SUI Mobile - Framework7 + Ratchet + Ionic + Onsen](http://m.sui.taobao.org/)
 - [Apache Cordova - Mobile apps with HTML, CSS & JS](https://cordova.apache.org/)
 - [Adobe PhoneGap](http://phonegap.com/)
+- [App Framework - a HTML5 targeted Javascript Framework](https://github.com/01org/appframework)
 
 ## MVVM
 - Vue
@@ -19,6 +20,17 @@
 - Regular
 
 ## Library
+### the old days
+- Ext
+- YUI
+- [Prototype](https://github.com/sstephenson/prototype)
+- jQuery
+- Backbone + Mustache
+- Zepto
+
+### now
+- AngularJS
+- ReactJS + Redux/Flux
 
 Ember	2.2.0	446.0kb
 Polymer	1.0.6	183.0kb
@@ -27,4 +39,3 @@ Angular	1.4.8	148.0kb
 React	0.14.3	136.0kb
 Web Components Polyfill	0.7.19	118.0kb
 Riot
-Backbone
