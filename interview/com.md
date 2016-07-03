@@ -1,5 +1,3 @@
-- http://zhaopin.meituan.com/
-- http://jobs.baixing.com/
 
 ## 南京
 - 苏宁易购（俗称：夜总会）
@@ -23,7 +21,7 @@
 - 网易上海
 
 ### 徐汇区
-- 百姓网
+- [百姓网](http://jobs.baixing.com/)
 - 返利网 √
 - 合一集团(优酷土豆)
 - 同程旅游
@@ -86,3 +84,6 @@
 
 ## 苏州
 - 同程旅游
+
+## 北京
+- [美团](http://zhaopin.meituan.com/)
