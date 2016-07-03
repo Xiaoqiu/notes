@@ -1,4 +1,4 @@
-Ionic: Cordova + AngularJS
+Ionic: Ionic CSS/JS + Cordova + AngularJS
 
 Cordova 可以用 PhoneGap 代替
 
