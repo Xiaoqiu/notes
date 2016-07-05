@@ -4,6 +4,8 @@
  - 拼音市列表
 
   参考
+> - [2016年行政区划代码](http://www.mca.gov.cn/article/sj/tjbz/a/2016/)
+> - [2014年统计用区划代码和城乡划分代码(截止2014年10月31日)](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2014/)
 > - [最新县及县以上行政区划代码（截止2014年10月31日）](http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/201504/t20150415_712722.html)
 > - [邮政名址网](http://www.cpdc.com.cn/web/)
 > - [chinaddress](https://github.com/cnluzhang/chinaddress)

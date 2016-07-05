@@ -1,2 +1,2 @@
-- Cross-Site Scripting (XSS): 跨站脚本攻击
-- Cross Site Request Forgery (CSRF): 跨站请求伪造
+- Cross-Site Scripting (XSS): 跨站脚本攻击, 不要向页面插入不可信数据(需要编码、过滤)
+- Cross Site Request Forgery (CSRF): 跨站请求伪造, sessionID/验证码

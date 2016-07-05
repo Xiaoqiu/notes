@@ -29,7 +29,7 @@
 jsonp 具体实现代码?
 JS脚本的加载不存在跨域问题，因此可以创建这样一个标签
 ```html
-<script src="http://www.another-domain.com/callback?id=42"></script>
+<script src="http://www.another-domain.com/getSomething?id=42&output=jsonp"></script>
 ```
 当前的代码里，会有一个callback函数
 ```javascript
@@ -38,14 +38,15 @@ function callback(res){
 }
 ```
 
-www.another-domain.com对应的服务器会处理http://www.another-domain.com/callback?id=42请求，
+www.another-domain.com对应的服务器会处理http://www.another-domain.com/getSomething?id=42&output=jsonp请求，
 并返回类似如下内容的JS脚本，执行callback函数，并传入参数
 ```javascript
 callback({
-
-  })
+  id: 42
+})
 ```
 
+URL 中的 `output` 指明返回格式，比如 `json`/`jsonp`/`xml`
 
 
 ## 8. tap事件的实现

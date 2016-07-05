@@ -13,3 +13,4 @@ http, data, chrome, chrome-extension, https, chrome-extension-resource.
 > - [跨域资源共享 CORS 详解](http://www.ruanyifeng.com/blog/2016/04/cors.html)
 > - [详解js跨域问题](https://segmentfault.com/a/1190000000718840)
 > - [JavaScript跨域总结与解决办法](http://www.cnblogs.com/rainman/archive/2011/02/20/1959325.html)
+> - [前端跨域的整理](http://qiutc.me/post/cross-domain-collections.html)
