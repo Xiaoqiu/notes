@@ -37,7 +37,7 @@ function Student(name, className) {
 }
 
 Student.prototype = Object.create(Person.prototype); // 继承父类的原型
-Student.prototype.constructor = Student; // 将构造函数属性指向自身
+Student.prototype.constructor = Student; // 将原型的构造函数属性指向自身
 
 // 重写原来的sayHi方法
 Student.prototype.sayHi = function() {

@@ -1,0 +1,1 @@
+- [跨终端Web之Hybrid App](http://www.infoq.com/cn/articles/hybrid-app)

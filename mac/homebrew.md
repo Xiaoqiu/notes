@@ -13,3 +13,6 @@ git-flow
 `brew update`
 `brew cleanup`
 `brew upgrade`
+
+`brew list`
+`brew list --versions`

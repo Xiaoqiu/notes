@@ -1,10 +1,13 @@
-# Module
+# 模块化规范
 
 - `CommonJS`: Node.js; Browserify
 - `AMD` ( Asynchronous Module Definition ) : RequireJS
-- `CMD` ( Common Module Definition ) : SeaJS
+- `CMD` ( Common Module Definition ) : Sea.js
 - `UMD` ( Universal Module Definition ): 同时兼容AMD和CommonJS
 - `ES6 Module`
+
+## 实现
+- [Sea.js - A Module Loader for the Web](https://github.com/seajs/seajs)
 
 
 ## 模块化
