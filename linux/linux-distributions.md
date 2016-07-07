@@ -1,4 +1,4 @@
-#Linux distributions
+# Linux distributions
 
 - Arch Linux
 - Debian
@@ -12,3 +12,7 @@
   - Chrome OS
 - openSUSE
 - Slackware
+- CoreOS
+
+## BSD
+- Free BSD
